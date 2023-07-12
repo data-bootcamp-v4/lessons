@@ -1,0 +1,122 @@
+# How to use Git and GitHub for the Labs
+
+## Why should you use version control
+
+![vc](https://github.com/data-bootcamp-v4/lessons/blob/main/img/version-control.png?raw=true)
+
+- **Tracking Changes**: Maintain a detailed history of project changes, enabling easy comparison, retrieval, and understanding of project evolution over time.
+- **Collaboration**: Enable seamless teamwork and efficient collaboration by allowing multiple individuals to work on the same project simultaneously, track changes, and merge modifications.
+- **Error Recovery**: Serve as a safety net, enabling easy recovery from errors or mistakes by reverting to known stable states or identifying problematic changes.
+
+
+## What is Git and GitHub
+
+![git-github](https://github.com/data-bootcamp-v4/lessons/blob/main/img/git-github.png?raw=true)
+
+**Git** is a version control system that helps you track changes in your project files over time. It allows you to save different versions of your work and easily switch between them.
+
+**GitHub** is a website where you can store and share your Git repositories. It provides a user-friendly interface for managing your code and collaborating with others. It also allows the teaching team to see your work.
+
+
+## The steps to succeed during labs
+1. **Fork**: the action of copying someone’s repo into your account
+2. **Clone**: downloads a version of the project into your computer
+3. **Work**
+4. **Add**: Getting ready to save your changes by telling Git which files or modifications should be included in the next snapshot (commit). Not mandatory, but recommended.
+4. **Commit**: creates a new snapshot of your project and saves the latest changes you added
+5. **Push**: the action of uploading new changes to the project into the GitHub online repository
+6. **Share** 
+
+If you work with peers, you will also use pull (the action of updating a previously downloaded repository), merge (combining changes from one branch into another, integrating the modifications into a single unified branch) and more. We will learn this later on the bootcamp.
+
+
+## Detailed step by step instructions 
+
+The first time you work with Git, you need to [install](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) it. Other source for instructions [here](https://github.com/git-guides/install-git).
+
+1. Open the lab link from the student platform.
+2. Log in to GitHub.
+3. Fork the repository. A repository with the same name will appear in your GitHub account.
+
+	![img_fork1](https://github.com/data-bootcamp-v4/lessons/blob/main/img/fork_button.png?raw=true)
+
+	During the forking process you will see a loading screen. After the forking is done successfully you will be redirected to the copied repository on your GitHub account.
+	
+	![img_fork2](https://github.com/data-bootcamp-v4/lessons/blob/main/img/fork-your-repo.png?raw=true)
+
+4. Once in your repo, click the green box “Code” and copy the link. First make sure that you are in your GitHub account (on the top of the page you should see your username/name_of_forked_lab).
+
+	![img_clone1](https://github.com/data-bootcamp-v4/lessons/blob/main/img/clone.png?raw=true)
+
+### Using GitHub Desktop
+
+5. [Install](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop) and open GitHub Desktop.
+6. Look for Clone repository in GitHub Desktop, and paste the link afterwards. For example, in Mac, you might see something like the following:
+	
+	![img_clone2](https://github.com/data-bootcamp-v4/lessons/blob/main/img/clone-2.png?raw=true)
+	
+	![img_clone2](https://github.com/data-bootcamp-v4/lessons/blob/main/img/clone-3.png?raw=true)
+	
+7. Navigate inside the new folder.
+8. Edit files or create new files as specified in the lab.
+9. Selecting the files you want to commit in GitHub Desktop.
+10. Write a commit message and click "Commit"
+	
+	![img_commit](https://github.com/data-bootcamp-v4/lessons/blob/main/img/commit-message.png?raw=true)
+
+11. Click on "Push"
+	![img_push](https://github.com/data-bootcamp-v4/lessons/blob/main/img/push-to-origin.png?raw=true)
+
+12. Copy and paste the link to the directory for the lab (to the lab in your GitHub account)  into the student platform
+13. Have some rest and get ready for tomorrow!
+
+
+*You can repeat step 5 as many times as you want, and your changes will be updated on GitHub. This way, we will be able to see the latest version of your lab.*
+
+### Using the terminal
+
+5. Go to your terminal and navigate to the folder where you store your labs.
+	You can either open the folder where you want to store your lab, and open the terminal there, or navigate in the terminal using
+
+	```
+	cd name-of-next folder
+	```
+	
+	as many times as necessary until you get to the folder you want. 
+	
+	![img-cli-navigate](https://github.com/data-bootcamp-v4/lessons/blob/main/img/cli-navigate.png?raw=true)
+
+6. Type “git clone” and paste the link afterwards and press Enter.
+
+	```
+	git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+	```
+
+7. Navigate inside the new folder.
+8. Edit files or create new files as specified in the lab.
+9. Add the modified files with “git add .”, or instead of . write the names of the files you want to add separated by commas.
+
+	```
+	git add .
+	```
+
+10. Then use “git commit -m ‘your message here’”
+
+	```
+	git commit -m  "fixed scatterplot axis"
+	```
+
+11. Use “git push”
+
+	```
+	git push
+	```
+
+12. Copy and paste the link to the directory for the lab into the student platform
+13. Have some rest and get ready for tomorrow!
+
+*You can repeat step 5 as many times as you want, and your changes will be updated on GitHub. This way, we will be able to see the latest version of your lab.*
+
+## Extra resources
+- [GitHub Desktop Official Documentation](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview/getting-started-with-github-desktop)
+- [GitHub CLI - Command Line](https://docs.github.com/en/github-cli)
