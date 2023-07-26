@@ -1,336 +1,309 @@
 ---
 course:
-  name: "DAFT - v.4.0"
+  name: DAFT - v.4.0
   number: MASTER
   version: "4.0"
   chapter:
-    ##     ##   ##      ##   ##  ##########     ##
-    ##     ##   ###     ##   ##      ##       ####
-    ##     ##   ## ##   ##   ##      ##         ##
-    ##     ##   ##   ## ##   ##      ##         ##
-    ##     ##   ##      ##   ##      ##         ##
-    ##     ##   ##      ##   ##      ##         ##
-    ## ## ##    ##      ##   ##      ##         ##
+    - name: "!Teacher Info"
+      sequential:
+        - name: "-"
+          vertical:
+            - name: What's new
+              component:
+                - type: html
+                  file: teacher-info/whats-new.md
+            - name: Weekly guidelines
+              component:
+                - type: html
+                  file: teacher-info/week1-readme.md
+    - name: Unit 1 - Introduction to Python
+      sequential:
+        - name: Day 1
+          vertical:
+            - name: "[PRESENTATION] Weekly Kick Off"
+              component:
+                - type: html
+                  file: shared_md/weekly-ko-d1.md
+            - name: 1.01 Data Structures - Prework Review
+              component:
+                - type: html
+                  file: 1_intro_to_python/lesson_md/1.1_data_structures.md
+            - name: "[LAB] Lab | Data Structures"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_data_structures.md
+                - type: deliverable
+                  display_name: data-structures
+                  deliverable_identifier: lab-data-structures
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: 2030-10-28
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] Quest: Escape Room"
+              component:
+                - type: html
+                  file: 1_intro_to_python/quest/d1/python-analytics-quest-brief.md
+            - name: "[PROJECT] Quest - day 1: Kickstarting the Python Analytics Quest"
+              component:
+                - type: html
+                  file: 1_intro_to_python/quest/d1/day-1-quest-instructions.md
+            - name: "[PROJECT] Quest - Self Guided: Interpreting Python Errors"
+              component:
+                - type: html
+                  file: 1_intro_to_python/quest/d1/self-guided-interpreting-python-errors.md
+            - name: Learn to code, not (AI cheat) code
+              component:
+                - type: html
+                  file: 1_intro_to_python/lesson_md/1.0_ironhack-chatbot-da.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+            - name: "[EXTRA] Lab | Data Types Extended"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_data_types_extra.md
+            - name: "[EXTRA] Lab | Data Structures Extended"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_data_structures_extra.md
+        - name: Day 2
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "[CLASS_ACTIVITY] Group Lab Review"
+              component:
+                - type: html
+                  file: shared_md/lab-review-instructions.md
+            - name: 1.02 Flow Control - Prework Review
+              component:
+                - type: html
+                  file: 1_intro_to_python/lesson_md/1.2_flow_control.md
+            - name: 1.03 Introduction to Functions - Prework Review
+              component:
+                - type: html
+                  file: 1_intro_to_python/lesson_md/1.3_functions.md
+            - name: Git Introduction
+              component:
+                - type: html
+                  file: 1_intro_to_python/lesson_md/1.0_git_github_for_labs.md
+            - name: "[LAB] Lab | Flow Control"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_flow_control.md
+                - type: deliverable
+                  display_name: flow-control
+                  deliverable_identifier: lab-flow-control
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: 2030-10-28
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[LAB] Lab | Functions"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_functions.md
+                - type: deliverable
+                  display_name: functions
+                  deliverable_identifier: lab-functions
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: 2030-10-28
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] Quest - day 2: Flow Control Fun and Coding Best Practices"
+              component:
+                - type: html
+                  file: 1_intro_to_python/quest/d2/day-2-quest-instructions.md
+            - name: "[PROJECT] Quest - Self Guided: Coding Best Practices"
+              component:
+                - type: html
+                  file: 1_intro_to_python/quest/d1/self-guided-coding-best-practices.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+            - name: "[EXTRA] Lab | Flow Control Extended"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_flow_control_extra.md
+            - name: "[EXTRA] Lab | Functions Extended"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_functions_extra.md
+        - name: Day 3
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "[CLASS_ACTIVITY] Group Lab Review"
+              component:
+                - type: html
+                  file: shared_md/lab-review-instructions.md
+            - name: 1.03 More on Functions
+              component:
+                - type: html
+                  file: 1_intro_to_python/lesson_md/1.3_functions.md
+            - name: 1.04 List, dict, set comprehension
+              component:
+                - type: html
+                  file: 1_intro_to_python/lesson_md/1.4_list_dict_set_comprehension.md
+            - name: "[LAB] Lab | List, dict, set comprehension"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_list_dict_set_comprehension.md
+                - type: deliverable
+                  display_name: comprehension
+                  deliverable_identifier: lab-comprehension
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: 2030-10-28
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] Quest - day 3: Modules Mastery and Refining Functions"
+              component:
+                - type: html
+                  file: 1_intro_to_python/quest/d3/day-3-quest-instructions.md
+            - name: "[PROJECT] Quest - Self Guided: Modules and Packages"
+              component:
+                - type: html
+                  file: 1_intro_to_python/quest/d1/self-guided-modules-and-packages.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+            - name: "[LAB] Lab | List, dict, set comprehension Extended"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_list_dict_set_comprehension_extra.md
+        - name: Day 4
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "[CLASS_ACTIVITY] Group Lab Review"
+              component:
+                - type: html
+                  file: shared_md/lab-review-instructions.md
+            - name: 1.05 Lambda functions, Map, Reduce and Filter
+              component:
+                - type: html
+                  file: 1_intro_to_python/lesson_md/1.5_lambda_functions.md
+            - name: 1.06 Error Handling
+              component:
+                - type: html
+                  file: 1_intro_to_python/lesson_md/1.6_error_handling.md
+            - name: "[LAB] Lab | Error Handling"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_error_handling.md
+                - type: deliverable
+                  display_name: error-handling
+                  deliverable_identifier: lab-error-handling
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: 2030-10-28
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] Quest - day 4: Testing and Finishing the Quest"
+              component:
+                - type: html
+                  file: 1_intro_to_python/quest/d3/day-4-quest-instructions.md
+            - name: "[PROJECT] Quest - Self Guided: Testing Python Code"
+              component:
+                - type: html
+                  file: 1_intro_to_python/quest/d1/self-guided-testing-python-code.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+            - name: "[LAB] Lab | Error Handling Extended"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_error_handling_extra.md
+            - name: "[LAB] Lab | Lambda Functions, Map, Reduce, Filter"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_lambda.md
+        - name: Day 5
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "[CLASS_ACTIVITY] Group Lab Review"
+              component:
+                - type: html
+                  file: shared_md/lab-review-instructions.md
+            - name: Quest Presentation
+              component:
+                - type: html
+                  file: shared_md/quest-presentations.md
+            - name: 1.07 Object Oriented Programming
+              component:
+                - type: html
+                  file: 1_intro_to_python/lesson_md/1.7_oop.md
+            - name: "[ASSESSMENT] Python Technical Challenge"
+              component:
+                - type: html
+                  file: shared_md/assessment-warning-and-link-to-faqs.md
+                - type: deliverable
+                  deliverable_identifier: 6419b7c125edc20025e5dbf2
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 60
+            - name: "[RITUAL] Weekly Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/weekly-wrap-up.md
+            - name: "[LAB] Lab | Object Oriented Programming"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_oop.md
+        - name: Extra Materials
+          vertical:
+            - name: 1.08 Regex
+              component:
+                - type: html
+                  file: 1_intro_to_python/lesson_md/1.8_regex.md
+            - name: 1.08 Iterators and Generators
+              component:
+                - type: html
+                  file: 1_intro_to_python/lesson_md/1.9_iterators_generators.md
+    - name: Unit X - LLMs and Cloud Computing
+      sequential:
+        - name: Day 3
+          vertical:
+            - name: Intro to LLMs
+              component:
+                - type: html
+                  file: 8_ai/lesson_md/8.3_llms.md
+            - name: "[CLASS_ACTIVITY] Large Language Models APIs"
+              component:
+                - type: html
+                  file: 8_ai/group_activities/8.3_mini_project_llms.md
+                - type: deliverable
+                  display_name: llms
+                  deliverable_identifier: group-activity-llms
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: 2030-10-28
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+        - name: Day 4
+          vertical:
+            - name: Intro to Cloud Computing
+              component:
+                - type: html
+                  file: 8_ai/lesson_md/8.4_cloud.md
+            - name: "[CLASS_ACTIVITY] Cloud Computing Projects"
+              component:
+                - type: html
+                  file: 8_ai/group_activities/8.4_mini_project_cloud.md
+                - type: deliverable
+                  display_name: cloud
+                  deliverable_identifier: group-activity-cloud
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: 2030-10-28
+                  deliverable_required: true
+                  deliverable_cutscore: 0
 
-     - name: "!Teacher Info"
-       sequential:
-         - name: "-"
-           vertical:
-             - name: "What's new"
-               component:
-                 - type: html
-                   file: teacher-info/whats-new.md
-
-    # - name: "Useful information"
-    #   sequential:
-    #     - name: "Info tab"
-    #       vertical:
-    #         - name: "[EXTRA] Bootcamp guide and useful terminology"
-    #           component:
-    #             - type: html
-    #               file: 02-lean-lessons/info/guide-terms.md
-    #         - name: "![EXTRA] Code of Conduct during the bootcamp"
-    #           component:
-    #             - type: html
-    #               file: 02-lean-lessons/info/code-of-conduct.md
-    #         - name: "[EXTRA] Link to the GitHub class organization"
-    #           component:
-    #             - type: html
-    #               file: 02-lean-lessons/info/gh-class-org.md
-    #         - name: "[EXTRA] Contacts"
-    #           component:
-    #             - type: html
-    #               file: 02-lean-lessons/info/contacts.md
-    
-     - name: "Unit 1 - Introduction to Python"
-       sequential:
-         - name: "Day 1" ##### U1 - W1 - D1 #####
-           vertical:
-             - name: "[PRESENTATION] Weekly Kick Off"
-               component:
-                 - type: html
-                   file: shared_md/weekly-ko-d1.md
-             - name: "1.01 Data Structures - Prework Review"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/lesson_md/1.1_data_structures.md
-             - name: "[LAB] Lab | Data Structures"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_data_structures.md
-                 - type: deliverable
-                   display_name: data-structures
-                   deliverable_identifier: lab-data-structures
-                   deliverable_description: Submit the url to your work below
-                   deliverable_duedate: "2030-10-28"
-             - name: "[QUEST] Quest: Escape Room"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/quest/d1/python-analytics-quest-brief.md
-             - name: "[QUEST] Quest - day 1: Kickstarting the Python Analytics Quest"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/quest/d1/day-1-quest-instructions.md
-             - name: "[QUEST] Quest - Self Guided: Interpreting Python Errors"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/quest/d1/self-guided-interpreting-python-errors.md
-             - name: "Learn to code, not (AI cheat) code"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/lesson_md/1.0_ironhack-chatbot-da.md      
-             - name: "Daily Wrap Up"
-               component:
-                 - type: html
-                   file: shared_md/daily-wrap-up.md
-             - name: "[EXTRA LAB] Lab | Data Types Extended"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_data_types_extra.md
-             - name: "[EXTRA LAB] Lab | Data Structures Extended"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_data_structures_extra.md
-         - name: "Day 2" ##### U1 - W1 - D2 #####
-           vertical:
-             - name: "Daily Kick Off"
-               component:
-                 - type: html
-                   file: shared_md/daily-kick-off.md
-             - name: "Group Lab Review"
-               component:
-                 - type: html
-                   file: shared_md/lab-review-instructions.md
-             - name: "1.02 Flow Control - Prework Review"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/lesson_md/1.2_flow_control.md
-             - name: "1.03 Introduction to Functions - Prework Review"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/lesson_md/1.3_functions.md      
-             - name: "Git Introduction"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/lesson_md/1.0_git_github_for_labs.md                                  
-             - name: "[LAB] Lab | Flow Control"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_flow_control.md
-                 - type: deliverable
-                   display_name: flow-control
-                   deliverable_identifier: lab-flow-control
-                   deliverable_description: Submit the url to your work below
-                   deliverable_duedate: "2030-10-28"
-             - name: "[LAB] Lab | Functions"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_functions.md
-                 - type: deliverable
-                   display_name: functions
-                   deliverable_identifier: lab-functions
-                   deliverable_description: Submit the url to your work below
-                   deliverable_duedate: "2030-10-28"
-             - name: "[QUEST] Quest - day 2: Flow Control Fun and Coding Best Practices"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/quest/d2/day-2-quest-instructions.md
-             - name: "[QUEST] Quest - Self Guided: Coding Best Practices"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/quest/d1/self-guided-coding-best-practices.md
-             - name: "Daily Wrap Up"
-               component:
-                 - type: html
-                   file: shared_md/daily-wrap-up.md
-             - name: "[EXTRA LAB] Lab | Flow Control Extended"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_flow_control_extra.md
-             - name: "[EXTRA LAB] Lab | Functions Extended"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_functions_extra.md
-         - name: "Day 3" ##### U1 - W1 - D3 #####
-           vertical:
-             - name: "Daily Kick Off"
-               component:
-                 - type: html
-                   file: shared_md/daily-kick-off.md
-             - name: "Group Lab Review"
-               component:
-                 - type: html
-                   file: shared_md/lab-review-instructions.md
-             - name: "1.03 More on Functions"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/lesson_md/1.3_functions.md    
-             - name: "1.04 List, dict, set comprehension"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/lesson_md/1.4_list_dict_set_comprehension.md                   
-             - name: "[LAB] Lab | List, dict, set comprehension"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_list_dict_set_comprehension.md
-                 - type: deliverable
-                   display_name: comprehension
-                   deliverable_identifier: lab-comprehension
-                   deliverable_description: Submit the url to your work below
-                   deliverable_duedate: "2030-10-28"
-             - name: "[QUEST] Quest - day 3: Modules Mastery and Refining Functions"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/quest/d3/day-3-quest-instructions.md
-             - name: "[QUEST] Quest - Self Guided: Modules and Packages"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/quest/d1/self-guided-modules-and-packages.md
-             - name: "Daily Wrap Up"
-               component:
-                 - type: html
-                   file: shared_md/daily-wrap-up.md
-             - name: "[EXTRA LAB] Lab | List, dict, set comprehension Extended"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_list_dict_set_comprehension_extra.md
-         - name: "Day 4" ##### U1 - W1 - D4 #####
-           vertical:
-             - name: "Daily Kick Off"
-               component:
-                 - type: html
-                   file: shared_md/daily-kick-off.md
-             - name: "Group Lab Review"
-               component:
-                 - type: html
-                   file: shared_md/lab-review-instructions.md
-             - name: "1.05 Lambda functions, Map, Reduce and Filter"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/lesson_md/1.5_lambda_functions.md    
-             - name: "1.06 Error Handling"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/lesson_md/1.6_error_handling.md                   
-             - name: "[LAB] Lab | Error Handling"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_error_handling.md
-                 - type: deliverable
-                   display_name: error-handling
-                   deliverable_identifier: lab-error-handling
-                   deliverable_description: Submit the url to your work below
-                   deliverable_duedate: "2030-10-28"
-             - name: "[QUEST] Quest - day 4: Testing and Finishing the Quest"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/quest/d3/day-4-quest-instructions.md
-             - name: "[QUEST] Quest - Self Guided: Testing Python Code"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/quest/d1/self-guided-testing-python-code.md
-             - name: "Daily Wrap Up"
-               component:
-                 - type: html
-                   file: shared_md/daily-wrap-up.md
-             - name: "[EXTRA LAB] Lab | Error Handling Extended"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_error_handling_extra.md
-             - name: "[EXTRA LAB] Lab | Lambda Functions, Map, Reduce, Filter"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_lambda.md
-         - name: "Day 5" ##### U1 - W1 - D5 #####
-           vertical:
-             - name: "Daily Kick Off"
-               component:
-                 - type: html
-                   file: shared_md/daily-kick-off.md
-             - name: "Group Lab Review"
-               component:
-                 - type: html
-                   file: shared_md/lab-review-instructions.md
-             - name: "Quest Presentation"
-               component:
-                 - type: html
-                   file: shared_md/quest-presentations.md
-             - name: "1.07 Object Oriented Programming"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/lesson_md/1.7_oop.md
-             - name: "[ASSESSMENT] Python Technical Challenge"         # QUALIFIED ASSESSMENT
-               component:
-                 - type: html
-                   file: shared_md/assessment-warning-and-link-to-faqs.md
-                 - type: deliverable
-                   # display_name: none
-                   deliverable_identifier: "6419b7c125edc20025e5dbf2"
-                   # deliverable_description: Submit the url to your work here.
-                   deliverable_duedate: ""
-                   deliverable_required: true            
-
-             - name: "Weekly Wrap Up"
-               component:
-                 - type: html
-                   file: shared_md/weekly-wrap-up.md
-             - name: "[EXTRA LAB] Lab | Object Oriented Programming"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_oop.md
-
-         - name: "Extra Materials" 
-            vertical:
-            - name: "1.08 Regex"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/lesson_md/1.8_regex.md
-            - name: "1.08 Iterators and Generators"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/lesson_md/1.9_iterators_generators.md
-
-
-
-
-
-    # ##     ##   ##      ##   ##  ##########      ##    ####
-    # ##     ##   ###     ##   ##      ##        ####  ##    ##
-    # ##     ##   ## ##   ##   ##      ##          ##  ##    ##
-    # ##     ##   ##   ## ##   ##      ##          ##  ##    ##
-    # ##     ##   ##      ##   ##      ##          ##  ##    ##
-    # ##     ##   ##      ##   ##      ##          ##  ##    ##
-    # ## ## ##    ##      ##   ##      ##          ##    ####
-
-     - name: "Unit X - LLMs and Cloud Computing"
-       sequential:
-         - name: "Day 3" ##### U1 - W8 - D3 for example #####
-           vertical:
-             - name: "Intro to LLMs"
-               component:
-                 - type: html
-                   file: 8_ai/lesson_md/8.3_llms.md
-             - name: "[GROUP_ACTIVITY] Large Language Models APIs"
-               component:
-                 - type: html
-                   file: 8_ai/lesson_md/8.3_mini_project_llms.md
-                 - type: deliverable
-                   display_name: llms
-                   deliverable_identifier: lab-llms
-                   deliverable_description: Submit the url to your work below
-                   deliverable_duedate: "2030-10-28"
-         - name: "Day 4" ##### U1 - W8 - D3 for example #####
-           vertical:
-             - name: "Intro to Cloud Computing"
-               component:
-                 - type: html
-                   file: shared_md/weekly-ko-d1.md
-             - name: "[GROUP_ACTIVITY] Cloud Computing Projects"
-               component:
-                 - type: html
-                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_data_structures.md
-                 - type: deliverable
-                   display_name: data-structures
-                   deliverable_identifier: lab-data-structures
-                   deliverable_description: Submit the url to your work below
-                   deliverable_duedate: "2030-10-28"
