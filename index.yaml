@@ -118,7 +118,7 @@ course:
             - name: "[PROJECT] Quest - Self Guided: Coding Best Practices"
               component:
                 - type: html
-                  file: 1_intro_to_python/quest/d1/self-guided-coding-best-practices.md
+                  file: 1_intro_to_python/quest/d2/self-guided-coding-best-practices.md
             - name: "[RITUAL] Daily Wrap Up"
               component:
                 - type: html
@@ -167,12 +167,12 @@ course:
             - name: "[PROJECT] Quest - Self Guided: Modules and Packages"
               component:
                 - type: html
-                  file: 1_intro_to_python/quest/d1/self-guided-modules-and-packages.md
+                  file: 1_intro_to_python/quest/d3/self-guided-modules-and-packages.md
             - name: "[RITUAL] Daily Wrap Up"
               component:
                 - type: html
                   file: shared_md/daily-wrap-up.md
-            - name: "[LAB] Lab | List, dict, set comprehension Extended"
+            - name: "[EXTRA] Lab | List, dict, set comprehension Extended"
               component:
                 - type: html
                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_list_dict_set_comprehension_extra.md
@@ -208,20 +208,20 @@ course:
             - name: "[PROJECT] Quest - day 4: Testing and Finishing the Quest"
               component:
                 - type: html
-                  file: 1_intro_to_python/quest/d3/day-4-quest-instructions.md
+                  file: 1_intro_to_python/quest/d4/day-4-quest-instructions.md
             - name: "[PROJECT] Quest - Self Guided: Testing Python Code"
               component:
                 - type: html
-                  file: 1_intro_to_python/quest/d1/self-guided-testing-python-code.md
+                  file: 1_intro_to_python/quest/d4/self-guided-testing-python-code.md
             - name: "[RITUAL] Daily Wrap Up"
               component:
                 - type: html
                   file: shared_md/daily-wrap-up.md
-            - name: "[LAB] Lab | Error Handling Extended"
+            - name: "[EXTRA] Lab | Error Handling Extended"
               component:
                 - type: html
                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_error_handling_extra.md
-            - name: "[LAB] Lab | Lambda Functions, Map, Reduce, Filter"
+            - name: "[EXTRA] Lab | Lambda Functions, Map, Reduce, Filter"
               component:
                 - type: html
                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_lambda.md
