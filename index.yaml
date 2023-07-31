@@ -256,7 +256,7 @@ course:
               component:
                 - type: html
                   file: shared_md/weekly-wrap-up.md
-            - name: "[LAB] Lab | Object Oriented Programming"
+            - name: "[EXTRA] Lab | Object Oriented Programming"
               component:
                 - type: html
                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_oop.md
@@ -266,7 +266,7 @@ course:
               component:
                 - type: html
                   file: 1_intro_to_python/lesson_md/1.8_regex.md
-            - name: 1.08 Iterators and Generators
+            - name: 1.09 Iterators and Generators
               component:
                 - type: html
                   file: 1_intro_to_python/lesson_md/1.9_iterators_generators.md
