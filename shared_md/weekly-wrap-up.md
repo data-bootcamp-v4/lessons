@@ -1,6 +1,4 @@
-# Weekly Wrap Up
-
-In this session you will paticipate in a stand up with your classmates and teaching team to discuss how the week went.
+In this session you will participate in a stand up with your classmates and teaching team to discuss how the week went.
 
 The teaching team will guide the session and will ask you to reflect on topics such as:
 

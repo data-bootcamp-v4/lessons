@@ -1,0 +1,5 @@
+In today's session, our teaching staff will conduct a review of the Qualified Platform, outlining its features and functionalities that are relevant to you. We will also take the time to review today's assignment, ensuring that you fully understand the tasks and objectives at hand.
+
+The focus of the session will be on helping you grasp what you are expected to accomplish, the tools you'll be utilizing, and the criteria for evaluation. By the end of our review, you should feel confident and well-prepared to tackle the assessment.
+
+Should you require additional support or specific guidance on any aspect of the platform or assignment, please consult the [Qualified Official Documentation](https://docs.qualified.io/for-candidates/#practice-assessment). This comprehensive resource offers detailed guidance designed to assist you in your learning journey. Feel free to explore it at your convenience, and don't hesitate to reach out to the teaching staff with any questions or concerns. We're here to support you!
