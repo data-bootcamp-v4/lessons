@@ -21,7 +21,7 @@ Split into two pairs: Dev team and Research/Innovation team.
 **Dev Team:**
 
 - Review **`sample-code.ipynb`** thoroughly.
-    - [Click here to see sample code](https://github.com/data-bootcamp-v4/project-python/blob/main/sample-code.ipynb)
+    - [Click here to see sample code](https://github.com/data-bootcamp-v4/lessons/blob/main/1_intro_to_python/quest/d1/sample-code.ipynb)
     - Note: Do not worry if you don’t understand all of the code today, the sample-code is provided for you to refer to throughout the week.
 - Understand how Rooms and Items are defined and linked.
 - Start constructing your own game structures.
