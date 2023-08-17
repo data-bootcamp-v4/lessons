@@ -280,6 +280,52 @@ course:
               component:
                 - type: html
                   file: 1_intro_to_python/lesson_md/1.9_iterators_generators.md
+    
+    - name: Unit 2 - DW & Retrieval
+      sequential:
+        - name: Day 1
+          vertical:
+            - name: Intro to DW
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/lesson_md/2.0_intro_to_dw.md
+            - name: Intro to Pandas
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/lesson_md/2.1_pandas.md
+            - name: "[LAB] Lab | Pandas"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/__labs_shortcuts_md__/lab_pandas.md
+                - type: deliverable
+                  display_name: dw-pandas
+                  deliverable_identifier: lab-dw-pandas
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: 2030-10-28
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] Quest: Shark Attacks"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/data-wrangling-quest-shark-attacks.md
+            - name: "[PROJECT] Quest Rubric"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/students-rubric-quest-W2.md
+            - name: "[PROJECT] Self-guided: Hypothesis Statement & Business Opportunities"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/d1/2.0_self_guided_hypothesis_statement_business_opportunities.md
+            - name: "[PROJECT] Self-guided: From Idea to Implementation: MVP, Scoping, and Roadmapping"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/d1/2.0_self_guieded_mvp_scoping_roadmapping.md
+            - name: "[PROJECT] Quest: Day 1 Checklist"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/d1/day-1-checklist-shark-attacks.md
+
+
     - name: Unit X - LLMs and Cloud Computing
       sequential:
         - name: Day 3
