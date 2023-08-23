@@ -139,7 +139,7 @@ way you deliver it. See “Presentation” section below for guidelines.
 - Paste your own repository’s link in the Student Portal Project Activity.
     - Note: Each student should have their own repository to submit.
 
-## Additional Game Features (Optional)
+## Additional Features (Optional)
 
 If you want to go above and beyond the basics, as optional extra features, here are some ideas for improving your project. You can also find some recommended reading to get started:
 
