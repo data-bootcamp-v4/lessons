@@ -280,6 +280,146 @@ course:
               component:
                 - type: html
                   file: 1_intro_to_python/lesson_md/1.9_iterators_generators.md
+    
+    - name: Unit 2 - DW & Retrieval
+      sequential:
+        - name: Day 1
+          vertical:
+            - name: Intro to DW
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/lesson_md/2.0_intro_to_dw.md
+            - name: Intro to Pandas
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/lesson_md/2.1_pandas.md
+            - name: "[LAB] Lab | Pandas"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/__labs_shortcuts_md__/lab_pandas.md
+                - type: deliverable
+                  display_name: dw-pandas
+                  deliverable_identifier: lab-dw-pandas
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: 2030-10-28
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] Quest: Shark Attacks"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/data-wrangling-quest-shark-attacks.md
+            - name: "[PROJECT] Quest Rubric"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/students-rubric-quest-W2.md
+            - name: "[PROJECT] Self-guided: Hypothesis Statement & Business Opportunities"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/d1/2.0_self_guided_hypothesis_statement_business_opportunities.md
+            - name: "[PROJECT] Self-guided: From Idea to Implementation: MVP, Scoping, and Roadmapping"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/d1/2.0_self_guieded_mvp_scoping_roadmapping.md
+            - name: "[PROJECT] Quest: Day 1 Checklist"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/d1/day-1-checklist-shark-attacks.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+
+        - name: Day 2
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "[CLASS_ACTIVITY] Group Lab Review"
+              component:
+                - type: html
+                  file: shared_md/lab-review-instructions.md
+            - name: Data Cleaning and Data Manipulation
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/lesson_md/2.2_cleaning_and_data_manipulation.md
+            - name: "[LAB] Lab | Data Cleaning and Formatting"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/__labs_shortcuts_md__/lab_data_cleaning_and_formatting.md
+                - type: deliverable
+                  display_name: data-cleaning-and-formatting
+                  deliverable_identifier: lab-data-cleaning-and-formatting
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: 2030-10-28
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] Self-guided: Dealing with Dates"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/d2/2.1_self_guided_dates.md
+            - name: "[PROJECT] Quest: Day 2 Checklist"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/d2/day-2-checklist-shark-attacks.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+
+        - name: Day 3
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "[CLASS_ACTIVITY] Group Lab Review"
+              component:
+                - type: html
+                  file: shared_md/lab-review-instructions.md
+            - name: Data Structuring and Combining
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/lesson_md/2.3_combining_structuring_data.md
+            - name: Aggregating Data
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/lesson_md/2.4_aggregating_data.md
+            - name: "[LAB] Lab | Data Structuring and Combining"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/__labs_shortcuts_md__/lab_data_structuring_and_combining.md
+                - type: deliverable
+                  display_name: data-structuring-and-combining
+                  deliverable_identifier: lab-data-structuring-and-combining
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: 2030-10-28
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[LAB] Lab | Data Aggregation and Filtering"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/__labs_shortcuts_md__/lab_data_aggregation_and_filtering.md
+                - type: deliverable
+                  display_name: data-aggregation-and-filtering
+                  deliverable_identifier: lab-data-aggregation-and-filtering
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: 2030-10-28
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] Self-guided: Introduction to Exploratory Data Analysis (EDA)"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/d3/2.2_self_guided_basic_eda.md
+            - name: "[PROJECT] Quest: Day 3 Checklist"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/d3/day-3-checklist-shark-attacks.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+
     - name: Unit X - LLMs and Cloud Computing
       sequential:
         - name: Day 3
