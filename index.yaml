@@ -29,7 +29,7 @@ course:
             - name: "[PRESENTATION] Weekly Kick Off"
               component:
                 - type: html
-                  file: shared_md/weekly-ko-d1.md
+                  file: shared_md/weekly-ko/week-1-ko-d1.md
             - name: 1.01 Data Structures - Prework Review
               component:
                 - type: html
@@ -285,6 +285,10 @@ course:
       sequential:
         - name: Day 1
           vertical:
+            - name: "[PRESENTATION] Weekly Kick Off"
+              component:
+                - type: html
+                  file: shared_md/weekly-ko/week-2-ko-d1.md
             - name: Intro to DW
               component:
                 - type: html
