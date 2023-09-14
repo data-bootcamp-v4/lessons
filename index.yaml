@@ -615,7 +615,7 @@ course:
               component:
                 - type: html
                   file: shared_md/quest-presentations.md
-             - name: "[CLASS_ACTIVITY] Module and Project Retrospective"
+            - name: "[CLASS_ACTIVITY] Module and Project Retrospective"
               component:
                 - type: html
                   file: 3_first_project/group_activities/module-project-retro.md
