@@ -565,10 +565,10 @@ course:
                   file: shared_md/daily-wrap-up.md
         - name: Day 2
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
+            - name: "[RITUAL] Stand Up"
               component:
                 - type: html
-                  file: shared_md/daily-kick-off.md
+                  file: shared_md/stand-ups.md
             - name: "[PROJECT] First Project: Data Wrangling and Retrieval"
               component:
                 - type: html
@@ -579,10 +579,10 @@ course:
                   file: shared_md/daily-wrap-up.md
         - name: Day 3
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
+            - name: "[RITUAL] Stand Up"
               component:
                 - type: html
-                  file: shared_md/daily-kick-off.md
+                  file: shared_md/stand-ups.md
             - name: "[PROJECT] First Project: Data Wrangling and Retrieval"
               component:
                 - type: html
@@ -593,10 +593,10 @@ course:
                   file: shared_md/daily-wrap-up.md
         - name: Day 4
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
+            - name: "[RITUAL] Stand Up"
               component:
                 - type: html
-                  file: shared_md/daily-kick-off.md
+                  file: shared_md/stand-ups.md
             - name: "[PROJECT] First Project: Data Wrangling and Retrieval"
               component:
                 - type: html
