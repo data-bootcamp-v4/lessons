@@ -292,7 +292,7 @@ course:
             - name: Qualified Platform
               component:
                 - type: html
-                  file: teacher-info/qualified.md        
+                  file: teacher-info/qualified.md
         - name: Day 1
           vertical:
             - name: "[PRESENTATION] Weekly Kick Off"
@@ -380,7 +380,10 @@ course:
               component:
                 - type: html
                   file: shared_md/daily-wrap-up.md
-
+            - name: "[PROJECT] Homework: Project 1 preparation"
+              component:
+                - type: html
+                  file: shared_md/project-preps/project-1-preparation.md
         - name: Day 3
           vertical:
             - name: "[RITUAL] Daily Kick Off"
@@ -462,7 +465,7 @@ course:
               component:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/quest/d4/day-4-checklist-shark-attacks.md
-         - name: "[RITUAL] Daily Wrap Up"
+            - name: "[RITUAL] Daily Wrap Up"
               component:
                 - type: html
                   file: shared_md/daily-wrap-up.md   
@@ -521,7 +524,113 @@ course:
             - name: Git & GitHub Intro and Review
               component:
                 - type: html
-                  file: 0_general/git-gh-intro.md
+                  file: 0_general/self-guided-intro-git-gh.md
+    - name: Unit 3 - First Project
+      sequential:
+        - name: "!Teacher Info"
+          vertical:
+            - name: Weekly guidelines
+              component:
+                - type: html
+                  file: teacher-info/week3-readme.md
+        - name: Day 1
+          vertical:
+            - name: "[PRESENTATION] Weekly Kick Off"
+              component:
+                - type: html
+                  file: shared_md/weekly-ko/week-3-ko-d1.md
+            - name: Git and GitHub Introduction
+              component:
+                - type: html
+                  file: 0_general/git-1-git-github.md
+            - name: Git and GitHub - Fork and Clone
+              component:
+                - type: html
+                  file: 0_general/git-2-fork-clone.md
+            - name: Git and GitHub - Collaboration
+              component:
+                - type: html
+                  file: 0_general/git-3-git-github-collaboration.md                                    
+            - name: Agile
+              component:
+                - type: html
+                  file: 0_general/agile.md
+            - name: "[CLASS_ACTIVITY] Preparation for Project"
+              component:
+                - type: html
+                  file: 3_first_project/group_activities/project_ko_activity.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+        - name: Day 2
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "[PROJECT] First Project: Data Wrangling and Retrieval"
+              component:
+                - type: html
+                  file: 3_first_project/week3-project-brief.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+        - name: Day 3
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "[PROJECT] First Project: Data Wrangling and Retrieval"
+              component:
+                - type: html
+                  file: 3_first_project/week3-project-brief.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+        - name: Day 4
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "[PROJECT] First Project: Data Wrangling and Retrieval"
+              component:
+                - type: html
+                  file: 3_first_project/week3-project-brief.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+        - name: Day 5
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: Project Presentation
+              component:
+                - type: html
+                  file: shared_md/quest-presentations.md
+             - name: "[CLASS_ACTIVITY] Module and Project Retrospective"
+              component:
+                - type: html
+                  file: 3_first_project/group_activities/module-project-retro.md
+            - name: "[CLASS_ACTIVITY] Project Code Review"
+              component:
+                - type: html
+                  file: 3_first_project/group_activities/project-code-review.md
+            - name: "[RITUAL] Weekly Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/weekly-wrap-up.md
+            - name: "[SELF_GUIDED] Homework: SQL Installation"
+              component:
+                - type: html
+                  file: 0_general/sql-installation.md
     - name: Unit X - LLMs and Cloud Computing
       sequential:
         - name: Day 3
