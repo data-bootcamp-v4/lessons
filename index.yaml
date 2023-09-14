@@ -289,11 +289,11 @@ course:
               component:
                 - type: html
                   file: shared_md/weekly-ko/week-2-ko-d1.md
-            - name: Intro to DW
+            - name: Introduction to Data Wrangling
               component:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/lesson_md/2.0_intro_to_dw.md
-            - name: Intro to Pandas
+            - name: Introduction to Pandas
               component:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/lesson_md/2.1_pandas.md
@@ -423,7 +423,81 @@ course:
               component:
                 - type: html
                   file: shared_md/daily-wrap-up.md
-
+        - name: Day 4
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "[CLASS_ACTIVITY] Group Lab Review"
+              component:
+                - type: html
+                  file: shared_md/lab-review-instructions.md
+            - name: APIs
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/lesson_md/2.5_apis.md
+            - name: "[LAB] Lab | APIs"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/__labs_shortcuts_md__/lab_apis.md
+                - type: deliverable
+                  display_name: apis
+                  deliverable_identifier: lab-apis
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: 2030-10-28
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] Quest: Day 4 Checklist"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/d4/day-4-checklist-shark-attacks.md
+         - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md   
+        - name: Day 5
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: Quest Presentation
+              component:
+                - type: html
+                  file: shared_md/quest-presentations.md
+            - name: Web Scraping
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/lesson_md/2.6_web_scraping.md
+            - name: "[LAB] Lab | Web Scraping"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/__labs_shortcuts_md__/lab_web_scraping.md
+                - type: deliverable
+                  display_name: web_scraping
+                  deliverable_identifier: lab_web_scraping
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: 2030-10-28
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: Qualified Review
+              component:
+                - type: html
+                  file: shared_md/qualified.md
+            - name: "[ASSESSMENT] Data Wrangling Technical Challenge"
+              component:
+                - type: html
+                  file: shared_md/assessment-warning-and-link-to-faqs.md
+                - type: deliverable
+                  deliverable_identifier: 641a0a5ea425240036a6d8c1
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 50
+            - name: "[RITUAL] Weekly Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/weekly-wrap-up.md
     - name: Unit X - LLMs and Cloud Computing
       sequential:
         - name: Day 3
