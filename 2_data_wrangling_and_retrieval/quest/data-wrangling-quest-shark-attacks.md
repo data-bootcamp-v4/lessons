@@ -116,7 +116,7 @@ For this project, you will be using Google Colab for collaborative work. It's us
 Remember to **clean your code daily according to best practices**:
 
 - **Modularize Code**: Create reusable functions and classes, and place them in separate `.py` files. Import them into your notebooks or main scripts to maintain a clean and organized codebase.
-    - Use a "main cleaning function" in *cleaning.py* (or similar) that calls all the smaller cleaning functions in a specific order to perform the entire cleaning process at once.
+    - Use a "main cleaning function" in "cleaning.py" (or similar) that calls all the smaller cleaning functions in a specific order to perform the entire cleaning process at once.
 - **Naming Conventions**: Use clear and descriptive names for variables, functions, and classes. Follow language-specific naming conventions to enhance readability.
 - **Remove Unused Code**: Eliminate any unused imports, variables, or lines of code. Keep the codebase clean and focused on what is necessary.
 - **Comments and Documentation**: Add meaningful comments and documentation to explain complex or crucial parts of the code. It aids understanding and future maintenance.

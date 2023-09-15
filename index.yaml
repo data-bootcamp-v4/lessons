@@ -94,7 +94,7 @@ course:
             - name: Git Introduction
               component:
                 - type: html
-                  file: 0_general//git_github_for_labs.md
+                  file: 0_general/git_github_for_labs.md
             - name: "[LAB] Lab | Flow Control"
               component:
                 - type: html
@@ -539,6 +539,10 @@ course:
               component:
                 - type: html
                   file: shared_md/weekly-ko/week-3-ko-d1.md
+            - name: "[CLASS_ACTIVITY] Group Lab Review"
+              component:
+                - type: html
+                  file: shared_md/lab-review-instructions.md
             - name: Git and GitHub Introduction
               component:
                 - type: html
@@ -558,7 +562,11 @@ course:
             - name: "[CLASS_ACTIVITY] Preparation for Project"
               component:
                 - type: html
-                  file: 3_first_project/group_activities/project_ko_activity.md
+                  file: 3_first_project/group_activities/project-ko-activity.md
+            - name: "[PROJECT] Project Rubric"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/students-rubric-quest-W2.md          
             - name: "[RITUAL] Daily Wrap Up"
               component:
                 - type: html
@@ -622,7 +630,7 @@ course:
             - name: "[CLASS_ACTIVITY] Project Code Review"
               component:
                 - type: html
-                  file: 3_first_project/group_activities/project-code-review.md
+                  file: shared_md/project-code-review.md
             - name: "[RITUAL] Weekly Wrap Up"
               component:
                 - type: html
