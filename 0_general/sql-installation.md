@@ -162,6 +162,18 @@ If you can't find the *keyword* "Intel", please select the option "ARM 64-bit" o
 
 <br>
 
+:::warning 
+**Important Update on MySQL Server Version Compatibility (As of September 2023)**
+
+**MySQL has released a new version of the MySQL server — version 8.1.0 (tagged 'Innovation') for MacOS.** However, this version has been reported to present compatibility issues when used in conjunction with MySQL Workbench.
+
+To avoid encountering these issues during your coursework, **we strongly advise all MacOS users to install the previous stable version, which is 8.0.X, instead of the latest 8.1.0 version.**
+
+Please note that this advice is based on the current situation as of September 2023 and may change in the future. It is possible that the compatibility issues will be resolved in subsequent updates. Therefore, keep an eye on official announcements for updates on this matter.
+:::
+
+<br>
+
 :::info
 During the installation process, you might be asked to provide a user and password. If so, use "root" (without the quotes) for the user. On the other hand, the password to input must be different from your computer password. **IMPORTANT: PLEASE KEEP THOSE VALUES SAFE because you will need them later during the bootcamp.**
 :::
