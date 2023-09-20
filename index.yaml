@@ -61,10 +61,10 @@ course:
               component:
                 - type: html
                   file: 0_general/ironhack-chatbot-da.md
-            - name: "[RITUAL] Daily Wrap Up"
+            - name: "Git Installation"
               component:
                 - type: html
-                  file: shared_md/daily-wrap-up.md
+                  file: 0_general/git-installation.md
             - name: "[EXTRA] Lab | Data Types Extended"
               component:
                 - type: html
@@ -125,10 +125,10 @@ course:
               component:
                 - type: html
                   file: 1_intro_to_python/quest/d2/self-guided-coding-best-practices.md
-            - name: "[RITUAL] Daily Wrap Up"
+            - name: "Git & Github for labs Demo"
               component:
                 - type: html
-                  file: shared_md/daily-wrap-up.md
+                  file: 0_general/git-labs-demo.md
             - name: "[EXTRA] Lab | Flow Control Extended"
               component:
                 - type: html

@@ -15,5 +15,5 @@ Ensure you have:
 - A GitHub account set up
 - Git installed on your system
 
-For guidance, refer to our [Git and Github for labs](link_to_tutorial) and [installation guide](link_to_installation_guide).
+For guidance, refer to our [Git and Github for labs](https://github.com/data-bootcamp-v4/lessons/blob/main/0_general/git_github_for_labs.md) and [installation guide](https://github.com/data-bootcamp-v4/lessons/blob/main/0_general/git-installation.md).
 
