@@ -91,7 +91,7 @@ course:
               component:
                 - type: html
                   file: 1_intro_to_python/lesson_md/1.3_functions.md
-            - name: Git Introduction
+            - name: Git and GitHub for labs
               component:
                 - type: html
                   file: 0_general/git_github_for_labs.md
@@ -521,10 +521,10 @@ course:
               component:
                 - type: html
                   file: 0_general/cli-manage-files.md
-            - name: Git & GitHub Intro and Review
+            - name: Git & GitHub Review
               component:
                 - type: html
-                  file: 0_general/self-guided-intro-git-gh.md
+                  file: 0_general/git-0-review.md
     - name: Unit 3 - First Project
       sequential:
         - name: "!Teacher Info"
@@ -543,10 +543,10 @@ course:
               component:
                 - type: html
                   file: shared_md/lab-review-instructions.md
-            - name: Git and GitHub Introduction
+            - name: Git and Github - More on Git Commands
               component:
                 - type: html
-                  file: 0_general/git-1-git-github.md
+                  file: 0_general/git-1-more-commands.md
             - name: Git and GitHub - Fork and Clone
               component:
                 - type: html
@@ -554,7 +554,7 @@ course:
             - name: Git and GitHub - Collaboration
               component:
                 - type: html
-                  file: 0_general/git-3-git-github-collaboration.md                                    
+                  file: 0_general/git-3-git-github-collaboration.md                             
             - name: Agile
               component:
                 - type: html
