@@ -123,6 +123,8 @@ By the end of the week, students should be able to:
 
 As Monday is the first day of the bootcamp, there will be some activities in the morning such as a campus tour and presentation by the PM. Ideally the classes should start not later than 10:30, so that there is enough time for the weekly kick off and prework review.
 
+We recommend you start having a brief discussion on why Python, before diving into the lecture.
+
 In the weekly kick off it’s important to give an overview of the setup of the week (lead teacher-led classes in the morning and TA/CTA facilitated and supported group activities in the afternoon) to set the right expectations. It would also be a good opportunity to introduce the Ironhack ChatBot and the ticketing system for methods in how students receive support at the end of the presentation. This could include a quick demo of the chatbot and highlighting the key use cases in the chatbot lesson.
 
 During the weekly kick off a short introduction to the quest is also necessary. This can be done using the slides in the presentation. Students will also be required to read and understand the brief in the first activity in the afternoon, so any additional questions should be answered by the TA/CTA.
