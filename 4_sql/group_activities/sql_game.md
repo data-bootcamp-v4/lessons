@@ -1,3 +1,9 @@
+# SQL Murder Mystery
+
+
+![](https://github.com/data-bootcamp-v4/lessons/blob/main/img/sql-mystery.png?raw=true)
+
+
 ## Learning Goals
 
 Throughout the course of this activity, you will:
@@ -10,7 +16,10 @@ Throughout the course of this activity, you will:
 ## SQL Murder Exercise
 For this exercise, you will put on your trench coat and hat as you will need to investigate a murder in SQL City. You will apply basic SQL concepts and learn how to handle a data model while solving a murder case! This game was created by Joon Park and Cathy He, and you can find all the details on [their website](http://mystery.knightlab.com).
 
-To perform the exercise, you have two options. You can either work directly from their website, where you will find an interactive SQL statement interpreter. If you choose this option, it is recommended that you keep track of the queries and their outputs. Alternatively, you can go to [their GitHub](https://github.com/NUKnightLab/sql-mysteries), download the database, and run the queries from Jupyter.
+To perform the exercise, you have two options:
+
+1. You can either work directly from their website, where you will find an interactive SQL statement interpreter. If you choose this option, it is recommended that you keep track of the queries and their outputs. 
+2. Alternatively, you can go to [their GitHub](https://github.com/NUKnightLab/sql-mysteries), download the database, and run the queries from Jupyter.
 
 
 ### Statement
@@ -21,7 +30,7 @@ For this activity you will work in groups of 3 and you will have approximately 1
 
 
 ### Data Model
-![Data Model](https://raw.githubusercontent.com/Ironhack-Data-Madrid-Enero-2023/apuntes_clase/d3b0651c9dd385fdb4bba79cdedd9501d65163da/semana_3/images/sql_game_schemma.png)
+![Data Model](https://github.com/data-bootcamp-v4/lessons/blob/main/img/sql-mystery-schema.png?raw=true)
 
 ### Tips for Getting Started
 - Start by examining the available tables and understanding the relationships between them.
