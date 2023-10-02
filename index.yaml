@@ -639,6 +639,35 @@ course:
               component:
                 - type: html
                   file: 0_general/sql-installation.md
+
+
+
+    - name: Unit 4 - SQL
+      sequential:
+        - name: "!Teacher Info"
+          vertical:
+            - name: Weekly guidelines
+              component:
+                - type: html
+                  file: teacher-info/week4-readme.md
+        - name: Day 1
+          vertical:
+            - name: "[PRESENTATION] Weekly Kick Off"
+              component:
+                - type: html
+                  file: shared_md/weekly-ko/week-4-ko-d1.md
+            - name: "[CLASS_ACTIVITY] Group Lab Review"
+              component:
+                - type: html
+                  file: shared_md/lab-review-instructions.md
+
+
+
+
+
+
+
+
     - name: Unit X - LLMs and Cloud Computing
       sequential:
         - name: Day 3
