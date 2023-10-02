@@ -639,6 +639,257 @@ course:
               component:
                 - type: html
                   file: 0_general/sql-installation.md
+    - name: Unit 4 - SQL
+      sequential:
+        - name: "!Teacher Info"
+          vertical:
+            - name: Weekly guidelines
+              component:
+                - type: html
+                  file: teacher-info/week4-readme.md
+        - name: Day 1
+          vertical:
+            - name: "[PRESENTATION] Weekly Kick Off"
+              component:
+                - type: html
+                  file: shared_md/weekly-ko/week-4-ko-d1.md
+            - name: "[CLASS_ACTIVITY] Group Lab Review"
+              component:
+                - type: html
+                  file: shared_md/lab-review-instructions.md
+            - name: Introduction to Databases
+              component:
+                - type: html
+                  file: 4_sql/lesson_md/4.0_intro_to_db.md
+            - name: Introduction to SQL
+              component:
+                - type: html
+                  file: 4_sql/lesson_md/4.1_intro_sql_workbench.md
+            - name: "[LAB] Lab | MySQL Database Creation"
+              component:
+                - type: html
+                  file: 4_sql/__labs_shortcuts_md__/lab_sql_mysql_db_creation.md
+                - type: deliverable
+                  display_name: sql_mysql_db_creation
+                  deliverable_identifier: lab-sql_mysql_db_creation
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: 2030-10-28
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] Mini Project: SQL"
+              component:
+                - type: html
+                  file: 4_sql/quest/sql-mini-project-brief.md
+            - name: "[PROJECT] Mini Project: Day 1 Checklist"
+              component:
+                - type: html
+                  file: 4_sql/quest/sql-mini-project-day-1-checklist.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+        - name: Day 2
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "[CLASS_ACTIVITY] Group Lab Review"
+              component:
+                - type: html
+                  file: shared_md/lab-review-instructions.md
+            - name: Basic SQL Queries
+              component:
+                - type: html
+                  file: 4_sql/lesson_md/4.2_sql_queries.md
+            - name: Basic SQL Queries Hands On
+              component:
+                - type: html
+                  file: 4_sql/lesson_md/4.2.1_sql_queries_hands_on.md  
+            - name: "[LAB] Lab | SQL Basic Queries"
+              component:
+                - type: html
+                  file: 4_sql/__labs_shortcuts_md__/lab_sql_basic_queries.md
+                - type: deliverable
+                  display_name: sql_basic_queries
+                  deliverable_identifier: lab_sql_basic_queries
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: 2030-10-28
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[LAB] Lab | SQL Data Aggregation and Transformation"
+              component:
+                - type: html
+                  file: 4_sql/__labs_shortcuts_md__/lab_sql_agg_transformation.md
+                - type: deliverable
+                  display_name: sql_agg_transformation
+                  deliverable_identifier: lab_sql_agg_transformation
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: 2030-10-28
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] Mini Project: Day 2 Checklist"
+              component:
+                - type: html
+                  file: 4_sql/quest/sql-mini-project-day-2-checklist.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+        - name: Day 3
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "[CLASS_ACTIVITY] Group Lab Review"
+              component:
+                - type: html
+                  file: shared_md/lab-review-instructions.md
+            - name: SQL Joins
+              component:
+                - type: html
+                  file: 4_sql/lesson_md/4.3_sql_joins.md
+            - name: SQL Joins Hands On
+              component:
+                - type: html
+                  file: 4_sql/lesson_md/4.3.1_sql_joins_hands_on.md  
+            - name: SQL Subqueries
+              component:
+                - type: html
+                  file: 4_sql/lesson_md/4.4_sql_subqueries.md
+            - name: SQL Subqueries Hands On
+              component:
+                - type: html
+                  file: 4_sql/lesson_md/4.4.1_sql_subqueries_hands_on.md  
+            - name: "[LAB] Lab | SQL Joins"
+              component:
+                - type: html
+                  file: 4_sql/__labs_shortcuts_md__/lab_sql_joins.md
+                - type: deliverable
+                  display_name: sql_joins
+                  deliverable_identifier: lab_sql_joins
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: 2030-10-28
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[LAB] Lab | SQL Subqueries"
+              component:
+                - type: html
+                  file: 4_sql/__labs_shortcuts_md__/lab_sql_subqueries.md
+                - type: deliverable
+                  display_name: sql_subqueries
+                  deliverable_identifier: lab_sql_subqueries
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: 2030-10-28
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] Mini Project: Day 3 Checklist"
+              component:
+                - type: html
+                  file: 4_sql/quest/sql-mini-project-day-3-checklist.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+        - name: Day 4
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "[CLASS_ACTIVITY] Group Lab Review"
+              component:
+                - type: html
+                  file: shared_md/lab-review-instructions.md
+            - name: SQL Temporary Tables, Views and CTEs
+              component:
+                - type: html
+                  file: 4_sql/lesson_md/4.5_sql_temp_tables_views_ctes.md
+            - name: SQL Temporary Tables, Views and CTEs Hands On
+              component:
+                - type: html
+                  file: 4_sql/lesson_md/4.5.1_sql_temp_tables_views_ctes_hands_on.md  
+            - name: SQL Window Functions
+              component:
+                - type: html
+                  file: 4_sql/lesson_md/4.6_sql_window_functions.md
+            - name: SQL Window Functions Hands On
+              component:
+                - type: html
+                  file: 4_sql/lesson_md/4.6.1_sql_window_functions_hands_on.md  
+            - name: "[LAB] Lab | Temporary Tables, Views and CTEs"
+              component:
+                - type: html
+                  file: 4_sql/__labs_shortcuts_md__/lab_sql_temp_tables_views_ctes.md
+                - type: deliverable
+                  display_name: sql_temp_tables_views_ctes
+                  deliverable_identifier: lab_sql_temp_tables_views_ctes
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: 2030-10-28
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] Mini Project: Day 4 Checklist"
+              component:
+                - type: html
+                  file: 4_sql/quest/sql-mini-project-day-4-checklist.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+            - name: "[EXTRA] Lab | SQL Window Functions"
+              component:
+                - type: html
+                  file: 4_sql/__labs_shortcuts_md__/lab_sql_window_functions.md
+        - name: Day 5
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: Mini Project Presentation
+              component:
+                - type: html
+                  file: shared_md/quest-presentations.md
+            - name: Connecting SQL and Python
+              component:
+                - type: html
+                  file: 4_sql/lesson_md/4.7_sql_python.md
+            - name: "[CLASS_ACTIVITY] Group Activity: SQL Game"
+              component:
+                - type: html
+                  file: 4_sql/group_activities/sql_game.md
+            - name: "[LAB] Lab | Connecting Python to SQL"
+              component:
+                - type: html
+                  file: 4_sql/__labs_shortcuts_md__/lab_sql_python_connection.md
+                - type: deliverable
+                  display_name: sql_python_connection
+                  deliverable_identifier: lab_sql_python_connection
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: 2030-10-28
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: Qualified Review
+              component:
+                - type: html
+                  file: shared_md/qualified.md
+            - name: "[ASSESSMENT] SQL Technical Challenge"
+              component:
+                - type: html
+                  file: shared_md/assessment-warning-and-link-to-faqs.md
+                - type: deliverable
+                  deliverable_identifier: 641c882b891fea00130fc538
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 66
+            - name: "[RITUAL] Weekly Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/weekly-wrap-up.md
+
+
+
     - name: Unit X - LLMs and Cloud Computing
       sequential:
         - name: Day 3
