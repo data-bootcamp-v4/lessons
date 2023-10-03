@@ -887,9 +887,6 @@ course:
               component:
                 - type: html
                   file: shared_md/weekly-wrap-up.md
-
-
-
     - name: Unit X - LLMs and Cloud Computing
       sequential:
         - name: Day 3
