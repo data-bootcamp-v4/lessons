@@ -42,7 +42,7 @@ course:
                   display_name: data-structures
                   deliverable_identifier: lab-data-structures
                   deliverable_description: Submit the url to your work below
-                  deliverable_duedate: 2030-10-28
+                  deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
             - name: "[PROJECT] Quest: Escape Room"
@@ -103,7 +103,7 @@ course:
                   display_name: flow-control
                   deliverable_identifier: lab-flow-control
                   deliverable_description: Submit the url to your work below
-                  deliverable_duedate: 2030-10-28
+                  deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
             - name: "[LAB] Lab | Functions"
@@ -114,7 +114,7 @@ course:
                   display_name: functions
                   deliverable_identifier: lab-functions
                   deliverable_description: Submit the url to your work below
-                  deliverable_duedate: 2030-10-28
+                  deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
             - name: "[PROJECT] Quest - day 2: Flow Control Fun and Coding Best Practices"
@@ -163,7 +163,7 @@ course:
                   display_name: comprehension
                   deliverable_identifier: lab-comprehension
                   deliverable_description: Submit the url to your work below
-                  deliverable_duedate: 2030-10-28
+                  deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
             - name: "[PROJECT] Quest - day 3: Modules Mastery and Refining Functions"
@@ -208,7 +208,7 @@ course:
                   display_name: error-handling
                   deliverable_identifier: lab-error-handling
                   deliverable_description: Submit the url to your work below
-                  deliverable_duedate: 2030-10-28
+                  deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
             - name: "[PROJECT] Quest - day 4: Testing and Finishing the Quest"
@@ -241,10 +241,21 @@ course:
               component:
                 - type: html
                   file: shared_md/lab-review-instructions.md
-            - name: Quest Presentation
+            - name: "[PRESENTATION] Quest Presentation"
               component:
                 - type: html
                   file: shared_md/quest-presentations.md
+            - name: "[PROJECT] Quest 1 Deliverable"
+              component:
+                # - type: html
+                #   file: ""
+                - type: deliverable
+                  display_name: Quest 1 Deliverable
+                  deliverable_identifier: quest-1
+                  deliverable_description: "Submit the url to your work below: "
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
             - name: 1.07 Object Oriented Programming
               component:
                 - type: html
@@ -258,7 +269,9 @@ course:
                 - type: html
                   file: shared_md/assessment-warning-and-link-to-faqs.md
                 - type: deliverable
+                  display_name: Assessment - Python
                   deliverable_identifier: 6419b7c125edc20025e5dbf2
+                  deliverable_description: NA
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 60
@@ -315,7 +328,7 @@ course:
                   display_name: dw-pandas
                   deliverable_identifier: lab-dw-pandas
                   deliverable_description: Submit the url to your work below
-                  deliverable_duedate: 2030-10-28
+                  deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
             - name: "[PROJECT] Quest: Shark Attacks"
@@ -365,7 +378,7 @@ course:
                   display_name: data-cleaning-and-formatting
                   deliverable_identifier: lab-data-cleaning-and-formatting
                   deliverable_description: Submit the url to your work below
-                  deliverable_duedate: 2030-10-28
+                  deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
             - name: "[PROJECT] Self-guided: Dealing with Dates"
@@ -410,7 +423,7 @@ course:
                   display_name: data-structuring-and-combining
                   deliverable_identifier: lab-data-structuring-and-combining
                   deliverable_description: Submit the url to your work below
-                  deliverable_duedate: 2030-10-28
+                  deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
             - name: "[LAB] Lab | Data Aggregation and Filtering"
@@ -421,7 +434,7 @@ course:
                   display_name: data-aggregation-and-filtering
                   deliverable_identifier: lab-data-aggregation-and-filtering
                   deliverable_description: Submit the url to your work below
-                  deliverable_duedate: 2030-10-28
+                  deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
             - name: "[PROJECT] Self-guided: Introduction to Exploratory Data Analysis (EDA)"
@@ -458,7 +471,7 @@ course:
                   display_name: apis
                   deliverable_identifier: lab-apis
                   deliverable_description: Submit the url to your work below
-                  deliverable_duedate: 2030-10-28
+                  deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
             - name: "[PROJECT] Quest: Day 4 Checklist"
@@ -475,10 +488,21 @@ course:
               component:
                 - type: html
                   file: shared_md/daily-kick-off.md
-            - name: Quest Presentation
+            - name: "[PRESENTATION] Quest Presentation"
               component:
                 - type: html
                   file: shared_md/quest-presentations.md
+            - name: "[PROJECT] Quest 2 Deliverable"
+              component:
+                # - type: html
+                #   file: ""
+                - type: deliverable
+                  display_name: Quest 2 Deliverable
+                  deliverable_identifier: quest-2
+                  deliverable_description: "Submit the url to your work below: "
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
             - name: Web Scraping
               component:
                 - type: html
@@ -491,7 +515,7 @@ course:
                   display_name: web_scraping
                   deliverable_identifier: lab_web_scraping
                   deliverable_description: Submit the url to your work below
-                  deliverable_duedate: 2030-10-28
+                  deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
             - name: Qualified Review
@@ -503,8 +527,10 @@ course:
                 - type: html
                   file: shared_md/assessment-warning-and-link-to-faqs.md
                 - type: deliverable
+                  display_name: Assessment - DW
                   deliverable_identifier: 641a0a5ea425240036a6d8c1
                   deliverable_duedate: ""
+                  deliverable_description: NA
                   deliverable_required: true
                   deliverable_cutscore: 50
             - name: "[RITUAL] Weekly Wrap Up"
@@ -619,10 +645,21 @@ course:
               component:
                 - type: html
                   file: shared_md/daily-kick-off.md
-            - name: Project Presentation
+            - name: "[PRESENTATION] Project Presentation"
               component:
                 - type: html
                   file: shared_md/quest-presentations.md
+            - name: "[PROJECT] Project 1 Deliverable"
+              component:
+                - type: html
+                  file: ""
+                - type: deliverable
+                  display_name: Project 1 Deliverable
+                  deliverable_identifier: project-1
+                  deliverable_description: "Submit the url to your work below: "
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
             - name: "[CLASS_ACTIVITY] Module and Project Retrospective"
               component:
                 - type: html
@@ -673,7 +710,7 @@ course:
                   display_name: sql_mysql_db_creation
                   deliverable_identifier: lab-sql_mysql_db_creation
                   deliverable_description: Submit the url to your work below
-                  deliverable_duedate: 2030-10-28
+                  deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
             - name: "[PROJECT] Mini Project: SQL"
@@ -718,7 +755,7 @@ course:
                   display_name: sql_basic_queries
                   deliverable_identifier: lab_sql_basic_queries
                   deliverable_description: Submit the url to your work below
-                  deliverable_duedate: 2030-10-28
+                  deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
             - name: "[LAB] Lab | SQL Data Aggregation and Transformation"
@@ -729,7 +766,7 @@ course:
                   display_name: sql_agg_transformation
                   deliverable_identifier: lab_sql_agg_transformation
                   deliverable_description: Submit the url to your work below
-                  deliverable_duedate: 2030-10-28
+                  deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
             - name: "[PROJECT] Mini Project: Day 2 Checklist"
@@ -774,7 +811,7 @@ course:
                   display_name: sql_joins
                   deliverable_identifier: lab_sql_joins
                   deliverable_description: Submit the url to your work below
-                  deliverable_duedate: 2030-10-28
+                  deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
             - name: "[LAB] Lab | SQL Subqueries"
@@ -785,7 +822,7 @@ course:
                   display_name: sql_subqueries
                   deliverable_identifier: lab_sql_subqueries
                   deliverable_description: Submit the url to your work below
-                  deliverable_duedate: 2030-10-28
+                  deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
             - name: "[PROJECT] Mini Project: Day 3 Checklist"
@@ -830,7 +867,7 @@ course:
                   display_name: sql_temp_tables_views_ctes
                   deliverable_identifier: lab_sql_temp_tables_views_ctes
                   deliverable_description: Submit the url to your work below
-                  deliverable_duedate: 2030-10-28
+                  deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
             - name: "[PROJECT] Mini Project: Day 4 Checklist"
@@ -851,10 +888,21 @@ course:
               component:
                 - type: html
                   file: shared_md/daily-kick-off.md
-            - name: Mini Project Presentation
+            - name: "[PRESENTATION] Mini Project Presentation"
               component:
                 - type: html
                   file: shared_md/quest-presentations.md
+            - name: "[PROJECT] Mini Project 1 Deliverable"
+              component:
+                - type: html
+                  file: ""
+                - type: deliverable
+                  display_name: Mini Project 1 Deliverable
+                  deliverable_identifier: mini-project-1
+                  deliverable_description: "Submit the url to your work below: "
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
             - name: Connecting SQL and Python
               component:
                 - type: html
@@ -871,7 +919,7 @@ course:
                   display_name: sql_python_connection
                   deliverable_identifier: lab_sql_python_connection
                   deliverable_description: Submit the url to your work below
-                  deliverable_duedate: 2030-10-28
+                  deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
             - name: Qualified Review
@@ -883,14 +931,17 @@ course:
                 - type: html
                   file: shared_md/assessment-warning-and-link-to-faqs.md
                 - type: deliverable
+                  display_name: Assessment - SQL
                   deliverable_identifier: 641c882b891fea00130fc538
                   deliverable_duedate: ""
+                  deliverable_description: NA
                   deliverable_required: true
                   deliverable_cutscore: 66
             - name: "[RITUAL] Weekly Wrap Up"
               component:
                 - type: html
                   file: shared_md/weekly-wrap-up.md
+    
     - name: Unit X - LLMs and Cloud Computing
       sequential:
         - name: Day 3
@@ -907,7 +958,7 @@ course:
                   display_name: llms
                   deliverable_identifier: group-activity-llms
                   deliverable_description: Submit the url to your work below
-                  deliverable_duedate: 2030-10-28
+                  deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
         - name: Day 4
@@ -924,7 +975,7 @@ course:
                   display_name: cloud
                   deliverable_identifier: group-activity-cloud
                   deliverable_description: Submit the url to your work below
-                  deliverable_duedate: 2030-10-28
+                  deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
 

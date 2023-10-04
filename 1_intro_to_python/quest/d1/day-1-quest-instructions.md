@@ -1,4 +1,4 @@
-# Day 1: Kickstarting the Python Analytics Quest
+<!-- # Day 1: Kickstarting the Python Analytics Quest -->
 
 ## Introduction
 

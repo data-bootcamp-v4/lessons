@@ -2,14 +2,14 @@
 
 Greetings students! Join the lead teacher in the next session for a special demo that will cover:
 
-### **🚀 Working on Labs with Git**
+### :rocket: **Working on Labs with Git**
 - Cloning repositories to your local system
 - Utilizing version control to manage your lab files
 
-### **📤 Submitting Your Labs**
+### :mailbox: **Submitting Your Labs**
 - Committing and pushing changes to GitHub
 
-### **🛠️ Preparation**
+### :hammer_and_wrench: **Preparation**
 Ensure you have:
 
 - A GitHub account set up

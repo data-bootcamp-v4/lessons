@@ -1,13 +1,14 @@
-**Project Code Review and Collaboration**
+<!-- # Project Code Review and Collaboration -->
 
-**Objective:** 
+## Objective
+
 In this collaborative learning session, we will engage in a project code review to foster a deeper understanding of code quality, teamwork, and effective communication within the context of real-world projects. This activity will encourage students to reflect on their coding practices and offer constructive feedback to their peers. 
 
-**Activity Overview:**
+### Activity Overview
 
 - **Duration:** 3 hours (flexible timing)
 
-**Activity Structure:**
+### Activity Structure
 
 1. **Preparation (15 minutes):**
    - Each group gathers and prepares a brief summary of their project.
@@ -16,7 +17,7 @@ In this collaborative learning session, we will engage in a project code review 
 2. **Code Review Phase (90 minutes):**
    - Each group conducts a code review of another group's project, and vice versa. The reviewing and reviewed groups are determined based on the number of participating groups, ensuring that each group has an opportunity to both review and be reviewed by their peers.
    - During the review, each group focuses on identifying strengths and areas for improvement in their peer's project.
-   - Participants should designe a review template to structure their feedback.
+   - Participants should design a review template to structure their feedback.
    - Using the project rubric is encouraged.
 
 3. **Break (15 minutes):**
@@ -38,7 +39,7 @@ In this collaborative learning session, we will engage in a project code review 
    - Discuss strategies for implementing improvements in future projects.
    - Summarize key takeaways and lessons learned.
 
-**Key Benefits:**
+### Key Benefits
 
 - Enhances code quality through peer evaluation.
 - Fosters effective communication and teamwork.

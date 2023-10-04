@@ -1,4 +1,4 @@
-## **Overview**
+## Overview
 
 In this mini project you will dive into the world of SQL through creating and populating a database of your own and then extracting meaningful insights through SQL using queries and Python visualization techniques. You have the freedom to choose your own data, the sources it originates from, and the business case you wish to cater to.
 
@@ -10,7 +10,7 @@ In this Mini Project you will work in pairs, and are required to organize how to
 
 In this project, you'll start by selecting and exploring datasets of your choice from various sources like Kaggle, APIs, or through web scraping, ensuring they complement each other for a cohesive analysis. You will then formulate hypotheses related to the datasets selected. The goal is to craft a narrative using the data, so ensure the datasets can be interconnected seamlessly. You'll sketch out an Entity-Relationship Diagram (ERD) highlighting significant data fields and relationships, then proceed to create and populate a functional database. During the process, you will carry out data wrangling to clean your datasets and prepare them for analysis. You will use SQL to run queries, derive valuable insights, and summarize your findings. To conclude, you'll visualize the derived insights using Python libraries and compile a comprehensive report, encapsulating your data story from exploration to insights.
 
-## **Daily Tasks**
+## Daily Tasks
 
 ### Day 1: ****Project Initiation**** & Data Selection
 
@@ -112,7 +112,7 @@ The main deliverable is a GitHub repository with the name `sql-database`. It sho
 - **Logical Organization**: Group related functionalities together and maintain a coherent flow within your scripts or notebooks.
 - **Regular Refactoring**: Review and refactor the code periodically to remove redundancies, enhance efficiency, and ensure alignment with current best practices and project needs.
 
-## **Rubric**
+## Rubric
 
 In order to assess your project and ensure all requirements are met, a **rubric** will be used. This rubric is used to **evaluate your project** by your teaching staff but also to **communicate** what constitutes incomplete, acceptable and excellent performance across each of the learning outcomes for the project. Take some time to review the rubric that is in Student Portal and ask your teacher any questions about it if necessary.
 
@@ -140,7 +140,7 @@ All presentations will be done **from a staff member’s computer**, so **your
     - **[Slides](https://slides.com/)**
     - **[Prezi](https://prezi.com/)**
 
-### **Presentation Structure**
+### Presentation Structure
 
 Feel free to present the project in as you feel best represents your work, but below you will find a suggested format for the presentation as a guide.
 
@@ -159,7 +159,7 @@ Feel free to present the project in as you feel best represents your work, but b
     - Discuss the key challenges faced during data transformation, such as inconsistencies, and how they were addressed.
 5. **SQL Insights & Advanced Analysis** (1 slide):
     - Showcase one or two standout insights derived from advanced SQL queries.
-    - Highlight any specific analyses that were particularly challenging or revealing.
+    - Highlight any specific analyzes that were particularly challenging or revealing.
 6. **Visualization & Key Insights** (2 slides):
     - Show some of the primary visualizations developed.
     - Discuss the major insights derived from the visualizations.

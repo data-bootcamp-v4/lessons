@@ -18,14 +18,14 @@ You will find a list of topics in the document below.
 
 1. Your teacher will make a copy of the document for your cohort
 2. You may either choose a topic or get one assigned to you. You are also allowed to create a topic in the “Proposed Topics” section at the end of the document
-3. You or your teacher will fill in the “Name of student” and “Date of talk” fields for each topic to organise the schedule of the Lightning Talks
+3. You or your teacher will fill in the “Name of student” and “Date of talk” fields for each topic to organize the schedule of the Lightning Talks
 
 
 [Lightning Talks Topics](https://docs.google.com/document/d/10K3FqZSQmKbWnKOek1qtB7P_DzsSGK5PWjTlgLR4PJc/edit)
 
 
-*Note: your teacher will organise how topics are distributed in case multiple students choose the same topic.*
+*Note: your teacher will organize how topics are distributed in case multiple students choose the same topic.*
 
 ## Summary
 
-Lightning Talks are a unique and engaging way to learn and share knowledge. It's a fun challenge that will not only improve your presentation skills but also your ability to distil complex ideas into clear, succinct points. So, get ready to enlighten your peers with your Lightning Talk!
+Lightning Talks are a unique and engaging way to learn and share knowledge. It's a fun challenge that will not only improve your presentation skills but also your ability to distill complex ideas into clear, succinct points. So, get ready to enlighten your peers with your Lightning Talk!

@@ -14,6 +14,7 @@ Throughout the course of this activity, you will:
 - Assess the results of various SQL queries, ensuring their accuracy and relevance in solving the murder mystery, and making adjustments as necessary to arrive at the correct conclusion.
 
 ## SQL Murder Exercise
+
 For this exercise, you will put on your trench coat and hat as you will need to investigate a murder in SQL City. You will apply basic SQL concepts and learn how to handle a data model while solving a murder case! This game was created by Joon Park and Cathy He, and you can find all the details on [their website](http://mystery.knightlab.com).
 
 To perform the exercise, you have two options:
@@ -23,22 +24,27 @@ To perform the exercise, you have two options:
 
 
 ### Statement
+
 A crime has taken place and the detective needs your help. The detective gave you the crime scene report, but you somehow lost it. You vaguely remember that the crime was a **murder** that occurred sometime on **Jan.15, 2018** and that it took place in **SQL City**. Start by retrieving the corresponding crime scene report from the police department’s database.
 
 ### Setup
+
 For this activity you will work in groups of 3 and you will have approximately 1.5 hours to complete the exercise.
 
 
 ### Data Model
+
 ![Data Model](https://github.com/data-bootcamp-v4/lessons/blob/main/img/sql-mystery-schema.png?raw=true)
 
 ### Tips for Getting Started
+
 - Start by examining the available tables and understanding the relationships between them.
 - Craft your queries carefully to extract relevant data without overwhelming yourself with information.
 - Think like a detective: correlate the data, follow the leads, and eliminate the suspects.
 - Don't hesitate to refine and rerun your queries as you uncover more information.
 
-### Collboration Tips
+### Collaboration Tips
+
 - Divide and conquer: Assign specific tasks or sections to each group member.
 - Communicate clearly and regularly share findings and insights with your group.
 - Collaboratively analyze the data and decide on the next steps.

@@ -1,10 +1,10 @@
-# Testing & finishing the quest
+<!-- # Testing & finishing the quest -->
 
 ## Introduction
 
 Welcome to Day 4! Today's focus is on finishing the game and mastering the art of efficient code with list and dictionary comprehensions. Also, delve into the world of Python testing to ensure your code is error-free. Remember that if you have completed all of the deliverables for the game you may add some additional features as defined in the project brief if you have time.
 
-Finally, you will work on the presentation of the quest that will be presented tomorrow. It is up to you how to organise your team to prepare the presentation throughout the afternoon depending on your progress so far. One suggestion is to split up the teams so that one person from the Dev and Research Team work together in part 1 to start the presentation, and then as a whole group in part 3 to finish and refine and finish it.
+Finally, you will work on the presentation of the quest that will be presented tomorrow. It is up to you how to organize your team to prepare the presentation throughout the afternoon depending on your progress so far. One suggestion is to split up the teams so that one person from the Dev and Research Team work together in part 1 to start the presentation, and then as a whole group in part 3 to finish and refine and finish it.
 
 ## Daily Overview & Schedule
 
