@@ -270,7 +270,7 @@ course:
               component:
                 - type: html
                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_oop.md
-        - name: Extra Materials
+        - name: Bonus Materials
           vertical:
             - name: 1.08 Regex
               component:
@@ -511,7 +511,7 @@ course:
               component:
                 - type: html
                   file: shared_md/weekly-wrap-up.md
-        - name: Extra Materials - Homework
+        - name: Bonus Materials - Homework
           vertical:
             - name: Command Line - Intro
               component:
@@ -680,6 +680,10 @@ course:
               component:
                 - type: html
                   file: 4_sql/quest/sql-mini-project-brief.md
+            - name: "[PROJECT] Mini Project Rubric"
+              component:
+                - type: html
+                  file: 4_sql/quest/students-rubric-quest-W4.md
             - name: "[PROJECT] Mini Project: Day 1 Checklist"
               component:
                 - type: html
