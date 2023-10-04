@@ -1,4 +1,4 @@
-# SQL Murder Mystery
+<!-- # SQL Murder Mystery -->
 
 
 ![](https://github.com/data-bootcamp-v4/lessons/blob/main/img/sql-mystery.png?raw=true)
