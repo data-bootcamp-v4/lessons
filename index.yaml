@@ -676,7 +676,7 @@ course:
                   deliverable_duedate: 2030-10-28
                   deliverable_required: true
                   deliverable_cutscore: 0
-            - name: "[PROJECT] Mini Project: SQL"
+            - name: "[PROJECT] Mini Project - SQL: From Data to Insight"
               component:
                 - type: html
                   file: 4_sql/quest/sql-mini-project-brief.md
