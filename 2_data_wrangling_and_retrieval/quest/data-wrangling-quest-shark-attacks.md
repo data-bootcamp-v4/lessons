@@ -61,7 +61,7 @@ Each day teams focus on different topics. These topics dictate the Dev Team's co
     - For example: "Sharks attack more younger people than older," "The easiest way to get attacked by a shark is by surfing," "Sharks attack more people in the USA than in Iceland," etc.
     - Define a roadmap for the quest. The deadline for the quest is on Friday, so it is recommended to divide your cleaning efforts by day. Don’t forget to leave enough time to do basic EDA, clean your code and prepare a presentation. Reviewing the topics by day might help you define the roadmap.
 
-### **Day 2**
+### Day 2
 
 **Dev Team Key Tasks & Topics:**
 
@@ -75,7 +75,7 @@ Each day teams focus on different topics. These topics dictate the Dev Team's co
 - Read the self-guided material on Dates in Python. Explore how manipulate dates in a dataset.
 - Share your findings with the Dev team. Apply Regex in the data cleaning process. If you need the date for your analysis, apply the appropriate techniques to the dataset.
 
-### **Day 3**
+### Day 3
 
 **Dev Team Key Tasks & Topics:**
 
@@ -89,7 +89,7 @@ Each day teams focus on different topics. These topics dictate the Dev Team's co
 - Understand how these techniques can help validate hypotheses and provide insights into the dataset.
 - Share findings with the Dev team, decide and incorporate basic EDA methods and visualization tools (such as graphs) into the project.
 
-### **Day 4**
+### Day 4
 
 On the last day of the quest, you will divide the remaining tasks however you prefer as a team.
 
@@ -168,7 +168,7 @@ All presentations will be done **from a staff member’s computer**, so **your
     - **[Slides](https://slides.com/)**
     - **[Prezi](https://prezi.com/)**
 
-### **Presentation Structure**
+### Presentation Structure
 
 Feel free to present the project in as you feel best represents your work, but below you will find a suggested format for the presentation as a guide.
 

@@ -1,7 +1,7 @@
 <!-- # Set up Git -->
 
 
-# Git Installation and GitHub Account Creation
+<!-- # Git Installation and GitHub Account Creation -->
 
 Today we will guide you through the process of installing Git and creating a GitHub account (in case you haven't done already), step by step.
 

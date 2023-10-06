@@ -1,4 +1,4 @@
-## Introduction
+<!-- ## Introduction -->
 
 You will have a daily wrap-up with your teaching team and classmates to end the day and answer any questions you might have.
 

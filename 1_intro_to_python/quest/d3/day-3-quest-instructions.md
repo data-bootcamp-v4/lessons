@@ -1,4 +1,4 @@
-# Day 3: Refining Functions & Coding Best Practices
+<!-- # Day 3: Refining Functions & Coding Best Practices -->
 
 ## Introduction
 

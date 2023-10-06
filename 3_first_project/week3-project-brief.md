@@ -61,7 +61,7 @@ Note: On Monday morning there is an activity dedicating to helping you get start
 
 ## Project Brief
 
-You will choose a theme and gather the data by connecting to an API or scraping some data from the web. You ill also have to organize, clean and analyse the data using your data wrangling skills and present your findings in a presentation.
+You will choose a theme and gather the data by connecting to an API or scraping some data from the web. You ill also have to organize, clean and analyze the data using your data wrangling skills and present your findings in a presentation.
 
 ## Requirements
 
@@ -126,7 +126,7 @@ All presentations will be done **from a staff member’s computer**, so **your
     - **[Slides](https://slides.com/)**
     - **[Prezi](https://prezi.com/)**
 
-### **Presentation Structure**
+### Presentation Structure
 
 Feel free to present the project in as you feel best represents your work, but below you will find a suggested format for the presentation as a guide.
 

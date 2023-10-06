@@ -1,4 +1,4 @@
-# Day 2: Modules Mastery & Flow Control Fun
+<!-- # Day 2: Modules Mastery & Flow Control Fun -->
 
 ## Introduction
 

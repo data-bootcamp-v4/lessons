@@ -1,4 +1,4 @@
-# Python Analytics Quest: Escape Room 
+<!-- # Python Analytics Quest: Escape Room  -->
 
 ## Overview
 
@@ -182,7 +182,7 @@ Feel free to present the game in as you feel best represents your work, but belo
 
 1. **Title Slide** (1 slide): your project’s name & your names
 2. **Project Overview** (1-2 slides):
-    - How is the game’s structure organised?
+    - How is the game’s structure organized?
     - Which functions do you have and how are they imported?
     - Which features did you add to the game?
 3. **Technical Challenge** (1-2 slides):
