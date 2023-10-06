@@ -45,15 +45,15 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
-            - name: "[PROJECT] Quest: Escape Room"
+            - name: "[MINI_PROJECT] Quest: Escape Room"
               component:
                 - type: html
                   file: 1_intro_to_python/quest/d1/python-analytics-quest-brief.md
-            - name: "[PROJECT] Quest - day 1: Kickstarting the Python Analytics Quest"
+            - name: "[MINI_PROJECT] Quest - day 1: Kickstarting the Python Analytics Quest"
               component:
                 - type: html
                   file: 1_intro_to_python/quest/d1/day-1-quest-instructions.md
-            - name: "[PROJECT] Quest - Self Guided: Interpreting Python Errors"
+            - name: "[MINI_PROJECT] Quest - Self Guided: Interpreting Python Errors"
               component:
                 - type: html
                   file: 1_intro_to_python/quest/d1/self-guided-interpreting-python-errors.md
@@ -117,11 +117,11 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
-            - name: "[PROJECT] Quest - day 2: Flow Control Fun and Coding Best Practices"
+            - name: "[MINI_PROJECT] Quest - day 2: Flow Control Fun and Coding Best Practices"
               component:
                 - type: html
                   file: 1_intro_to_python/quest/d2/day-2-quest-instructions.md
-            - name: "[PROJECT] Quest - Self Guided: Coding Best Practices"
+            - name: "[MINI_PROJECT] Quest - Self Guided: Coding Best Practices"
               component:
                 - type: html
                   file: 1_intro_to_python/quest/d2/self-guided-coding-best-practices.md
@@ -166,11 +166,11 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
-            - name: "[PROJECT] Quest - day 3: Modules Mastery and Refining Functions"
+            - name: "[MINI_PROJECT] Quest - day 3: Modules Mastery and Refining Functions"
               component:
                 - type: html
                   file: 1_intro_to_python/quest/d3/day-3-quest-instructions.md
-            - name: "[PROJECT] Quest - Self Guided: Modules and Packages"
+            - name: "[MINI_PROJECT] Quest - Self Guided: Modules and Packages"
               component:
                 - type: html
                   file: 1_intro_to_python/quest/d3/self-guided-modules-and-packages.md
@@ -211,11 +211,11 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
-            - name: "[PROJECT] Quest - day 4: Testing and Finishing the Quest"
+            - name: "[MINI_PROJECT] Quest - day 4: Testing and Finishing the Quest"
               component:
                 - type: html
                   file: 1_intro_to_python/quest/d4/day-4-quest-instructions.md
-            - name: "[PROJECT] Quest - Self Guided: Testing Python Code"
+            - name: "[MINI_PROJECT] Quest - Self Guided: Testing Python Code"
               component:
                 - type: html
                   file: 1_intro_to_python/quest/d4/self-guided-testing-python-code.md
@@ -245,13 +245,13 @@ course:
               component:
                 - type: html
                   file: shared_md/quest-presentations.md
-            - name: "[PROJECT] Quest 1 Deliverable"
+            - name: "[MINI_PROJECT] Quest 1 Deliverable"
               component:
                 # - type: html
                 #   file: ""
                 - type: deliverable
                   display_name: Quest 1 Deliverable
-                  deliverable_identifier: quest-1
+                  deliverable_identifier: mini-project-python
                   deliverable_description: "Submit the url to your work below: "
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -331,23 +331,23 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
-            - name: "[PROJECT] Quest: Shark Attacks"
+            - name: "[MINI_PROJECT] Quest: Shark Attacks"
               component:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/quest/data-wrangling-quest-shark-attacks.md
-            - name: "[PROJECT] Quest Rubric"
+            - name: "[MINI_PROJECT] Quest Rubric"
               component:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/quest/students-rubric-quest-W2.md
-            - name: "[PROJECT] Self-guided: Hypothesis Statement & Business Opportunities"
+            - name: "[MINI_PROJECT] Self-guided: Hypothesis Statement & Business Opportunities"
               component:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/quest/d1/2.0_self_guided_hypothesis_statement_business_opportunities.md
-            - name: "[PROJECT] Self-guided: From Idea to Implementation: MVP, Scoping, and Roadmapping"
+            - name: "[MINI_PROJECT] Self-guided: From Idea to Implementation: MVP, Scoping, and Roadmapping"
               component:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/quest/d1/2.0_self_guieded_mvp_scoping_roadmapping.md
-            - name: "[PROJECT] Quest: Day 1 Checklist"
+            - name: "[MINI_PROJECT] Quest: Day 1 Checklist"
               component:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/quest/d1/day-1-checklist-shark-attacks.md
@@ -381,11 +381,11 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
-            - name: "[PROJECT] Self-guided: Dealing with Dates"
+            - name: "[MINI_PROJECT] Self-guided: Dealing with Dates"
               component:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/quest/d2/2.1_self_guided_dates.md
-            - name: "[PROJECT] Quest: Day 2 Checklist"
+            - name: "[MINI_PROJECT] Quest: Day 2 Checklist"
               component:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/quest/d2/day-2-checklist-shark-attacks.md
@@ -437,11 +437,11 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
-            - name: "[PROJECT] Self-guided: Introduction to Exploratory Data Analysis (EDA)"
+            - name: "[MINI_PROJECT] Self-guided: Introduction to Exploratory Data Analysis (EDA)"
               component:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/quest/d3/2.2_self_guided_basic_eda.md
-            - name: "[PROJECT] Quest: Day 3 Checklist"
+            - name: "[MINI_PROJECT] Quest: Day 3 Checklist"
               component:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/quest/d3/day-3-checklist-shark-attacks.md
@@ -474,7 +474,7 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
-            - name: "[PROJECT] Quest: Day 4 Checklist"
+            - name: "[MINI_PROJECT] Quest: Day 4 Checklist"
               component:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/quest/d4/day-4-checklist-shark-attacks.md
@@ -492,13 +492,13 @@ course:
               component:
                 - type: html
                   file: shared_md/quest-presentations.md
-            - name: "[PROJECT] Quest 2 Deliverable"
+            - name: "[MINI_PROJECT] Quest 2 Deliverable"
               component:
                 # - type: html
                 #   file: ""
                 - type: deliverable
                   display_name: Quest 2 Deliverable
-                  deliverable_identifier: quest-2
+                  deliverable_identifier: mini-project-dw
                   deliverable_description: "Submit the url to your work below: "
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -713,15 +713,15 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
-            - name: "[PROJECT] Mini Project - SQL: From Data to Insight"
+            - name: "[MINI_PROJECT] Mini Project - SQL: From Data to Insight"
               component:
                 - type: html
                   file: 4_sql/quest/sql-mini-project-brief.md
-            - name: "[PROJECT] Mini Project Rubric"
+            - name: "[MINI_PROJECT] Mini Project Rubric"
               component:
                 - type: html
                   file: 4_sql/quest/students-rubric-quest-W4.md
-            - name: "[PROJECT] Mini Project: Day 1 Checklist"
+            - name: "[MINI_PROJECT] Mini Project: Day 1 Checklist"
               component:
                 - type: html
                   file: 4_sql/quest/sql-mini-project-day-1-checklist.md
@@ -769,7 +769,7 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
-            - name: "[PROJECT] Mini Project: Day 2 Checklist"
+            - name: "[MINI_PROJECT] Mini Project: Day 2 Checklist"
               component:
                 - type: html
                   file: 4_sql/quest/sql-mini-project-day-2-checklist.md
@@ -825,7 +825,7 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
-            - name: "[PROJECT] Mini Project: Day 3 Checklist"
+            - name: "[MINI_PROJECT] Mini Project: Day 3 Checklist"
               component:
                 - type: html
                   file: 4_sql/quest/sql-mini-project-day-3-checklist.md
@@ -870,7 +870,7 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
-            - name: "[PROJECT] Mini Project: Day 4 Checklist"
+            - name: "[MINI_PROJECT] Mini Project: Day 4 Checklist"
               component:
                 - type: html
                   file: 4_sql/quest/sql-mini-project-day-4-checklist.md
@@ -892,13 +892,13 @@ course:
               component:
                 - type: html
                   file: shared_md/quest-presentations.md
-            - name: "[PROJECT] Mini Project 1 Deliverable"
+            - name: "[MINI_PROJECT] Mini Project Deliverable"
               component:
                 - type: html
                   file: ""
                 - type: deliverable
                   display_name: Mini Project 1 Deliverable
-                  deliverable_identifier: mini-project-1
+                  deliverable_identifier: mini-project-sql
                   deliverable_description: "Submit the url to your work below: "
                   deliverable_duedate: ""
                   deliverable_required: true
