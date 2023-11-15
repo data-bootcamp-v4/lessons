@@ -1,0 +1,168 @@
+openapi: 3.0.3
+info:
+  title: Bechdel dataset API
+  description: |-
+    This API exposes the Bechdel dataset. It is a mix of two data sources:
+    * The [Bechdel test dataset](https://bechdeltest.com): 
+    * A subset of the [IMDB datasets](https://developer.imdb.com/non-commercial-datasets/)
+    
+    The dataset contains around 10 000 movies (or TV show episodes), along with the people related to it (actors and actresses, film directors, etc.). Each movie is given a rating from 0 to 3 which corresponds to number of criteria that the movie fulfills.
+    
+    As a reminder, the Bechdel test, named after the American cartoonist Alison Bechdel, is a measure of the representation of women in a film (or other fiction). The tests asks whether the film:
+    1. Has at least two (named) women characters
+    2. Who talk to each other
+    3. About something other than a man.
+    
+    More on this [on Wikipedia](https://en.wikipedia.org/wiki/Bechdel_test)
+  contact:
+    email: your@email.here
+  license:
+    name: CC BY-NC 3.0
+    url: https://creativecommons.org/licenses/by-nc/3.0/
+  version: 1.0.0
+paths:
+  /movies/{movieId}:
+    get:
+      summary: Get a movie by its ID
+      description: Return all the information about a movie including its Bechdel score.
+      parameters:
+        - name: movieId
+          in: path
+          description: ID of the movie
+          example: 17009710
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Movie'          
+        '404':
+          description: Movie not found
+        '401':
+          description: Unauthorized
+        '500':
+          description: Internal server error
+      security:
+        - api_auth: []
+  /movies:
+    get:
+      summary: Get all movies
+      description: Return all the information about a movie including its Bechdel score.
+      parameters:
+        - name: page
+          in: query
+          example: 0
+          description: Index of the page (used for pagination)
+          schema:
+            type: integer
+        - name: page_size
+          in: query
+          example: 100
+          description: Number of movies per page (used for pagination)
+          schema:
+            type: integer
+        - name: include_details
+          in: query
+          example: 0
+          description: Whether or not to include people and genres (0 or 1)
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  movies:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Movie'
+                  next_page:
+                    type: integer
+                    example: 0
+                  last_page:
+                    type: integer
+                    example: 1000
+        '401':
+          description: Unauthorized
+        '500':
+          description: Internal server error
+      security:
+        - api_auth: []
+components:
+  schemas:
+    Person:
+      required:
+        - personId
+      type: object
+      properties:
+        personId:
+          type: integer
+          example: 2630323
+        birthYear:
+          type: integer
+          example: 1962
+        deathYear:
+          type: integer
+          example: 2015
+        name:
+          type: string
+          example: Justine Triet
+        role:
+          type: string
+          example: actress
+    Movie:
+      required:
+        - movieId
+      type: object
+      properties:
+        movieId:
+          type: integer
+          example: 17009710
+        originalTitle:
+          type: string
+          example: Anatomie d'une chute
+        englishTitle:
+          type: string
+          example: Anatomy of a Fall
+        bechdelScore:
+          type: integer
+          example: 3
+          description: The number of Bechdel criteria the movie meets (from 0 to 3).
+        bechdelTest:
+          type: boolean
+          example: true
+          description: Whether or not the movie passes the Bechdel test.
+        runtimeMinutes:
+          type: integer
+          example: 150
+        year:
+          type: integer
+          example: 2023
+        movieType:
+          type: string
+          example: movie
+        isAdult:
+          type: boolean
+          example: false
+        genres:
+          type: array
+          items:
+            type: string
+            example: ["Crime", "Drama", "Thriller"]
+        people:
+          type: array
+          items:
+            $ref: '#/components/schemas/Person'
+        
+  securitySchemes:
+    api_auth:
+      type: http
+      scheme: basic
+      description: Please authenticate to use the API
