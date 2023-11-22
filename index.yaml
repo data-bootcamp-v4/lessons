@@ -273,7 +273,7 @@ course:
                   deliverable_identifier: 6419b7c125edc20025e5dbf2
                   deliverable_description: NA
                   deliverable_duedate: ""
-                  deliverable_required: true
+                  deliverable_required: false
                   deliverable_cutscore: 60
             - name: "[RITUAL] Weekly Wrap Up"
               component:
@@ -531,7 +531,7 @@ course:
                   deliverable_identifier: 641a0a5ea425240036a6d8c1
                   deliverable_duedate: ""
                   deliverable_description: NA
-                  deliverable_required: true
+                  deliverable_required: false
                   deliverable_cutscore: 50
             - name: "[RITUAL] Weekly Wrap Up"
               component:
@@ -935,7 +935,7 @@ course:
                   deliverable_identifier: 641c882b891fea00130fc538
                   deliverable_duedate: ""
                   deliverable_description: NA
-                  deliverable_required: true
+                  deliverable_required: false
                   deliverable_cutscore: 66
             - name: "[RITUAL] Weekly Wrap Up"
               component:
@@ -1252,7 +1252,7 @@ course:
                   deliverable_identifier: 6421f5dcb4793f103eeba6ef
                   deliverable_duedate: ""
                   deliverable_description: NA
-                  deliverable_required: true
+                  deliverable_required: false
                   deliverable_cutscore: 62
 
     - name: Unit 8 - LLMs and Cloud Computing
