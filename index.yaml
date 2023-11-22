@@ -948,7 +948,7 @@ course:
             - name: Weekly guidelines
               component:
                 - type: html
-                  file: teacher-info/week5-readme.md
+                  file: teacher-info/week5-6-readme.md
         - name: Day 1
           vertical:
             - name: "[PRESENTATION] Weekly Kick Off"
@@ -1127,8 +1127,7 @@ course:
             - name: Weekly guidelines
               component:
                 - type: html
-                  file: teacher-info/week6-readme.md
-
+                  file: teacher-info/week5-6-readme.md
         - name: Day 1
         vertical:
             - name: "[RITUAL] Daily Kick Off"
