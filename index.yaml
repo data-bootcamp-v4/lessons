@@ -941,7 +941,7 @@ course:
               component:
                 - type: html
                   file: shared_md/weekly-wrap-up.md
-    - name: Unit 5 - Exploratory Data Analysis and Inferential Stats
+    - name: Unit 5 - EDA and Inferential Stats
       sequential:
         - name: "!Teacher Info"
           vertical:
@@ -1129,7 +1129,7 @@ course:
                 - type: html
                   file: teacher-info/week5-6-readme.md
         - name: Day 1
-        vertical:
+          vertical:
             - name: "[RITUAL] Daily Kick Off"
               component:
                 - type: html
@@ -1162,7 +1162,7 @@ course:
                 - type: html
                   file: shared_md/daily-wrap-up.md
         - name: Day 2
-        vertical:
+          vertical:
             - name: "[RITUAL] Daily Kick Off"
               component:
                 - type: html
@@ -1194,7 +1194,7 @@ course:
               component:
                 - type: html
                   file: shared_md/daily-wrap-up.md
-          - name: Day 3
+        - name: Day 3
           vertical:
             - name: "[RITUAL] Stand Up"
               component:
