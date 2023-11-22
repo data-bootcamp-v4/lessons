@@ -1041,14 +1041,6 @@ course:
               component:
                 - type: html
                   file: shared_md/lab-review-instructions.md
-            - name: Introduction to Probability
-              component:
-                - type: html
-                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.5_probability.md
-            - name: Probability Hands On
-              component:
-                - type: html
-                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.5.2_probability_hands_on.md
             - name: "[PROJECT] Second Project: Week 5 Day 3 Checklist"
               component:
                 - type: html
@@ -1067,14 +1059,6 @@ course:
               component:
                 - type: html
                   file: shared_md/lab-review-instructions.md
-            - name: Hypothesis Testing
-              component:
-                - type: html
-                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.6_hypothesis_testing.md
-            - name: Hypothesis Testing Hands On
-              component:
-                - type: html
-                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.6_hypothesis_testing_hands_on.md
             - name: "[PROJECT] Second Project: Week 5 Day 4 Checklist"
               component:
                 - type: html
@@ -1097,10 +1081,6 @@ course:
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/lesson_md/5.7_correlation_normality.md
-            - name: A/B Testing
-              component:
-                - type: html
-                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.8_ab_testing.md
             - name: "[PROJECT] Second Project: Week 5 Day 5 Checklist"
               component:
                 - type: html
