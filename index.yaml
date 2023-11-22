@@ -1118,7 +1118,7 @@ course:
             - name: Streamlit
               component:
                 - type: html
-                  file: 5_6_eda_inf_stats_tableau/project/self_guided_lessons/streamlit.md
+                  file: 5_6_eda_inf_stats_tableau/project/self_guided_lessons/streamlit/streamlit.md
 
     - name: Unit 6 - Tableau and Project 2
       sequential:
