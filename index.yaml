@@ -565,10 +565,6 @@ course:
               component:
                 - type: html
                   file: shared_md/weekly-ko/week-3-ko-d1.md
-            - name: "[CLASS_ACTIVITY] Group Lab Review"
-              component:
-                - type: html
-                  file: shared_md/lab-review-instructions.md
             - name: Git and Github - More on Git Commands
               component:
                 - type: html
@@ -580,7 +576,11 @@ course:
             - name: Git and GitHub - Collaboration
               component:
                 - type: html
-                  file: 0_general/git-3-git-github-collaboration.md                             
+                  file: 0_general/git-3-git-github-collaboration.md
+            - name: Environments
+              component:
+                - type: html
+                  file: 0_general/environments.md                     
             - name: Agile
               component:
                 - type: html
@@ -941,10 +941,344 @@ course:
               component:
                 - type: html
                   file: shared_md/weekly-wrap-up.md
-    
-    - name: Unit X - LLMs and Cloud Computing
+    - name: Unit 5 - Exploratory Data Analysis and Inferential Stats
       sequential:
+        - name: "!Teacher Info"
+          vertical:
+            - name: Weekly guidelines
+              component:
+                - type: html
+                  file: teacher-info/week5-readme.md
+        - name: Day 1
+          vertical:
+            - name: "[PRESENTATION] Weekly Kick Off"
+              component:
+                - type: html
+                  file: shared_md/weekly-ko/week-5-ko-d1.md
+            - name: Project Setup
+              component:
+                - type: html
+                  file: 0_general/project-setup.md
+            - name: Introduction to EDA and Univariate Analysis
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.1_intro_to_eda_and_univariate.md
+            - name: EDA Univariate Analysis Hands On
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.1.2_intro_to_eda_and_univariate_hands_on.md
+            - name: "[LAB] Lab | EDA Univariate Analysis"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/__labs_shortcuts_md__/lab_eda_univariate.md
+                - type: deliverable
+                  display_name: eda-univariate
+                  deliverable_identifier: lab-eda-univariate
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] Project 2"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/project-2-brief.md
+            - name: "[PROJECT] Project Rubric"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/students-rubric-quest-W5-6.md
+            - name: "[PROJECT] Second Project: Week 5 Day 1 Checklist"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_5_Day_1.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+        - name: Day 2
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "[CLASS_ACTIVITY] Group Lab Review"
+              component:
+                - type: html
+                  file: shared_md/lab-review-instructions.md
+            - name: EDA Bivariate Analysis
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.2_eda_bivariate_analysis.md
+            - name: EDA Bivariate Analysis Hands On
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.2.2_eda_bivariate_analysis_hands_on.md
+            - name: "[LAB] Lab | EDA Bivariate Analysis"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/__labs_shortcuts_md__/lab_eda_bivariate.md
+                - type: deliverable
+                  display_name: eda-bivariate
+                  deliverable_identifier: lab-eda-bivariate
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] Second Project: Week 5 Day 2 Checklist"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_5_Day_2.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
         - name: Day 3
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "[CLASS_ACTIVITY] Group Lab Review"
+              component:
+                - type: html
+                  file: shared_md/lab-review-instructions.md
+            - name: Introduction to Probability
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.5_probability.md
+            - name: Probability Hands On
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.5.2_probability_hands_on.md
+            - name: "[PROJECT] Second Project: Week 5 Day 3 Checklist"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_5_Day_3.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+        - name: Day 4
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "[CLASS_ACTIVITY] Group Lab Review"
+              component:
+                - type: html
+                  file: shared_md/lab-review-instructions.md
+            - name: Hypothesis Testing
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.6_hypothesis_testing.md
+            - name: Hypothesis Testing Hands On
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.6_hypothesis_testing_hands_on.md
+            - name: "[PROJECT] Second Project: Week 5 Day 4 Checklist"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_5_Day_4.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+        - name: Day 5
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "[CLASS_ACTIVITY] Group Lab Review"
+              component:
+                - type: html
+                  file: shared_md/lab-review-instructions.md
+            - name: More on Correlation and Normality
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.7_correlation_normality.md
+            - name: A/B Testing
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.8_ab_testing.md
+            - name: "[PROJECT] Second Project: Week 5 Day 5 Checklist"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_5_Day_5.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+            - name: Homework - Tableau Installation
+              component:
+                - type: html
+                  file: 0_general/tableau-installation.md
+        - name: Bonus
+          vertical:
+            - name: Streamlit
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/self_guided_lessons/streamlit.md
+
+    - name: Unit 6 - Tableau and Project 2
+      sequential:
+        - name: "!Teacher Info"
+          vertical:
+            - name: Weekly guidelines
+              component:
+                - type: html
+                  file: teacher-info/week6-readme.md
+
+        - name: Day 1
+        vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: DA Recap
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.3.0_recap.md
+            - name: Tableau
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.3_tableau.md
+            - name: "[LAB] Lab | Tableau"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/__labs_shortcuts_md__/lab_tableau.md
+                - type: deliverable
+                  display_name: eda-tableau
+                  deliverable_identifier: lab-tableau
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] Second Project: Week 6 Day 1 Checklist"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_6_Day_1.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+        - name: Day 2
+        vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "[CLASS_ACTIVITY] Group Lab Review"
+              component:
+                - type: html
+                  file: shared_md/lab-review-instructions.md
+            - name: Tableau
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.4_tableau_part_II.md
+            - name: "[LAB] Lab | Tableau Advanced"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/__labs_shortcuts_md__/lab_tableau_advanced.md
+                - type: deliverable
+                  display_name: tableau_advanced
+                  deliverable_identifier: lab_tableau_advanced
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] Second Project: Week 6 Day 2 Checklist"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_6_Day_2.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+          - name: Day 3
+          vertical:
+            - name: "[RITUAL] Stand Up"
+              component:
+                - type: html
+                  file: shared_md/stand-ups.md
+            - name: Storytelling
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.9_storytelling.md
+            - name: "[PROJECT] Second Project: Week 6 Day 3 Checklist"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_6_Day_3.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+        - name: Day 4
+          vertical:
+            - name: "[RITUAL] Stand Up"
+              component:
+                - type: html
+                  file: shared_md/stand-ups.md
+            - name: Data roles
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.10_data_roles.md
+            - name: "[PROJECT] Second Project: Week 6 Day 4 Checklist"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_6_Day_4.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+        - name: Day 5
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "[PRESENTATION] Project Presentation"
+              component:
+                - type: html
+                  file: shared_md/quest-presentations.md
+            - name: "[PROJECT] Project 2 Deliverable"
+              component:
+                - type: html
+                  file: ""
+                - type: deliverable
+                  display_name: Project 2 Deliverable
+                  deliverable_identifier: project-2
+                  deliverable_description: "Submit the url to your work below: "
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[CLASS_ACTIVITY] Module and Project Retrospective"
+              component:
+                - type: html
+                  file: 3_first_project/group_activities/module-project-retro.md
+            - name: "[CLASS_ACTIVITY] Project Code Review"
+              component:
+                - type: html
+                  file: shared_md/project-code-review.md
+            - name: "[RITUAL] Weekly Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/weekly-wrap-up.md
+            - name: "[ASSESSMENT] EDA Technical Challenge"
+              component:
+                - type: html
+                  file: shared_md/assessment-warning-and-link-to-faqs.md
+                - type: deliverable
+                  display_name: Assessment - EDA
+                  deliverable_identifier: 6421f5dcb4793f103eeba6ef
+                  deliverable_duedate: ""
+                  deliverable_description: NA
+                  deliverable_required: true
+                  deliverable_cutscore: 62
+
+    - name: Unit 8 - LLMs and Cloud Computing
+      sequential:
+        - name: Day 1
           vertical:
             - name: Intro to LLMs
               component:
@@ -961,7 +1295,7 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
-        - name: Day 4
+        - name: Day 2
           vertical:
             - name: Intro to Cloud Computing
               component:
