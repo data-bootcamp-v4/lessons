@@ -8,18 +8,13 @@ In this Mini Project you will work in pairs, and are required to organize how to
 
 ## Brief
 
-In this project, you'll start by selecting and exploring datasets of your choice from various sources like Kaggle, APIs, or through web scraping, ensuring they complement each other for a cohesive analysis. You will then formulate hypotheses related to the datasets selected. The goal is to craft a narrative using the data, so ensure the datasets can be interconnected seamlessly. You'll sketch out an Entity-Relationship Diagram (ERD) highlighting significant data fields and relationships, then proceed to create and populate a functional database. During the process, you will carry out data wrangling to clean your datasets and prepare them for analysis. You will use SQL to run queries, derive valuable insights, and summarize your findings. To conclude, you'll visualize the derived insights using Python libraries and compile a comprehensive report, encapsulating your data story from exploration to insights.
+In this project, you'll start by selecting and exploring datasets of your choice from various sources like Kaggle, APIs, or through web scraping. If you choose to use more than one, ensure they complement each other for a cohesive analysis. You will then formulate hypotheses related to the datasets selected. The goal is to craft a narrative using the data. You'll sketch out an Entity-Relationship Diagram (ERD) highlighting significant data fields and relationships, then proceed to create and populate a functional database. During the process, you will carry out data wrangling to clean your datasets and prepare them for analysis. You will use SQL to run queries, derive valuable insights, and summarize your findings. To conclude, you'll visualize the derived insights using Python libraries and compile a comprehensive report, encapsulating your data story from exploration to insights.
 
 ## Daily Tasks
 
 ### Day 1: ****Project Initiation**** & Data Selection
 
-- **Data Selection**: Begin by exploring potential datasets from a variety of sources such as CSV files (available online or in platforms like **[Kaggle](https://www.kaggle.com/datasets)**), web scraping or APIs. You may also revisit the datasets you explored in week 3. Your analysis should integrate data from at least two sources. To ensure a cohesive analysis, keep the following in mind:
-    - **Relevance and Complementarity**: Ensure that your chosen datasets are related and complement each other to build a rich narrative.
-        - **Tip**: Initiate your project with a dataset or by scraping a website, and then find an API or another CSV file that can enhance the information from your primary source.
-    - **Interconnectivity**: Your datasets should share a common ground that allows them to be interconnected, facilitating a unified analysis in your report.
-        - **Tip**: Merging datasets can be a complex process. Ideally, the datasets should have at least one column with matching data to successfully create a comprehensive dataset with enriched information.
-        - **Tip**: If merging proves to be too challenging, consider demonstrating the relationship between the datasets through visualizations.
+- **Data Selection**: Begin by exploring potential datasets from a variety of sources such as CSV files (available online or in platforms like **[Kaggle](https://www.kaggle.com/datasets)**), web scraping or APIs. You may also revisit the datasets you explored in week 3. 
 - **Business Framing**: Clearly articulate the business challenge you're addressing. Craft hypotheses to guide your exploration.
 - **Project Planning**: Map out your project's trajectory using tools like Jira or Trello.
 - **Extract**: retrieve data from various sources. Examine the data and try to understand what the fields mean before building the database.
@@ -89,8 +84,12 @@ The main deliverable is a GitHub repository with the name `sql-database`. It sho
     - Develop functions to form a complete pipeline, allowing the data model to be updated with fresh data. This should cover extraction, transformation, and loading. Ensure that your analysis can adapt to new datasets.
 - **Data Quality Assurance:**
     - Implement auxiliary functions that scrutinize the database for quality issues during updates.
-- **Complex Data Integration:**
-    - Incorporate multiple data sources (at least 3) to devise a comprehensive database schema with a minimum of five tables.
+- **Data Integration:** Incorporate multiple data sources (at least 2). To ensure a cohesive analysis, keep the following in mind:
+    - **Relevance and Complementarity**: Ensure that your chosen datasets are related and complement each other to build a rich narrative.
+        - **Tip**: Initiate your project with a dataset or by scraping a website, and then find an API or another CSV file that can enhance the information from your primary source.
+    - **Interconnectivity**: Your datasets should share a common ground that allows them to be interconnected, facilitating a unified analysis in your report.
+        - **Tip**: Merging datasets can be a complex process. Ideally, the datasets should have at least one column with matching data to successfully create a comprehensive dataset with enriched information.
+        - **Tip**: If merging proves to be too challenging, consider demonstrating the relationship between the datasets through visualizations.
 - **Advanced SQL Techniques:**
     - Harness advanced SQL methodologies, such as views and window functions, to gain deeper insights from the data.
 - **Interactive Visualizations:**
