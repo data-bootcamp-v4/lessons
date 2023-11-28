@@ -5,7 +5,7 @@ For the project requirements in full, please refer to the project brief entitled
 By the end of day, as a minimum you should have:
 
 - Select relevant datasets from sources (CSV, web scraping, APIs).
-- Ensure datasets are related and can be interconnected.
+	- If you select more than one dataset, ensure datasets are related and can be interconnected.
 - Clearly define the business challenge and create hypotheses.
 - Plan project trajectory using tools (e.g., Jira, Trello).
 - Extract and understand the data from selected sources.

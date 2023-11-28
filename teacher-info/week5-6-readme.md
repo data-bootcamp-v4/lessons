@@ -1,0 +1,1 @@
+*Note : students could complete mini projects and projects individually, subject to agreement with the Lead Teacher. This is to accommodate diverse learning preferences, individual strengths or project topic preference.*

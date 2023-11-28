@@ -54,6 +54,8 @@ In order for students to have the best learning experience, it would be ideal to
 
 Since this is week 1, it will be hard to determine since the has not been the opportunity to get to know students and what their level is and how they might work and collaborate with others. As a result, grouping the students randomly or based on prework performance is recommended for week 1. Throughout the week there is the opportunity for the teaching team to monitor how students perform and work with others in order to form groups for following quests and projects.
 
+*Note : students could complete mini projects and projects individually, subject to agreement with the Lead Teacher. This is to accommodate diverse learning preferences, individual strengths or project topic preference.*
+
 ### Labs
 
 Labs are daily, hands-on activities that students may complete individually or in pairs that allow them to apply knowledge from lectures. Labs are formed of iterations that cover the minimum requirements for completion, and often “bonus” iterations that covering more advanced concepts and content.

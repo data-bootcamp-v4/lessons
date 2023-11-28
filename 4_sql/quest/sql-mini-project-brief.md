@@ -8,18 +8,13 @@ In this Mini Project you will work in pairs, and are required to organize how to
 
 ## Brief
 
-In this project, you'll start by selecting and exploring datasets of your choice from various sources like Kaggle, APIs, or through web scraping, ensuring they complement each other for a cohesive analysis. You will then formulate hypotheses related to the datasets selected. The goal is to craft a narrative using the data, so ensure the datasets can be interconnected seamlessly. You'll sketch out an Entity-Relationship Diagram (ERD) highlighting significant data fields and relationships, then proceed to create and populate a functional database. During the process, you will carry out data wrangling to clean your datasets and prepare them for analysis. You will use SQL to run queries, derive valuable insights, and summarize your findings. To conclude, you'll visualize the derived insights using Python libraries and compile a comprehensive report, encapsulating your data story from exploration to insights.
+In this project, you'll start by selecting and exploring datasets of your choice from various sources like Kaggle, APIs, or through web scraping. If you choose to use more than one, ensure they complement each other for a cohesive analysis. You will then formulate hypotheses related to the datasets selected. The goal is to craft a narrative using the data. You'll sketch out an Entity-Relationship Diagram (ERD) highlighting significant data fields and relationships, then proceed to create and populate a functional database. During the process, you will carry out data wrangling to clean your datasets and prepare them for analysis. You will use SQL to run queries, derive valuable insights, and summarize your findings. To conclude, you'll visualize the derived insights using Python libraries and compile a comprehensive report, encapsulating your data story from exploration to insights.
 
 ## Daily Tasks
 
 ### Day 1: ****Project Initiation**** & Data Selection
 
-- **Data Selection**: Begin by exploring potential datasets from a variety of sources such as CSV files (available online or in platforms like **[Kaggle](https://www.kaggle.com/datasets)**), web scraping or APIs. You may also revisit the datasets you explored in week 3. Your analysis should integrate data from at least two sources. To ensure a cohesive analysis, keep the following in mind:
-    - **Relevance and Complementarity**: Ensure that your chosen datasets are related and complement each other to build a rich narrative.
-        - **Tip**: Initiate your project with a dataset or by scraping a website, and then find an API or another CSV file that can enhance the information from your primary source.
-    - **Interconnectivity**: Your datasets should share a common ground that allows them to be interconnected, facilitating a unified analysis in your report.
-        - **Tip**: Merging datasets can be a complex process. Ideally, the datasets should have at least one column with matching data to successfully create a comprehensive dataset with enriched information.
-        - **Tip**: If merging proves to be too challenging, consider demonstrating the relationship between the datasets through visualizations.
+- **Data Selection**: Begin by exploring potential datasets from a variety of sources such as CSV files (available online or in platforms like **[Kaggle](https://www.kaggle.com/datasets)**), web scraping or APIs. You may also revisit the datasets you explored in week 3. **In case you need help  finding a dataset, at the end of this brief, we've included a list of famous datasets that you could work with.**
 - **Business Framing**: Clearly articulate the business challenge you're addressing. Craft hypotheses to guide your exploration.
 - **Project Planning**: Map out your project's trajectory using tools like Jira or Trello.
 - **Extract**: retrieve data from various sources. Examine the data and try to understand what the fields mean before building the database.
@@ -89,8 +84,12 @@ The main deliverable is a GitHub repository with the name `sql-database`. It sho
     - Develop functions to form a complete pipeline, allowing the data model to be updated with fresh data. This should cover extraction, transformation, and loading. Ensure that your analysis can adapt to new datasets.
 - **Data Quality Assurance:**
     - Implement auxiliary functions that scrutinize the database for quality issues during updates.
-- **Complex Data Integration:**
-    - Incorporate multiple data sources (at least 3) to devise a comprehensive database schema with a minimum of five tables.
+- **Data Integration:** Incorporate multiple data sources (at least 2). To ensure a cohesive analysis, keep the following in mind:
+    - **Relevance and Complementarity**: Ensure that your chosen datasets are related and complement each other to build a rich narrative.
+        - **Tip**: Initiate your project with a dataset or by scraping a website, and then find an API or another CSV file that can enhance the information from your primary source.
+    - **Interconnectivity**: Your datasets should share a common ground that allows them to be interconnected, facilitating a unified analysis in your report.
+        - **Tip**: Merging datasets can be a complex process. Ideally, the datasets should have at least one column with matching data to successfully create a comprehensive dataset with enriched information.
+        - **Tip**: If merging proves to be too challenging, consider demonstrating the relationship between the datasets through visualizations.
 - **Advanced SQL Techniques:**
     - Harness advanced SQL methodologies, such as views and window functions, to gain deeper insights from the data.
 - **Interactive Visualizations:**
@@ -175,3 +174,57 @@ Feel free to present the project in as you feel best represents your work, but b
     - A "Thank You" note or any final thoughts.
 
 **Total**: Approximately 10 slides.
+
+## Famous Datasets
+
+Below is a list of 50 famous datasets suitable for your project.
+
+| Dataset Name                        | Source URL                                                                                               | Description                                                                                          |
+|-------------------------------------|----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| Iris                                | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/iris)                                        | A classic dataset for pattern recognition, featuring 3 species of iris plants.                       |
+| Titanic Survivor Data               | [Kaggle Titanic](https://www.kaggle.com/c/titanic)                                                       | Data about the passengers on the Titanic, useful for classification problems.                        |
+| Boston Housing Dataset              | [Kaggle Boston Housing](https://www.kaggle.com/c/boston-housing)                                         | Information about the housing values in suburbs of Boston.                                           |
+| FIFA World Cup Players              | [Kaggle FIFA 2018](https://www.kaggle.com/abecklas/fifa-world-cup)                                       | Player statistics from the FIFA World Cup 2018.                                                      |
+| Supermarket Sales                   | [Kaggle Supermarket Sales](https://www.kaggle.com/aungpyaeap/supermarket-sales)                          | Sales data for a supermarket chain.                                                                  |
+| Google Play Store Apps              | [Kaggle Google Play Store](https://www.kaggle.com/lava18/google-play-store-apps)                         | Data about apps on Google Play Store.                                                                |
+| US Elections Data                   | [Harvard Dataverse US Elections](https://dataverse.harvard.edu/dataverse/uselectiondata)                  | Comprehensive data on the US elections.                                                              |
+| Spotify Music Data                  | [Kaggle Spotify](https://www.kaggle.com/leonardopena/top50spotify2019)                                   | Dataset of top tracks on Spotify.                                                                    |
+| World Happiness Report              | [Kaggle World Happiness](https://www.kaggle.com/unsdsn/world-happiness)                                  | Survey data about the state of global happiness.                                                     |
+| Credit Card Fraud Detection         | [Kaggle Credit Card Fraud](https://www.kaggle.com/mlg-ulb/creditcardfraud)                               | Dataset for credit card fraud detection problems.                                                    |
+| Wine Quality                        | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/wine+quality)                                | Physicochemical data and quality ratings of wines.                                                   |
+| Zomato Bangalore Restaurants        | [Kaggle Zomato](https://www.kaggle.com/himanshupoddar/zomato-bangalore-restaurants)                      | Details about restaurants in Bangalore listed on Zomato.                                             |
+| New York City Airbnb Open Data      | [Kaggle Airbnb NYC](https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data)                      | Information about Airbnb listings in New York City.                                                  |
+| Adult Income                        | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/adult)                                       | Predict whether income exceeds $50K/yr based on census data.                                         |
+| Bank Marketing                      | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)                              | Data related to marketing campaigns of a Portuguese bank.                                            |
+| Car Evaluation                      | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Car+Evaluation)                              | Evaluate the acceptability of a car based on various factors.                                        |
+| Human Resources Analytics           | [Kaggle HR Analytics](https://www.kaggle.com/c/hr-analytics)                                             | Data to analyze employee turnover.                                                                   |
+| Online Retail II                    | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Online+Retail+II)                            | A dataset containing all transactions occurring for an online retail company.                        |
+| Bike Sharing Dataset                | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset)                        | Data about bike sharing systems from Washington DC.                                                  |
+| Chess (King-Rook vs. King)          | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Chess+(King-Rook+vs.+King))                  | Chess endgame database for predicting outcomes.                                                      |
+| Forest Fires                        | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Forest+Fires)                                | Predict the burned area of forest fires in Portugal.                                                 |
+| Student Performance                 | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Student+Performance)                         | Factors affecting student achievements in secondary education.                                       |
+| Wholesale Customers                 | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/wholesale+customers)                         | Data on clients of a wholesale distributor.                                                          |
+| Yeast                               | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Yeast)                                       | Predicting protein localization sites in yeast.                                                      |
+| Abalone                             | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Abalone)                                     | Predict the age of abalone from physical measurements.                                               |
+| HTRU2                               | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/HTRU2)                                       | Predicting a pulsar candidate using HTRU2 dataset.                                                   |
+| Ionosphere                          | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Ionosphere)                                  | Classify radar returns from the ionosphere as good or bad.                                           |
+| Lenses                              | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Lenses)                                      | Predictive data about the type of lenses that should be used.                                        |
+| Nursery                             | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Nursery)                                     | Nursery dataset for decision making.                                                                 |
+| Page Blocks Classification          | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Page+Blocks+Classification)                  | Classify page blocks of documents as one of five classes.                                            |
+| Poker Hand                          | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Poker+Hand)                                  | Predicting poker hands from a dataset of drawn cards.                                                |
+| Seeds                               | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/seeds)                                       | Measurements of geometrical properties of kernels belonging to different varieties of wheat.         |
+| Skin Segmentation                   | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Skin+Segmentation)                           | Skin segmentation based on RGB values.                                                               |
+| Wine                                | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/wine)                                        | Chemical analysis of wines grown in the same region in Italy.                                        |
+| Breast Cancer Wisconsin             | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic))       | Diagnostic data for breast cancer cases.                                                             |
+| Energy Efficiency                   | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Energy+efficiency)                          | Assessing energy efficiency of buildings.                                                            |
+| Handwritten Digits (Optdigits)      | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/optical+recognition+of+handwritten+digits) | Image dataset of handwritten digits for recognition.                                                 |
+| Heart Disease                       | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/heart+Disease)                               | Dataset for predicting heart disease presence.                                                       |
+| Image Segmentation                  | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Image+Segmentation)                         | Image data for segmentation tasks.                                                                   |
+| Letter Recognition                  | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Letter+Recognition)                         | Identify letter characters from various fonts and styles.                                            |
+| Magic Gamma Telescope               | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/MAGIC+Gamma+Telescope)                      | Data to simulate registration of high-energy gamma particles.                                        |
+| Mushroom                            | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Mushroom)                                    | Classify mushrooms as edible or poisonous.                                                           |
+| Internet Advertisements             | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Internet+Advertisements)                    | Predict whether an image is an advertisement or not.                                                 |
+| Libras Movement                     | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Libras+Movement)                            | Classify movements in Libras (Brazilian sign language).                                              |
+| Lymphography                        | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/Lymphography)                               | Diagnostic data for lymphography patients.                                                           |
+| EEG Eye State                       | [UCI ML Repository](https://archive.ics.uci.edu/ml/datasets/EEG+Eye+State)                               | EEG data to determine the eye state.                                                                 |
+

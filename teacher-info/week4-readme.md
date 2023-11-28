@@ -51,6 +51,8 @@ In order for students to have the best learning experience, it would be ideal to
 
 You may choose to decide to group students however you feel is most suited to the cohort.
 
+*Note : students could complete mini projects and projects individually, subject to agreement with the Lead Teacher. This is to accommodate diverse learning preferences, individual strengths or project topic preference.*
+
 ### Labs
 
 Daily, hands-on activities that students may complete individually or in pairs that allow them to apply knowledge from lectures. Labs are formed of iterations that cover the minimum requirements for completion, and often “bonus” iterations that covering more advanced concepts and content.
