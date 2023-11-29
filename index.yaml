@@ -1325,6 +1325,10 @@ course:
               component:
                 - type: html
                   file: 8_ai/project/final_project_brief.md
+            - name: "[PROJECT] Final Project Rubric"
+              component:
+                - type: html
+                  file: 8_ai/project/final_project_rubric.md
             - name: "[RITUAL] Daily Wrap Up"
               component:
                 - type: html
@@ -1342,6 +1346,10 @@ course:
               component:
                 - type: html
                   file: 8_ai/project/final_project_brief.md
+            - name: "[PROJECT] Final Project Rubric"
+              component:
+                - type: html
+                  file: 8_ai/project/final_project_rubric.md
             - name: "[RITUAL] Daily Wrap Up"
               component:
                 - type: html
