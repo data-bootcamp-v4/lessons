@@ -1255,7 +1255,7 @@ course:
                   deliverable_required: false
                   deliverable_cutscore: 62
 
-    - name: Unit 8 - LLMs and Cloud Computing
+    - name: Unit 8 - LLMs, Cloud Computing and Final Project
       sequential:
         - name: Day 1
           vertical:
@@ -1274,8 +1274,20 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
+            - name: "[PROJECT] Final Project"
+              component:
+                - type: html
+                  file: 8_ai/project/final_projec_brief.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
         - name: Day 2
           vertical:
+            - name: "[RITUAL] Stand Up"
+              component:
+                - type: html
+                  file: shared_md/stand-ups.md
             - name: Intro to Cloud Computing
               component:
                 - type: html
@@ -1291,4 +1303,67 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
+            - name: "[PROJECT] Final Project"
+              component:
+                - type: html
+                  file: 8_ai/project/final_projec_brief.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+        - name: Day 3 - 5
+          vertical:
+            - name: "[RITUAL] Stand Up"
+              component:
+                - type: html
+                  file: shared_md/stand-ups.md
+            - name: "[PROJECT] Final Project"
+              component:
+                - type: html
+                  file: 8_ai/project/final_projec_brief.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
 
+    - name: Unit 9 - Final Project
+      sequential:
+        - name: Day 1 - 4
+          vertical:
+            - name: "[RITUAL] Stand Up"
+              component:
+                - type: html
+                  file: shared_md/stand-ups.md
+            - name: "[PROJECT] Final Project"
+              component:
+                - type: html
+                  file: 8_ai/project/final_projec_brief.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+        - name: Day 5
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "[PRESENTATION] Project Presentation"
+              component:
+                - type: html
+                  file: shared_md/quest-presentations.md
+            - name: "[PROJECT] Final Project Deliverable"
+              component:
+                - type: html
+                  file: ""
+                - type: deliverable
+                  display_name: Final Project Deliverable
+                  deliverable_identifier: project-3
+                  deliverable_description: "Submit the url to your work below: "
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[RITUAL] Weekly Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/weekly-wrap-up.md
