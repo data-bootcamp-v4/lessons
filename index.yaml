@@ -1277,7 +1277,11 @@ course:
             - name: "[PROJECT] Final Project"
               component:
                 - type: html
-                  file: 8_ai/project/final_projec_brief.md
+                  file: 8_ai/project/final_project_brief.md
+            - name: "[PROJECT] Final Project"
+              component:
+                - type: html
+                  file: 8_ai/project/final_project_rubric.html
             - name: "[RITUAL] Daily Wrap Up"
               component:
                 - type: html
@@ -1306,7 +1310,7 @@ course:
             - name: "[PROJECT] Final Project"
               component:
                 - type: html
-                  file: 8_ai/project/final_projec_brief.md
+                  file: 8_ai/project/final_project_brief.md
             - name: "[RITUAL] Daily Wrap Up"
               component:
                 - type: html
@@ -1320,7 +1324,7 @@ course:
             - name: "[PROJECT] Final Project"
               component:
                 - type: html
-                  file: 8_ai/project/final_projec_brief.md
+                  file: 8_ai/project/final_project_brief.md
             - name: "[RITUAL] Daily Wrap Up"
               component:
                 - type: html
@@ -1337,7 +1341,7 @@ course:
             - name: "[PROJECT] Final Project"
               component:
                 - type: html
-                  file: 8_ai/project/final_projec_brief.md
+                  file: 8_ai/project/final_project_brief.md
             - name: "[RITUAL] Daily Wrap Up"
               component:
                 - type: html
