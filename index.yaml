@@ -1041,6 +1041,10 @@ course:
               component:
                 - type: html
                   file: shared_md/lab-review-instructions.md
+            - name: "Intro to Probability"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.11_intro_to_probability.md
             - name: "[PROJECT] Second Project: Week 5 Day 3 Checklist"
               component:
                 - type: html
@@ -1059,6 +1063,21 @@ course:
               component:
                 - type: html
                   file: shared_md/lab-review-instructions.md
+            - name: "Hypothesis Testing"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.12_hypothesis_testing.md           
+            - name: "[LAB] Intro to Probability"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/__labs_shortcuts_md__/lab_intro_prob.md
+                - type: deliverable
+                  display_name: intro-probability
+                  deliverable_identifier: lab-intro-probability
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
             - name: "[PROJECT] Second Project: Week 5 Day 4 Checklist"
               component:
                 - type: html
@@ -1081,6 +1100,17 @@ course:
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/lesson_md/5.7_correlation_normality.md
+            - name: "[LAB] Hypothesis Testing"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/__labs_shortcuts_md__/lab_intro_prob.md
+                - type: deliverable
+                  display_name: hypothesis testing
+                  deliverable_identifier: lab-hypothesis-testing
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0            
             - name: "[PROJECT] Second Project: Week 5 Day 5 Checklist"
               component:
                 - type: html
