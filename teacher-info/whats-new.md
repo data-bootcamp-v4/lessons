@@ -1,3 +1,9 @@
+## v 4.1
+**Published on February, 2024**
+
+- **New**: Lesson - Intro to Probability
+- **New**: Lesson - Hypothesis Testing
+
 ## v 4.0
 
 **Published on July, 2023**

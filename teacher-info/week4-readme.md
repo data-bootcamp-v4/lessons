@@ -10,7 +10,7 @@ In week 4, daily activities are typically split up by morning lead teacher led c
 
 The links in this schedule are to:
 
-- **Lab solutions**: [here](https://github.com/data-bootcamp-v4/solutions/tree/main/lab-solutions-sql) is the private repository. Request access from **Deborah Gabisson.**
+- **Lab solutions**: [here](https://github.com/data-bootcamp-v4/solutions/tree/main/lab-solutions-sql) is the private repository. Request access from **Frederico Raposo.**
 - **Lessons**: You can find the lessons for week 4 [here](https://github.com/data-bootcamp-v4/lessons/tree/main/4_sql).
     - In that same folder you can see the *.sql* files for the hands on examples.
     - *lesson_md:* in that folder you can find the *markdown* lessons with theory. They go along the .s*q*l files. Usually, the theory *(.md*) would go first followed by the *.sql* hands on examples.
