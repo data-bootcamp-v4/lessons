@@ -19,7 +19,7 @@ IMPORTANT: Note that the Module 2 project starts on day 1 of week 5, and is pres
 
 The links in this schedule are to:
 
-- **Lab solutions**: [here](https://github.com/data-bootcamp-v4/solutions/tree/main/lab-solutions-eda) is the private repository. Request access from **Deborah Gabisson.**
+- **Lab solutions**: [here](https://github.com/data-bootcamp-v4/solutions/tree/main/lab-solutions-eda) is the private repository. Request access from **Frederico Raposo.**
 - **Lessons**: You can find the lessons for week 5 & 6 [here](https://github.com/data-bootcamp-v4/lessons/tree/main/5_6_eda_inf_stats_tableau).
     - *lesson_md:* in that folder you can find the *markdown* lessons with theory.
 - **Assessment link is to preview (student facing)**: If you want to see the solutions, go to this [link](https://www.qualified.io/hire/assessments/6421f5dcb4793f103eeba6ef) and ask **Manouk Meliof** for credentials. Please take care to not modify anything since every bootcamp is using that same link.

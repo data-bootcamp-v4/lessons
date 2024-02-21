@@ -10,7 +10,7 @@ In week 1, daily activities are typically split up by morning lead teacher led c
 
 The links in this schedule are to:
 
-- **Lab solutions**: Its a private repository so request access from **Deborah Gabisson**
+- **Lab solutions**: Its a private repository so request access from **Frederico Raposo**
 - **Lessons**: If you want the notebook with empty code cells in order to do code-alongs in class, you can find them [here](https://github.com/data-bootcamp-v4/lessons/tree/main/1_intro_to_python/code_along_nb).
 - **Assessment link is to preview (student facing)**: If you want to see the solutions, go to this [link](https://www.qualified.io/hire/assessments/6419b7c125edc20025e5dbf2) and ask **Manouk Meliof** for credentials. Please take care to not modify anything since every bootcamp is using that same link.
 
