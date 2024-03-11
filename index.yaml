@@ -1304,7 +1304,7 @@ course:
             - name: Intro to Machine Learning Hands on
               component:
                 - type: html
-                  file: 7_ml/lesson_md/7.1_intro_to_ml_hands_on.md
+                  file: 7_ml/lesson_md/7.1.2_intro_to_ml_hands_on.md
             - name: "[LAB] Lab | Intro to Machine Learning"
               component:
                 - type: html
@@ -1341,7 +1341,7 @@ course:
             - name: Feature Engineering Hands on
               component:
                 - type: html
-                  file: 7_ml/lesson_md/7.2_feature_engineering_hands_on.md                 
+                  file: 7_ml/lesson_md/7.2.1_feature_engineering_hands_on.md                 
             - name: "[LAB] Lab | Feature Engineering"
               component:
                 - type: html
@@ -1374,7 +1374,7 @@ course:
             - name: Machine Learning Supervised Hands on
               component:
                 - type: html
-                  file: 7_ml/lesson_md/7.3_ml_supervised_hands_on.md 
+                  file: 7_ml/lesson_md/7.3.1_ml_supervised_hands_on.md 
             - name: "[PROJECT] ML Project Day 3"
               component:
                 - type: html
@@ -1392,7 +1392,7 @@ course:
             - name: Hyperparameter Tunning
               component:
                 - type: html
-                  file: 7_ml/lesson_md/7.4.1_hyperparameter_tunning.md
+                  file: 7_ml/lesson_md/7.4_hyperparameter_tunning.md
             - name: Hyperparameter Tunning Hands on
               component:
                 - type: html
@@ -1404,7 +1404,7 @@ course:
             - name: Imbalanced Hands on
               component:
                 - type: html
-                  file: 7_ml/lesson_md/7.5_imbalanced_hands_on.md
+                  file: 7_ml/lesson_md/7.5.1_imbalanced_hands_on.md
             - name: "[PROJECT] ML Project Day 4"
               component:
                 - type: html
@@ -1438,25 +1438,10 @@ course:
               component:
                 - type: html
                   file: 3_first_project/group_activities/module-project-retro.md
-            - name: "[CLASS_ACTIVITY] Project Code Review"
-              component:
-                - type: html
-                  file: shared_md/project-code-review.md
             - name: "[RITUAL] Weekly Wrap Up"
               component:
                 - type: html
                   file: shared_md/weekly-wrap-up.md
-            - name: "[ASSESSMENT] EDA Technical Challenge"
-              component:
-                - type: html
-                  file: shared_md/assessment-warning-and-link-to-faqs.md
-                - type: deliverable
-                  display_name: Assessment - EDA
-                  deliverable_identifier: 6421f5dcb4793f103eeba6ef
-                  deliverable_duedate: ""
-                  deliverable_description: NA
-                  deliverable_required: false
-                  deliverable_cutscore: 62
     - name: Unit 8 - LLMs, Cloud Computing and Final Project
       sequential:
         - name: Day 1
