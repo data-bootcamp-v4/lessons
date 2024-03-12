@@ -1129,7 +1129,6 @@ course:
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/project/self_guided_lessons/streamlit/streamlit.md
-
     - name: Unit 6 - Tableau and Project 2
       sequential:
         - name: "!Teacher Info"
@@ -1284,7 +1283,165 @@ course:
                   deliverable_description: NA
                   deliverable_required: false
                   deliverable_cutscore: 62
-
+    - name: Unit 7 - Machine Learning
+      sequential:
+        - name: "!Teacher Info"
+          vertical:
+            - name: Weekly guidelines
+              component:
+                - type: html
+                  file: teacher-info/week5-6-readme.md
+        - name: Day 1
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: Intro to Machine Learning
+              component:
+                - type: html
+                  file: 7_ml/lesson_md/7.1_intro_to_ml.md
+            - name: Intro to Machine Learning Hands on
+              component:
+                - type: html
+                  file: 7_ml/lesson_md/7.1.2_intro_to_ml_hands_on.md
+            - name: "[LAB] Lab | Intro to Machine Learning"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/__labs_shortcuts_md__/lab_tableau.md
+                - type: deliverable
+                  display_name: eda-tableau
+                  deliverable_identifier: lab-tableau
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] ML Project Day 1"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_6_Day_1.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+        - name: Day 2
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "[CLASS_ACTIVITY] Group Lab Review"
+              component:
+                - type: html
+                  file: shared_md/lab-review-instructions.md
+            - name: Feature Engineering
+              component:
+                - type: html
+                  file: 7_ml/lesson_md/7.2_feature_engineering.md
+            - name: Feature Engineering Hands on
+              component:
+                - type: html
+                  file: 7_ml/lesson_md/7.2.1_feature_engineering_hands_on.md                 
+            - name: "[LAB] Lab | Feature Engineering"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/__labs_shortcuts_md__/lab_tableau_advanced.md
+                - type: deliverable
+                  display_name: tableau_advanced
+                  deliverable_identifier: lab_tableau_advanced
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] ML Project Day 2"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_6_Day_2.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+        - name: Day 3
+          vertical:
+            - name: "[RITUAL] Stand Up"
+              component:
+                - type: html
+                  file: shared_md/stand-ups.md
+            - name: Machine Learning Supervised
+              component:
+                - type: html
+                  file: 7_ml/lesson_md/7.3_ml_supervised.md
+            - name: Machine Learning Supervised Hands on
+              component:
+                - type: html
+                  file: 7_ml/lesson_md/7.3.1_ml_supervised_hands_on.md 
+            - name: "[PROJECT] ML Project Day 3"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_6_Day_3.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+        - name: Day 4
+          vertical:
+            - name: "[RITUAL] Stand Up"
+              component:
+                - type: html
+                  file: shared_md/stand-ups.md
+            - name: Hyperparameter Tunning
+              component:
+                - type: html
+                  file: 7_ml/lesson_md/7.4_hyperparameter_tunning.md
+            - name: Hyperparameter Tunning Hands on
+              component:
+                - type: html
+                  file: 7_ml/lesson_md/7.4.1_hyperparameter_tunning_hands_on.md
+            - name: Imbalanced
+              component:
+                - type: html
+                  file: 7_ml/lesson_md/7.5_imbalanced.md
+            - name: Imbalanced Hands on
+              component:
+                - type: html
+                  file: 7_ml/lesson_md/7.5.1_imbalanced_hands_on.md
+            - name: "[PROJECT] ML Project Day 4"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_6_Day_4.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+        - name: Day 5
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "[PRESENTATION] Project Presentation"
+              component:
+                - type: html
+                  file: shared_md/quest-presentations.md
+            - name: "[PROJECT] Project 2 Deliverable"
+              component:
+                - type: html
+                  file: ""
+                - type: deliverable
+                  display_name: Project 2 Deliverable
+                  deliverable_identifier: project-2
+                  deliverable_description: "Submit the url to your work below: "
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[CLASS_ACTIVITY] IronKaggle"
+              component:
+                - type: html
+                  file: 3_first_project/group_activities/module-project-retro.md
+            - name: "[RITUAL] Weekly Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/weekly-wrap-up.md
     - name: Unit 8 - LLMs, Cloud Computing and Final Project
       sequential:
         - name: Day 1
