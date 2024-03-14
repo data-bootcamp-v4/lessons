@@ -1308,10 +1308,10 @@ course:
             - name: "[LAB] Lab | Intro to Machine Learning"
               component:
                 - type: html
-                  file: 5_6_eda_inf_stats_tableau/__labs_shortcuts_md__/lab_tableau.md
+                  file: 7_ml/__labs_shortcuts_md__/intro_to_ml.md
                 - type: deliverable
-                  display_name: eda-tableau
-                  deliverable_identifier: lab-tableau
+                  display_name: intro_to_ml
+                  deliverable_identifier: intro_to_ml
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -1319,7 +1319,7 @@ course:
             - name: "[PROJECT] ML Project Day 1"
               component:
                 - type: html
-                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_6_Day_1.md
+                  file: 7_ml/project/daily_tasks/Week_7_Day_1.md
             - name: "[RITUAL] Daily Wrap Up"
               component:
                 - type: html
@@ -1345,10 +1345,10 @@ course:
             - name: "[LAB] Lab | Feature Engineering"
               component:
                 - type: html
-                  file: 5_6_eda_inf_stats_tableau/__labs_shortcuts_md__/lab_tableau_advanced.md
+                  file: 7_ml/__labs_shortcuts_md__/feature_engineering.md
                 - type: deliverable
-                  display_name: tableau_advanced
-                  deliverable_identifier: lab_tableau_advanced
+                  display_name: feature_engineering
+                  deliverable_identifier: feature_engineering
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -1356,7 +1356,7 @@ course:
             - name: "[PROJECT] ML Project Day 2"
               component:
                 - type: html
-                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_6_Day_2.md
+                  file: 7_ml/project/daily_tasks/Week_7_Day_2.md
             - name: "[RITUAL] Daily Wrap Up"
               component:
                 - type: html
@@ -1378,7 +1378,7 @@ course:
             - name: "[PROJECT] ML Project Day 3"
               component:
                 - type: html
-                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_6_Day_3.md
+                  file: 7_ml/project/daily_tasks/Week_7_Day_3.md
             - name: "[RITUAL] Daily Wrap Up"
               component:
                 - type: html
@@ -1389,14 +1389,14 @@ course:
               component:
                 - type: html
                   file: shared_md/stand-ups.md
-            - name: Hyperparameter Tunning
+            - name: Hyperparameter Tuning
               component:
                 - type: html
-                  file: 7_ml/lesson_md/7.4_hyperparameter_tunning.md
-            - name: Hyperparameter Tunning Hands on
+                  file: 7_ml/lesson_md/7.4_hyperparameter_tuning.md
+            - name: Hyperparameter Tuning Hands on
               component:
                 - type: html
-                  file: 7_ml/lesson_md/7.4.1_hyperparameter_tunning_hands_on.md
+                  file: 7_ml/lesson_md/7.4.1_hyperparameter_tuning_hands_on.md
             - name: Imbalanced
               component:
                 - type: html
@@ -1408,7 +1408,7 @@ course:
             - name: "[PROJECT] ML Project Day 4"
               component:
                 - type: html
-                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_6_Day_4.md
+                  file: 7_ml/project/daily_tasks/Week_7_Day_4.md
             - name: "[RITUAL] Daily Wrap Up"
               component:
                 - type: html
@@ -1423,21 +1423,10 @@ course:
               component:
                 - type: html
                   file: shared_md/quest-presentations.md
-            - name: "[PROJECT] Project 2 Deliverable"
-              component:
-                - type: html
-                  file: ""
-                - type: deliverable
-                  display_name: Project 2 Deliverable
-                  deliverable_identifier: project-2
-                  deliverable_description: "Submit the url to your work below: "
-                  deliverable_duedate: ""
-                  deliverable_required: true
-                  deliverable_cutscore: 0
             - name: "[CLASS_ACTIVITY] IronKaggle"
               component:
                 - type: html
-                  file: 3_first_project/group_activities/module-project-retro.md
+                  file: 7_ml/lesson_md/7.6_ironkaggle.md
             - name: "[RITUAL] Weekly Wrap Up"
               component:
                 - type: html
