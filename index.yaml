@@ -1363,10 +1363,10 @@ course:
                   file: shared_md/daily-wrap-up.md
         - name: Day 3
           vertical:
-            - name: "[RITUAL] Stand Up"
+            - name: "[RITUAL] Daily Kick Off"
               component:
                 - type: html
-                  file: shared_md/stand-ups.md
+                  file: shared_md/daily-kick-off.md
             - name: Machine Learning Supervised
               component:
                 - type: html
@@ -1385,10 +1385,10 @@ course:
                   file: shared_md/daily-wrap-up.md
         - name: Day 4
           vertical:
-            - name: "[RITUAL] Stand Up"
+            - name: "[RITUAL] Daily Kick Off"
               component:
                 - type: html
-                  file: shared_md/stand-ups.md
+                  file: shared_md/daily-kick-off.md
             - name: Hyperparameter Tuning
               component:
                 - type: html
