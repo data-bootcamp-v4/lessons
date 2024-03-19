@@ -69,10 +69,20 @@ course:
               component:
                 - type: html
                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_data_types_extra.md
+                - type: deliverable
+                  display_name: python-data-types-extra
+                  deliverable_identifier: lab-python-data-types-extra
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
             - name: "[EXTRA] Lab | Data Structures Extended"
               component:
                 - type: html
                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_data_structures_extra.md
+                - type: deliverable
+                  display_name: python-data-structures-extra
+                  deliverable_identifier: lab-python-data-structures-extra
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
         - name: Day 2
           vertical:
             - name: "[RITUAL] Daily Kick Off"
@@ -133,10 +143,20 @@ course:
               component:
                 - type: html
                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_flow_control_extra.md
+                - type: deliverable
+                  display_name: python-flow-control-extra
+                  deliverable_identifier: lab-python-flow-control-extra
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
             - name: "[EXTRA] Lab | Functions Extended"
               component:
                 - type: html
                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_functions_extra.md
+                - type: deliverable
+                  display_name: python-functions-extra
+                  deliverable_identifier: lab-python-functions-extra
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
         - name: Day 3
           vertical:
             - name: "[RITUAL] Daily Kick Off"
@@ -182,6 +202,11 @@ course:
               component:
                 - type: html
                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_list_dict_set_comprehension_extra.md
+                - type: deliverable
+                  display_name: python-list-dict-set-comprehension-extra
+                  deliverable_identifier: lab-python-list-dict-set-comprehension-extra
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
         - name: Day 4
           vertical:
             - name: "[RITUAL] Daily Kick Off"
@@ -227,10 +252,20 @@ course:
               component:
                 - type: html
                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_error_handling_extra.md
+                - type: deliverable
+                  display_name: python-error-handling-extra
+                  deliverable_identifier: lab-python-error-handling-extra
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
             - name: "[EXTRA] Lab | Lambda Functions, Map, Reduce, Filter"
               component:
                 - type: html
                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_lambda.md
+                - type: deliverable
+                  display_name: python-lambda-map-reduce-filter
+                  deliverable_identifier: lab-python-lambda-map-reduce-filter
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
         - name: Day 5
           vertical:
             - name: "[RITUAL] Daily Kick Off"
@@ -283,6 +318,11 @@ course:
               component:
                 - type: html
                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_oop.md
+                - type: deliverable
+                  display_name: python-oop
+                  deliverable_identifier: lab-python-oop
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
         - name: Bonus Materials
           vertical:
             - name: 1.08 Regex
@@ -882,6 +922,11 @@ course:
               component:
                 - type: html
                   file: 4_sql/__labs_shortcuts_md__/lab_sql_window_functions.md
+                - type: deliverable
+                  display_name: sql-window-functions
+                  deliverable_identifier: lab-sql-window-functions
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
         - name: Day 5
           vertical:
             - name: "[RITUAL] Daily Kick Off"
