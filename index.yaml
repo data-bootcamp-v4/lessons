@@ -1319,7 +1319,7 @@ course:
             - name: "[PROJECT] ML Project Kickoff"
               component:
                 - type: html
-                  file: 7_ml/quest/daily_tasks/ml_quest.md
+                  file: 7_ml/quest/ml_quest.md
             - name: "[PROJECT] ML Project Day 1"
               component:
                 - type: html
@@ -1360,7 +1360,7 @@ course:
             - name: "[PROJECT] ML Project Day 2"
               component:
                 - type: html
-                  file: 7_ml/quest/daily_tasks/d1/ml_quest_d2.md
+                  file: 7_ml/quest/d2/ml_quest_d2.md
             - name: "[RITUAL] Daily Wrap Up"
               component:
                 - type: html
@@ -1379,6 +1379,14 @@ course:
               component:
                 - type: html
                   file: 7_ml/lesson_md/7.3.1_ml_supervised_hands_on.md
+            - name: Ensemble Methods
+              component:
+                - type: html
+                  file: 7_ml/lesson_md/7.3.2_ensemble.md
+            - name: Ensemble Methods Hands on
+              component:
+                - type: html
+                  file: 7_ml/lesson_md/7.3.2.1_ensemble_hands_on.md
             - name: "[LAB] Lab | ML Regression"
               component:
                 - type: html
@@ -1393,7 +1401,7 @@ course:
             - name: "[PROJECT] ML Project Day 3"
               component:
                 - type: html
-                  file: 7_ml/quest/daily_tasks/d1/ml_quest_d3.md
+                  file: 7_ml/quest/d3/ml_quest_d3.md
             - name: "[RITUAL] Daily Wrap Up"
               component:
                 - type: html
@@ -1445,7 +1453,7 @@ course:
             - name: "[PROJECT] ML Project Day 4"
               component:
                 - type: html
-                  file: 7_ml/quest/daily_tasks/d1/ml_quest_d4.md
+                  file: 7_ml/quest/d4/ml_quest_d4.md
             - name: "[RITUAL] Daily Wrap Up"
               component:
                 - type: html
