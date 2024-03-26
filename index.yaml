@@ -39,8 +39,8 @@ course:
                 - type: html
                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_data_structures.md
                 - type: deliverable
-                  display_name: data-structures
-                  deliverable_identifier: lab-data-structures
+                  display_name: python-data-structures
+                  deliverable_identifier: lab-python-data-structures
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -69,10 +69,20 @@ course:
               component:
                 - type: html
                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_data_types_extra.md
+                - type: deliverable
+                  display_name: python-data-types-extra
+                  deliverable_identifier: lab-python-data-types-extra
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
             - name: "[EXTRA] Lab | Data Structures Extended"
               component:
                 - type: html
                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_data_structures_extra.md
+                - type: deliverable
+                  display_name: python-data-structures-extra
+                  deliverable_identifier: lab-python-data-structures-extra
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
         - name: Day 2
           vertical:
             - name: "[RITUAL] Daily Kick Off"
@@ -100,8 +110,8 @@ course:
                 - type: html
                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_flow_control.md
                 - type: deliverable
-                  display_name: flow-control
-                  deliverable_identifier: lab-flow-control
+                  display_name: python-flow-control
+                  deliverable_identifier: lab-python-flow-control
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -111,8 +121,8 @@ course:
                 - type: html
                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_functions.md
                 - type: deliverable
-                  display_name: functions
-                  deliverable_identifier: lab-functions
+                  display_name: python-functions
+                  deliverable_identifier: lab-python-functions
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -133,10 +143,20 @@ course:
               component:
                 - type: html
                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_flow_control_extra.md
+                - type: deliverable
+                  display_name: python-flow-control-extra
+                  deliverable_identifier: lab-python-flow-control-extra
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
             - name: "[EXTRA] Lab | Functions Extended"
               component:
                 - type: html
                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_functions_extra.md
+                - type: deliverable
+                  display_name: python-functions-extra
+                  deliverable_identifier: lab-python-functions-extra
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
         - name: Day 3
           vertical:
             - name: "[RITUAL] Daily Kick Off"
@@ -160,8 +180,8 @@ course:
                 - type: html
                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_list_dict_set_comprehension.md
                 - type: deliverable
-                  display_name: comprehension
-                  deliverable_identifier: lab-comprehension
+                  display_name: python-list-dict-set-comprehension
+                  deliverable_identifier: lab-python-list-dict-set-comprehension
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -182,6 +202,11 @@ course:
               component:
                 - type: html
                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_list_dict_set_comprehension_extra.md
+                - type: deliverable
+                  display_name: python-list-dict-set-comprehension-extra
+                  deliverable_identifier: lab-python-list-dict-set-comprehension-extra
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
         - name: Day 4
           vertical:
             - name: "[RITUAL] Daily Kick Off"
@@ -205,8 +230,8 @@ course:
                 - type: html
                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_error_handling.md
                 - type: deliverable
-                  display_name: error-handling
-                  deliverable_identifier: lab-error-handling
+                  display_name: python-error-handling
+                  deliverable_identifier: lab-python-error-handling
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -227,10 +252,20 @@ course:
               component:
                 - type: html
                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_error_handling_extra.md
+                - type: deliverable
+                  display_name: python-error-handling-extra
+                  deliverable_identifier: lab-python-error-handling-extra
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
             - name: "[EXTRA] Lab | Lambda Functions, Map, Reduce, Filter"
               component:
                 - type: html
                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_lambda.md
+                - type: deliverable
+                  display_name: python-lambda-map-reduce-filter
+                  deliverable_identifier: lab-python-lambda-map-reduce-filter
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
         - name: Day 5
           vertical:
             - name: "[RITUAL] Daily Kick Off"
@@ -283,6 +318,11 @@ course:
               component:
                 - type: html
                   file: 1_intro_to_python/__labs_shortcuts_md__/lab_oop.md
+                - type: deliverable
+                  display_name: python-oop
+                  deliverable_identifier: lab-python-oop
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
         - name: Bonus Materials
           vertical:
             - name: 1.08 Regex
@@ -375,8 +415,8 @@ course:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/__labs_shortcuts_md__/lab_data_cleaning_and_formatting.md
                 - type: deliverable
-                  display_name: data-cleaning-and-formatting
-                  deliverable_identifier: lab-data-cleaning-and-formatting
+                  display_name: dw-data-cleaning-and-formatting
+                  deliverable_identifier: lab-dw-data-cleaning-and-formatting
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -420,8 +460,8 @@ course:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/__labs_shortcuts_md__/lab_data_structuring_and_combining.md
                 - type: deliverable
-                  display_name: data-structuring-and-combining
-                  deliverable_identifier: lab-data-structuring-and-combining
+                  display_name: dw-data-structuring-and-combining
+                  deliverable_identifier: lab-dw-data-structuring-and-combining
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -431,8 +471,8 @@ course:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/__labs_shortcuts_md__/lab_data_aggregation_and_filtering.md
                 - type: deliverable
-                  display_name: data-aggregation-and-filtering
-                  deliverable_identifier: lab-data-aggregation-and-filtering
+                  display_name: dw-data-aggregation-and-filtering
+                  deliverable_identifier: lab-dw-data-aggregation-and-filtering
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -512,8 +552,8 @@ course:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/__labs_shortcuts_md__/lab_web_scraping.md
                 - type: deliverable
-                  display_name: web_scraping
-                  deliverable_identifier: lab_web_scraping
+                  display_name: web-scraping
+                  deliverable_identifier: lab-web-scraping
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -707,8 +747,8 @@ course:
                 - type: html
                   file: 4_sql/__labs_shortcuts_md__/lab_sql_mysql_db_creation.md
                 - type: deliverable
-                  display_name: sql_mysql_db_creation
-                  deliverable_identifier: lab-sql_mysql_db_creation
+                  display_name: sql-mysql-db-creation
+                  deliverable_identifier: lab-sql-mysql-db-creation
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -752,8 +792,8 @@ course:
                 - type: html
                   file: 4_sql/__labs_shortcuts_md__/lab_sql_basic_queries.md
                 - type: deliverable
-                  display_name: sql_basic_queries
-                  deliverable_identifier: lab_sql_basic_queries
+                  display_name: sql-basic-queries
+                  deliverable_identifier: lab-sql-basic-queries
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -763,8 +803,8 @@ course:
                 - type: html
                   file: 4_sql/__labs_shortcuts_md__/lab_sql_agg_transformation.md
                 - type: deliverable
-                  display_name: sql_agg_transformation
-                  deliverable_identifier: lab_sql_agg_transformation
+                  display_name: sql-aggregation-and-transformation
+                  deliverable_identifier: lab-sql-aggregation-and-transformation
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -808,8 +848,8 @@ course:
                 - type: html
                   file: 4_sql/__labs_shortcuts_md__/lab_sql_joins.md
                 - type: deliverable
-                  display_name: sql_joins
-                  deliverable_identifier: lab_sql_joins
+                  display_name: sql-joins
+                  deliverable_identifier: lab-sql-joins
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -819,8 +859,8 @@ course:
                 - type: html
                   file: 4_sql/__labs_shortcuts_md__/lab_sql_subqueries.md
                 - type: deliverable
-                  display_name: sql_subqueries
-                  deliverable_identifier: lab_sql_subqueries
+                  display_name: sql-subqueries
+                  deliverable_identifier: lab-sql-subqueries
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -864,8 +904,8 @@ course:
                 - type: html
                   file: 4_sql/__labs_shortcuts_md__/lab_sql_temp_tables_views_ctes.md
                 - type: deliverable
-                  display_name: sql_temp_tables_views_ctes
-                  deliverable_identifier: lab_sql_temp_tables_views_ctes
+                  display_name: sql-temp-tables-views-ctes
+                  deliverable_identifier: lab-sql-temp-tables-views-ctes
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -882,6 +922,11 @@ course:
               component:
                 - type: html
                   file: 4_sql/__labs_shortcuts_md__/lab_sql_window_functions.md
+                - type: deliverable
+                  display_name: sql-window-functions
+                  deliverable_identifier: lab-sql-window-functions
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
         - name: Day 5
           vertical:
             - name: "[RITUAL] Daily Kick Off"
@@ -916,8 +961,8 @@ course:
                 - type: html
                   file: 4_sql/__labs_shortcuts_md__/lab_sql_python_connection.md
                 - type: deliverable
-                  display_name: sql_python_connection
-                  deliverable_identifier: lab_sql_python_connection
+                  display_name: sql-python-connection
+                  deliverable_identifier: lab-sql-python-connection
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -1067,7 +1112,7 @@ course:
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/lesson_md/5.12_hypothesis_testing.md           
-            - name: "[LAB] Intro to Probability"
+            - name: "[LAB]  Intro to Probability"
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/__labs_shortcuts_md__/lab_intro_prob.md
@@ -1100,12 +1145,12 @@ course:
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/lesson_md/5.7_correlation_normality.md
-            - name: "[LAB] Hypothesis Testing"
+            - name: "[LAB]  Hypothesis Testing"
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/__labs_shortcuts_md__/lab_intro_prob.md
                 - type: deliverable
-                  display_name: hypothesis testing
+                  display_name: hypothesis-testing
                   deliverable_identifier: lab-hypothesis-testing
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
@@ -1156,7 +1201,7 @@ course:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/__labs_shortcuts_md__/lab_tableau.md
                 - type: deliverable
-                  display_name: eda-tableau
+                  display_name: tableau
                   deliverable_identifier: lab-tableau
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
@@ -1189,8 +1234,8 @@ course:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/__labs_shortcuts_md__/lab_tableau_advanced.md
                 - type: deliverable
-                  display_name: tableau_advanced
-                  deliverable_identifier: lab_tableau_advanced
+                  display_name: tableau-advanced
+                  deliverable_identifier: lab-tableau-advanced
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -1310,8 +1355,8 @@ course:
                 - type: html
                   file: 7_ml/__labs_shortcuts_md__/lab_intro_to_ml.md
                 - type: deliverable
-                  display_name: lab_intro_to_ml
-                  deliverable_identifier: lab_intro_to_ml
+                  display_name: intro-to-ml
+                  deliverable_identifier: lab-intro-to-ml
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -1351,8 +1396,8 @@ course:
                 - type: html
                   file: 7_ml/__labs_shortcuts_md__/lab_feature_engineering.md
                 - type: deliverable
-                  display_name: lab_feature_engineering
-                  deliverable_identifier: lab_feature_engineering
+                  display_name: feature-engineering
+                  deliverable_identifier: lab-feature-engineering
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -1392,8 +1437,8 @@ course:
                 - type: html
                   file: 7_ml/__labs_shortcuts_md__/lab_regression.md
                 - type: deliverable
-                  display_name: lab_regression
-                  deliverable_identifier: lab_regression
+                  display_name: regression
+                  deliverable_identifier: lab-regression
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -1433,8 +1478,8 @@ course:
                 - type: html
                   file: 7_ml/__labs_shortcuts_md__/lab_classification.md
                 - type: deliverable
-                  display_name: lab_classification
-                  deliverable_identifier: lab_classification
+                  display_name: classification
+                  deliverable_identifier: lab-classification
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -1444,8 +1489,8 @@ course:
                 - type: html
                   file: 7_ml/__labs_shortcuts_md__/lab_hyperparameter_tuning.md
                 - type: deliverable
-                  display_name: lab_hyperparameter_tuning
-                  deliverable_identifier: lab_hyperparameter_tuning
+                  display_name: hyperparameter-tuning
+                  deliverable_identifier: lab-hyperparameter-tuning
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -1477,8 +1522,8 @@ course:
                 - type: html
                   file: 7_ml/__labs_shortcuts_md__/lab_imbalanced.md
                 - type: deliverable
-                  display_name: lab_imbalanced
-                  deliverable_identifier: lab_imbalanced
+                  display_name: imbalanced
+                  deliverable_identifier: lab-imbalanced
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
