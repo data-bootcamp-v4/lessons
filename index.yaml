@@ -1432,13 +1432,13 @@ course:
               component:
                 - type: html
                   file: 7_ml/lesson_md/7.3.2.1_ensemble_hands_on.md
-            - name: "[LAB] Lab | ML Regression"
+            - name: "[LAB] Lab | ML Ensemble"
               component:
                 - type: html
-                  file: 7_ml/__labs_shortcuts_md__/lab_regression.md
+                  file: 7_ml/__labs_shortcuts_md__/lab_ensemble.md
                 - type: deliverable
-                  display_name: regression
-                  deliverable_identifier: lab-regression
+                  display_name: ensemble
+                  deliverable_identifier: lab_ensemble
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
@@ -1473,17 +1473,6 @@ course:
               component:
                 - type: html
                   file: 7_ml/lesson_md/7.5.1_imbalanced_hands_on.md
-            - name: "[LAB] Lab | ML Classification"
-              component:
-                - type: html
-                  file: 7_ml/__labs_shortcuts_md__/lab_classification.md
-                - type: deliverable
-                  display_name: classification
-                  deliverable_identifier: lab-classification
-                  deliverable_description: Submit the url to your work below
-                  deliverable_duedate: ""
-                  deliverable_required: true
-                  deliverable_cutscore: 0 
             - name: "[LAB] Lab | Hyperparameter Tuning"
               component:
                 - type: html
