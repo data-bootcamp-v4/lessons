@@ -10,7 +10,7 @@ Welcome to the end of Module 1 Project! You will apply all of the skills and kno
 
 ## Setup
 
-In this project you will work in pairs. As you create your Kanban board for project management purposes during the project, you can decide how to best divide the work between you.
+In this project, you will work in pairs. As you create your Kanban board for project management purposes during the project, you can decide how to best divide the work between you.
 
 ## Typical Day
 
@@ -27,7 +27,7 @@ To keep on track, the following is a recommended set of daily tasks you can refe
 - Create a Kanban board for project management purposes.
 - Set up a GitHub repository and practice working collaboratively on the repository.
 
-Note: On Monday morning there is an activity dedicating to helping you get started on the project that covers the bullet points above.
+Note: On Monday morning, there is an activity dedicated to helping you get started on the project that covers the bullet points above.
 
 ### Day 2 & 3 (Tuesday & Wednesday)
 
@@ -56,7 +56,7 @@ Note: On Monday morning there is an activity dedicating to helping you get start
 
 ### Day 5 (Friday)
 
-- Deliver presentation in class.
+- Deliver a presentation in class.
 - Project & Module retrospective.
 
 ## Project Brief
@@ -71,7 +71,7 @@ You will choose a theme and gather the data by connecting to an API or scraping 
     - Introduction to your project.
     - Data you are using (and comments, main challenges, strengths & weaknesses, etc...)
     - Questions you want to answer (maybe divided by different topics). Each question should include a conclusion written in a markdown cell.
-    - Describe the methodology you are using, explaining the steps upi took for data cleaning, analysis, etc.
+    - Describe the methodology you are using, explaining the steps you took for data cleaning, analysis, etc.
     - Conclusions after your analysis.
     - Further questions.
     - Links to data sources and Trello.
@@ -102,14 +102,14 @@ You must submit the following deliverables in order for the project to be deemed
     - The URL of the **slides for your project presentation**.
 - Presentation: When presenting your work, there are many important factors to consider, such as the content of your presentation and the way you deliver it.
     - Remember to allow time to rehearse the presentation beforehand.
-    - See “Presentation” section below for guidelines.
+    - See the “Presentation” section below for guidelines.
 - Paste your own repository’s link in the Student Portal Project Activity.
     - Note: Each student should have their own repository to submit.
 - Links to the data you are using (sources) and your Kanban board (Trello) in the README.
 
 ## Rubric
 
-In order to assess your project and ensure all requirements are met, a **rubric** will be used. This rubric is used to **evaluate your project** by your teaching staff but also to **communicate** what constitutes incomplete, acceptable and excellent performance across each of the learning outcomes for the project. Take some time to review the rubric that is in Student Portal and ask your teacher any questions about it if necessary.
+In order to assess your project and ensure all requirements are met, a **rubric** will be used. This rubric is used to **evaluate your project** by your teaching staff but also to **communicate** what constitutes incomplete, acceptable and excellent performance across each of the learning outcomes for the project. Take some time to review the rubric that is in the Student Portal and ask your teacher any questions about it if necessary.
 
 ## The Presentation
 
