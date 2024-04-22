@@ -1438,7 +1438,7 @@ course:
                   file: 7_ml/__labs_shortcuts_md__/lab_ensemble.md
                 - type: deliverable
                   display_name: ensemble
-                  deliverable_identifier: lab_ensemble
+                  deliverable_identifier: lab-ensemble
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
