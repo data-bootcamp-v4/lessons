@@ -1,3 +1,14 @@
+## v 4.2
+**Published on May, 2024**
+
+- **New**: Lesson - Intro to ML
+- **New**: Lesson - Feature Engineering
+- **New**: Lesson - Ensemble Methods
+- **New**: Lesson - Hyperparameter Tuning
+- **New**: Lesson - Imbalanced
+- **New**: Activity - Ironkaggle
+- **New**: Weekly KO - Week 7
+
 ## v 4.1
 **Published on February, 2024**
 
