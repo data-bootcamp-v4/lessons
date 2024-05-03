@@ -1368,7 +1368,7 @@ course:
             - name: "[PROJECT] ML Project Day 1"
               component:
                 - type: html
-                  file: 7_ml/quest/daily_tasks/d1/ml_quest_d1.md
+                  file: 7_ml/quest/d1/ml_quest_d1.md
             - name: "[RITUAL] Daily Wrap Up"
               component:
                 - type: html
