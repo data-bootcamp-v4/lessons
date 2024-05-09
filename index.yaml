@@ -1148,7 +1148,7 @@ course:
             - name: "[LAB]  Hypothesis Testing"
               component:
                 - type: html
-                  file: 5_6_eda_inf_stats_tableau/__labs_shortcuts_md__/lab_intro_prob.md
+                  file: 5_6_eda_inf_stats_tableau/__labs_shortcuts_md__/lab_hypothesis_testing.md
                 - type: deliverable
                   display_name: hypothesis-testing
                   deliverable_identifier: lab-hypothesis-testing
