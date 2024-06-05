@@ -1,0 +1,121 @@
+---
+course:
+  name: DAPT - v.4.0
+  number: MASTER
+  version: "4.0"
+  chapter:
+    - name: "!Teacher Info"
+      sequential:
+        - name: "-"
+          vertical:
+            - name: What's new
+              component:
+                - type: html
+                  file: teacher-info/whats-new.md
+    - name: Unit 1 - Introduction to Python
+      sequential:
+        - name: "!Teacher Info"
+          vertical:
+            - name: Unit 1 guidelines
+              component:
+                - type: html
+                  file: teacher-info/week1-readme.md
+            - name: Qualified Platform
+              component:
+                - type: html
+                  file: teacher-info/qualified.md
+        - name: Day 1
+          vertical:
+            - name: "[PRESENTATION] Unit Kick Off"
+              component:
+                - type: html
+                  file: shared_md/weekly-ko/week-1-ko-d1.md
+            - name: 1.01 Data Structures - Prework Review
+              component:
+                - type: html
+                  file: 1_intro_to_python/lesson_md/1.1_data_structures.md
+            - name: "[MINI_PROJECT] Quest: Escape Room"
+              component:
+                - type: html
+                  file: 1_intro_to_python/quest/d1/python-analytics-quest-brief.md
+        - name: Day 2
+          vertical:
+            - name: "Git Installation"
+              component:
+                - type: html
+                  file: 0_general/git-installation.md
+            - name: "[MINI_PROJECT] Quest - day 1: Kickstarting the Python Analytics Quest"
+              component:
+                - type: html
+                  file: 1_intro_to_python/quest/d1/day-1-quest-instructions.md
+            - name: "[MINI_PROJECT] Quest - Self Guided: Interpreting Python Errors"
+              component:
+                - type: html
+                  file: 1_intro_to_python/quest/d1/self-guided-interpreting-python-errors.md
+            - name: Learn to code, not (AI cheat) code
+              component:
+                - type: html
+                  file: 0_general/ironhack-chatbot-da.md
+            - name: "[LAB] Lab | Data Structures"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_data_structures.md
+                - type: deliverable
+                  display_name: python-data-structures
+                  deliverable_identifier: lab-python-data-structures
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+        - name: Day 3
+          vertical:
+            - name: "[CLASS_ACTIVITY] Group Lab Review"
+              component:
+                - type: html
+                  file: shared_md/lab-review-instructions.md
+            - name: 1.02 Flow Control - Prework Review
+              component:
+                - type: html
+                  file: 1_intro_to_python/lesson_md/1.2_flow_control.md
+            - name: 1.03 Introduction to Functions - Prework Review
+              component:
+                - type: html
+                  file: 1_intro_to_python/lesson_md/1.3_functions.md
+            - name: Git and GitHub for labs
+              component:
+                - type: html
+                  file: 0_general/git_github_for_labs.md
+            - name: "[MINI_PROJECT] Quest - day 2: Flow Control Fun and Coding Best Practices"
+              component:
+                - type: html
+                  file: 1_intro_to_python/quest/d2/day-2-quest-instructions.md
+            - name: "[MINI_PROJECT] Quest - Self Guided: Coding Best Practices"
+              component:
+                - type: html
+                  file: 1_intro_to_python/quest/d2/self-guided-coding-best-practices.md
+            - name: "Git & Github for labs Demo"
+              component:
+                - type: html
+                  file: 0_general/git-labs-demo.md
+            - name: "[LAB] Lab | Flow Control"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_flow_control.md
+                - type: deliverable
+                  display_name: python-flow-control
+                  deliverable_identifier: lab-python-flow-control
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[LAB] Lab | Functions"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_functions.md
+                - type: deliverable
+                  display_name: python-functions
+                  deliverable_identifier: lab-python-functions
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
