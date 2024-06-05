@@ -119,3 +119,116 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
+            - name: "[EXTRA] Lab | Flow Control Extended"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_flow_control_extra.md
+                - type: deliverable
+                  display_name: python-flow-control-extra
+                  deliverable_identifier: lab-python-flow-control-extra
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
+            - name: "[EXTRA] Lab | Functions Extended"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_functions_extra.md
+                - type: deliverable
+                  display_name: python-functions-extra
+                  deliverable_identifier: lab-python-functions-extra
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
+    - name: Unit 2 - Introduction to Python
+      sequential:
+        - name: "!Teacher Info"
+          vertical:
+            - name: Unit 1 guidelines
+              component:
+                - type: html
+                  file: teacher-info/week1-readme.md
+            - name: Qualified Platform
+              component:
+                - type: html
+                  file: teacher-info/qualified.md
+        - name: Day 1
+          vertical:
+            - name: 1.03 More on Functions
+              component:
+                - type: html
+                  file: 1_intro_to_python/lesson_md/1.3_functions.md
+            - name: 1.04 List, dict, set comprehension
+              component:
+                - type: html
+                  file: 1_intro_to_python/lesson_md/1.4_list_dict_set_comprehension.md
+        - name: Day 2
+          vertical:
+            - name: "[MINI_PROJECT] Quest - day 3: Modules Mastery and Refining Functions"
+              component:
+                - type: html
+                  file: 1_intro_to_python/quest/d3/day-3-quest-instructions.md
+            - name: "[LAB] Lab | List, dict, set comprehension"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_list_dict_set_comprehension.md
+                - type: deliverable
+                  display_name: python-list-dict-set-comprehension
+                  deliverable_identifier: lab-python-list-dict-set-comprehension
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[EXTRA] Lab | List, dict, set comprehension Extended"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_list_dict_set_comprehension_extra.md
+                - type: deliverable
+                  display_name: python-list-dict-set-comprehension-extra
+                  deliverable_identifier: lab-python-list-dict-set-comprehension-extra
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
+        - name: Day 3
+          vertical:
+            - name: "[CLASS_ACTIVITY] Group Lab Review"
+              component:
+                - type: html
+                  file: shared_md/lab-review-instructions.md
+            - name: 1.05 Lambda functions, Map, Reduce and Filter
+              component:
+                - type: html
+                  file: 1_intro_to_python/lesson_md/1.5_lambda_functions.md
+            - name: 1.06 Error Handling
+              component:
+                - type: html
+                  file: 1_intro_to_python/lesson_md/1.6_error_handling.md
+            - name: "[MINI_PROJECT] Quest - day 4: Testing and Finishing the Quest"
+              component:
+                - type: html
+                  file: 1_intro_to_python/quest/d4/day-4-quest-instructions.md
+            - name: "[LAB] Lab | Error Handling"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_error_handling.md
+                - type: deliverable
+                  display_name: python-error-handling
+                  deliverable_identifier: lab-python-error-handling
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[EXTRA] Lab | Error Handling Extended"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_error_handling_extra.md
+                - type: deliverable
+                  display_name: python-error-handling-extra
+                  deliverable_identifier: lab-python-error-handling-extra
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
+            - name: "[EXTRA] Lab | Lambda Functions, Map, Reduce, Filter"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_lambda.md
+                - type: deliverable
+                  display_name: python-lambda-map-reduce-filter
+                  deliverable_identifier: lab-python-lambda-map-reduce-filter
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
