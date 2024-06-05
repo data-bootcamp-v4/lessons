@@ -232,3 +232,93 @@ course:
                   deliverable_identifier: lab-python-lambda-map-reduce-filter
                   deliverable_description: Submit the url to your work here.
                   deliverable_duedate: ''
+        - name: Bonus Materials
+          vertical:
+            - name: 1.08 Regex
+              component:
+                - type: html
+                  file: 1_intro_to_python/lesson_md/1.8_regex.md
+            - name: 1.09 Iterators and Generators
+              component:
+                - type: html
+                  file: 1_intro_to_python/lesson_md/1.9_iterators_generators.md
+    - name: Unit 3 - Introduction to Python
+      sequential:
+        - name: Day 1
+          vertical:
+            - name: "[PRESENTATION] Quest Presentation"
+              component:
+                - type: html
+                  file: shared_md/quest-presentations.md
+            - name: 1.07 Object Oriented Programming
+              component:
+                - type: html
+                  file: 1_intro_to_python/lesson_md/1.7_oop.md
+        - name: Day 2
+          vertical:
+            - name: "[ASSESSMENT] Python Technical Challenge"
+              component:
+                - type: html
+                  file: shared_md/assessment-warning-and-link-to-faqs.md
+                - type: deliverable
+                  display_name: Assessment - Python
+                  deliverable_identifier: 6419b7c125edc20025e5dbf2
+                  deliverable_description: NA
+                  deliverable_duedate: ""
+                  deliverable_required: false
+                  deliverable_cutscore: 60
+            - name: "[EXTRA] Lab | Object Oriented Programming"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_oop.md
+                - type: deliverable
+                  display_name: python-oop
+                  deliverable_identifier: lab-python-oop
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
+        - name: Day 3
+          vertical:
+            - name: Introduction to Data Wrangling
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/lesson_md/2.0_intro_to_dw.md
+            - name: Introduction to Pandas
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/lesson_md/2.1_pandas.md
+            - name: "[LAB] Lab | Pandas"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/__labs_shortcuts_md__/lab_pandas.md
+                - type: deliverable
+                  display_name: dw-pandas
+                  deliverable_identifier: lab-dw-pandas
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[MINI_PROJECT] Quest: Shark Attacks"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/data-wrangling-quest-shark-attacks.md
+            - name: "[MINI_PROJECT] Quest: Shark Attacks"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/data-wrangling-quest-shark-attacks.md
+            - name: "[MINI_PROJECT] Quest Rubric"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/students-rubric-quest-W2.md
+            - name: "[MINI_PROJECT] Self-guided: Hypothesis Statement & Business Opportunities"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/d1/2.0_self_guided_hypothesis_statement_business_opportunities.md
+            - name: "[MINI_PROJECT] Self-guided: From Idea to Implementation: MVP, Scoping, and Roadmapping"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/d1/2.0_self_guieded_mvp_scoping_roadmapping.md
+            - name: "[MINI_PROJECT] Quest: Day 1 Checklist"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/d1/day-1-checklist-shark-attacks.md
+            
