@@ -593,6 +593,7 @@ course:
                 - type: html
                   file: 4_sql/lesson_md/4.2.1_sql_queries_hands_on.md  
         - name: Day 2
+          vertical: 
             - name: "[LAB] Lab | SQL Basic Queries"
               component:
                 - type: html
@@ -1211,21 +1212,39 @@ course:
                 - type: html
                   file: 8_ai/project/final_project_brief.md
     - name: Unit 21 - Final Project
+      sequential:
+        - name: Day 1-3
+          vertical:
             - name: "[PROJECT] Final Project"
               component:
                 - type: html
                   file: 8_ai/project/final_project_brief.md
     - name: Unit 22 - Final Project
+      sequential:
+        - name: Day 1-3
+          vertical:
             - name: "[PROJECT] Final Project"
               component:
                 - type: html
                   file: 8_ai/project/final_project_brief.md
     - name: Unit 23 - Final Project
+      sequential:
+        - name: Day 1-3
+          vertical:
             - name: "[PROJECT] Final Project"
               component:
                 - type: html
                   file: 8_ai/project/final_project_brief.md
     - name: Unit 24 - Final Project
+      sequential:
+        - name: Day 1-2
+          vertical:
+            - name: "[PROJECT] Final Project"
+              component:
+                - type: html
+                  file: 8_ai/project/final_project_brief.md
+        - name: Day 3
+          vertical:
             - name: "[PRESENTATION] Project Presentation"
               component:
                 - type: html
