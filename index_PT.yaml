@@ -593,6 +593,7 @@ course:
                 - type: html
                   file: 4_sql/lesson_md/4.2.1_sql_queries_hands_on.md  
         - name: Day 2
+          vertical:
             - name: "[LAB] Lab | SQL Basic Queries"
               component:
                 - type: html
