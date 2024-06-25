@@ -321,4 +321,833 @@ course:
               component:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/quest/d1/day-1-checklist-shark-attacks.md
+    - name: Unit 4 - Data Wrangling
+      sequential:
+        - name: Day 1
+          vertical:
+            - name: Data Cleaning and Data Manipulation
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/lesson_md/2.2_cleaning_and_data_manipulation.md
+        - name: Day 2
+          vertical:
+            - name: "[LAB] Lab | Data Cleaning and Formatting"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/__labs_shortcuts_md__/lab_data_cleaning_and_formatting.md
+                - type: deliverable
+                  display_name: dw-data-cleaning-and-formatting
+                  deliverable_identifier: lab-dw-data-cleaning-and-formatting
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[MINI_PROJECT] Quest: Day 2 Checklist"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/d2/day-2-checklist-shark-attacks.md
+        - name: Day 3
+          vertical:
+            - name: "[CLASS_ACTIVITY] Group Lab Review"
+              component:
+                - type: html
+                  file: shared_md/lab-review-instructions.md
+            - name: Data Structuring and Combining
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/lesson_md/2.3_combining_structuring_data.md
+            - name: Aggregating Data
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/lesson_md/2.4_aggregating_data.md
+            - name: "[LAB] Lab | Data Structuring and Combining"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/__labs_shortcuts_md__/lab_data_structuring_and_combining.md
+                - type: deliverable
+                  display_name: dw-data-structuring-and-combining
+                  deliverable_identifier: lab-dw-data-structuring-and-combining
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[LAB] Lab | Data Aggregation and Filtering"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/__labs_shortcuts_md__/lab_data_aggregation_and_filtering.md
+                - type: deliverable
+                  display_name: dw-data-aggregation-and-filtering
+                  deliverable_identifier: lab-dw-data-aggregation-and-filtering
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[MINI_PROJECT] Self-guided: Introduction to Exploratory Data Analysis (EDA)"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/d3/2.2_self_guided_basic_eda.md
+            - name: "[MINI_PROJECT] Quest: Day 3 Checklist"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/d3/day-3-checklist-shark-attacks.md
+    - name: Unit 5 - Data Wrangling
+      sequential:
+        - name: Day 1
+          vertical:
+            - name: APIs
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/lesson_md/2.5_apis.md
+        - name: Day 2
+          vertical:
+            - name: "[LAB] Lab | APIs"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/__labs_shortcuts_md__/lab_apis.md
+                - type: deliverable
+                  display_name: apis
+                  deliverable_identifier: lab-apis
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[MINI_PROJECT] Quest: Day 4 Checklist"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/d4/day-4-checklist-shark-attacks.md
+        - name: Day 3
+          vertical:
+            - name: "[PRESENTATION] Quest Presentation"
+              component:
+                - type: html
+                  file: shared_md/quest-presentations.md
+            - name: Web Scraping
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/lesson_md/2.6_web_scraping.md
+            - name: "[LAB] Lab | Web Scraping"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/__labs_shortcuts_md__/lab_web_scraping.md
+                - type: deliverable
+                  display_name: web-scraping
+                  deliverable_identifier: lab-web-scraping
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[ASSESSMENT] Data Wrangling Technical Challenge"
+              component:
+                - type: html
+                  file: shared_md/assessment-warning-and-link-to-faqs.md
+                - type: deliverable
+                  display_name: Assessment - DW
+                  deliverable_identifier: 641a0a5ea425240036a6d8c1
+                  deliverable_duedate: ""
+                  deliverable_description: NA
+                  deliverable_required: false
+                  deliverable_cutscore: 50
+        - name: Bonus Materials - Homework
+          vertical:
+            - name: Command Line - Intro
+              component:
+                - type: html
+                  file: 0_general/command-line-intro.md
+            - name: Command Line - Managing Files
+              component:
+                - type: html
+                  file: 0_general/cli-manage-files.md
+            - name: Git & GitHub Review
+              component:
+                - type: html
+                  file: 0_general/git-0-review.md
+    - name: Unit 6 - Module 1 Project
+      sequential:
+        - name: Day 1
+          vertical:
+            - name: Git and Github - More on Git Commands
+              component:
+                - type: html
+                  file: 0_general/git-1-more-commands.md
+            - name: Git and GitHub - Fork and Clone
+              component:
+                - type: html
+                  file: 0_general/git-2-fork-clone.md
+            - name: Git and GitHub - Collaboration
+              component:
+                - type: html
+                  file: 0_general/git-3-git-github-collaboration.md
+            - name: Environments
+              component:
+                - type: html
+                  file: 0_general/environments.md                     
+            - name: Agile
+              component:
+                - type: html
+                  file: 0_general/agile.md
+        - name: Day 2
+          vertical:
+            - name: "[CLASS_ACTIVITY] Preparation for Project"
+              component:
+                - type: html
+                  file: 3_first_project/group_activities/project-ko-activity.md
+            - name: "[PROJECT] Project Rubric"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/students-rubric-quest-W2.md
+            - name: "[PROJECT] First Project: Data Wrangling and Retrieval"
+              component:
+                - type: html
+                  file: 3_first_project/week3-project-brief.md
+        - name: Day 3
+          vertical:
+            - name: "[PROJECT] First Project: Data Wrangling and Retrieval"
+              component:
+                - type: html
+                  file: 3_first_project/week3-project-brief.md
+    - name: Unit 7 - Module 1 Project
+      sequential:
+        - name: Day 1
+          vertical:
+            - name: "[PROJECT] First Project: Data Wrangling and Retrieval"
+              component:
+                - type: html
+                  file: 3_first_project/week3-project-brief.md
+        - name: Day 2
+          vertical:
+            - name: "[PROJECT] First Project: Data Wrangling and Retrieval"
+              component:
+                - type: html
+                  file: 3_first_project/week3-project-brief.md
+        - name: Day 3
+          vertical:
+            - name: "[PROJECT] First Project: Data Wrangling and Retrieval"
+              component:
+                - type: html
+                  file: 3_first_project/week3-project-brief.md
+    - name: Unit 8 - Module 1 Project & SQL
+      sequential:
+        - name: Day 1
+          vertical:
+            - name: "[PRESENTATION] Quest Presentation"
+              component:
+                - type: html
+                  file: shared_md/quest-presentations.md
+            - name: "[CLASS_ACTIVITY] Module and Project Retrospective"
+              component:
+                - type: html
+                  file: 3_first_project/group_activities/module-project-retro.md
+        - name: Day 2
+          vertical:
+            - name: "[CLASS_ACTIVITY] Project Code Review"
+              component:
+                - type: html
+                  file: shared_md/project-code-review.md
+            - name: "[SELF_GUIDED] Homework: SQL Installation"
+              component:
+                - type: html
+                  file: 0_general/sql-installation.md
+        - name: Day 3
+          vertical:
+            - name: Introduction to Databases
+              component:
+                - type: html
+                  file: 4_sql/lesson_md/4.0_intro_to_db.md
+            - name: Introduction to SQL
+              component:
+                - type: html
+                  file: 4_sql/lesson_md/4.1_intro_sql_workbench.md
+            - name: "[LAB] Lab | MySQL Database Creation"
+              component:
+                - type: html
+                  file: 4_sql/__labs_shortcuts_md__/lab_sql_mysql_db_creation.md
+                - type: deliverable
+                  display_name: sql-mysql-db-creation
+                  deliverable_identifier: lab-sql-mysql-db-creation
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[MINI_PROJECT] Mini Project - SQL: From Data to Insight"
+              component:
+                - type: html
+                  file: 4_sql/quest/sql-mini-project-brief.md
+            - name: "[MINI_PROJECT] Mini Project Rubric"
+              component:
+                - type: html
+                  file: 4_sql/quest/students-rubric-quest-W4.md
+            - name: "[MINI_PROJECT] Mini Project: Day 1 Checklist"
+              component:
+                - type: html
+                  file: 4_sql/quest/sql-mini-project-day-1-checklist.md
+    - name: Unit 9 - SQL
+      sequential:
+        - name: Day 1
+          vertical:
+            - name: Basic SQL Queries
+              component:
+                - type: html
+                  file: 4_sql/lesson_md/4.2_sql_queries.md
+            - name: Basic SQL Queries Hands On
+              component:
+                - type: html
+                  file: 4_sql/lesson_md/4.2.1_sql_queries_hands_on.md  
+        - name: Day 2
+            - name: "[LAB] Lab | SQL Basic Queries"
+              component:
+                - type: html
+                  file: 4_sql/__labs_shortcuts_md__/lab_sql_basic_queries.md
+                - type: deliverable
+                  display_name: sql-basic-queries
+                  deliverable_identifier: lab-sql-basic-queries
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[LAB] Lab | SQL Data Aggregation and Transformation"
+              component:
+                - type: html
+                  file: 4_sql/__labs_shortcuts_md__/lab_sql_agg_transformation.md
+                - type: deliverable
+                  display_name: sql-aggregation-and-transformation
+                  deliverable_identifier: lab-sql-aggregation-and-transformation
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[MINI_PROJECT] Mini Project: Day 2 Checklist"
+              component:
+                - type: html
+                  file: 4_sql/quest/sql-mini-project-day-2-checklist.md
+        - name: Day 3
+          vertical:
+            - name: "[CLASS_ACTIVITY] Group Lab Review"
+              component:
+                - type: html
+                  file: shared_md/lab-review-instructions.md
+            - name: SQL Joins
+              component:
+                - type: html
+                  file: 4_sql/lesson_md/4.3_sql_joins.md
+            - name: SQL Joins Hands On
+              component:
+                - type: html
+                  file: 4_sql/lesson_md/4.3.1_sql_joins_hands_on.md  
+            - name: SQL Subqueries
+              component:
+                - type: html
+                  file: 4_sql/lesson_md/4.4_sql_subqueries.md
+            - name: SQL Subqueries Hands On
+              component:
+                - type: html
+                  file: 4_sql/lesson_md/4.4.1_sql_subqueries_hands_on.md  
+            - name: "[LAB] Lab | SQL Joins"
+              component:
+                - type: html
+                  file: 4_sql/__labs_shortcuts_md__/lab_sql_joins.md
+                - type: deliverable
+                  display_name: sql-joins
+                  deliverable_identifier: lab-sql-joins
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[LAB] Lab | SQL Subqueries"
+              component:
+                - type: html
+                  file: 4_sql/__labs_shortcuts_md__/lab_sql_subqueries.md
+                - type: deliverable
+                  display_name: sql-subqueries
+                  deliverable_identifier: lab-sql-subqueries
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[MINI_PROJECT] Mini Project: Day 3 Checklist"
+              component:
+                - type: html
+                  file: 4_sql/quest/sql-mini-project-day-3-checklist.md
+    - name: Unit 10 - SQL
+      sequential:
+        - name: Day 1
+          vertical:
+            - name: SQL Temporary Tables, Views and CTEs
+              component:
+                - type: html
+                  file: 4_sql/lesson_md/4.5_sql_temp_tables_views_ctes.md
+            - name: SQL Temporary Tables, Views and CTEs Hands On
+              component:
+                - type: html
+                  file: 4_sql/lesson_md/4.5.1_sql_temp_tables_views_ctes_hands_on.md  
+            - name: SQL Window Functions
+              component:
+                - type: html
+                  file: 4_sql/lesson_md/4.6_sql_window_functions.md
+            - name: SQL Window Functions Hands On
+              component:
+                - type: html
+                  file: 4_sql/lesson_md/4.6.1_sql_window_functions_hands_on.md  
+        - name: Day 2
+          vertical:
+            - name: "[LAB] Lab | Temporary Tables, Views and CTEs"
+              component:
+                - type: html
+                  file: 4_sql/__labs_shortcuts_md__/lab_sql_temp_tables_views_ctes.md
+                - type: deliverable
+                  display_name: sql-temp-tables-views-ctes
+                  deliverable_identifier: lab-sql-temp-tables-views-ctes
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[MINI_PROJECT] Mini Project: Day 4 Checklist"
+              component:
+                - type: html
+                  file: 4_sql/quest/sql-mini-project-day-4-checklist.md
+        - name: Day 3
+          vertical:
+            - name: "[PRESENTATION] Quest Presentation"
+              component:
+                - type: html
+                  file: shared_md/quest-presentations.md
+            - name: Connecting SQL and Python
+              component:
+                - type: html
+                  file: 4_sql/lesson_md/4.7_sql_python.md
+            - name: "[CLASS_ACTIVITY] Group Activity: SQL Game"
+              component:
+                - type: html
+                  file: 4_sql/group_activities/sql_game.md
+            - name: "[LAB] Lab | Connecting Python to SQL"
+              component:
+                - type: html
+                  file: 4_sql/__labs_shortcuts_md__/lab_sql_python_connection.md
+                - type: deliverable
+                  display_name: sql-python-connection
+                  deliverable_identifier: lab-sql-python-connection
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: Qualified Review
+              component:
+                - type: html
+                  file: shared_md/qualified.md
+            - name: "[ASSESSMENT] SQL Technical Challenge"
+              component:
+                - type: html
+                  file: shared_md/assessment-warning-and-link-to-faqs.md
+                - type: deliverable
+                  display_name: Assessment - SQL
+                  deliverable_identifier: 641c882b891fea00130fc538
+                  deliverable_duedate: ""
+                  deliverable_description: NA
+                  deliverable_required: false
+                  deliverable_cutscore: 66
+    - name: Unit 11 - Statistics
+      sequential:
+        - name: Day 1
+          vertical:
+            - name: Introduction to EDA and Univariate Analysis
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.1_intro_to_eda_and_univariate.md
+            - name: EDA Univariate Analysis Hands On
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.1.2_intro_to_eda_and_univariate_hands_on.md
+        - name: Day 2
+          vertical:
+            - name: "[LAB] Lab | EDA Univariate Analysis"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/__labs_shortcuts_md__/lab_eda_univariate.md
+                - type: deliverable
+                  display_name: eda-univariate
+                  deliverable_identifier: lab-eda-univariate
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] Project 2"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/project-2-brief.md
+            - name: "[PROJECT] Project Rubric"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/students-rubric-quest-W5-6.md
+            - name: "[PROJECT] Second Project: Day 1 Checklist"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_5_Day_1.md
+        - name: Day 3
+          vertical:
+            - name: "[CLASS_ACTIVITY] Group Lab Review"
+              component:
+                - type: html
+                  file: shared_md/lab-review-instructions.md
+            - name: EDA Bivariate Analysis
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.2_eda_bivariate_analysis.md
+            - name: EDA Bivariate Analysis Hands On
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.2.2_eda_bivariate_analysis_hands_on.md
+            - name: "[LAB] Lab | EDA Bivariate Analysis"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/__labs_shortcuts_md__/lab_eda_bivariate.md
+                - type: deliverable
+                  display_name: eda-bivariate
+                  deliverable_identifier: lab-eda-bivariate
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] Second Project: Day 2 Checklist"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_5_Day_2.md
+    - name: Unit 12 - Statistics
+      sequential:
+        - name: Day 1
+          vertical:
+            - name: "Intro to Probability"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.11_intro_to_probability.md
+        - name: Day 2
+          vertical:
+            - name: "[PROJECT] Second Project: Day 3 Checklist"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_5_Day_3.md
+        - name: Day 3
+          vertical:
+            - name: "Intro to Probability"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.11_intro_to_probability.md
+            - name: "Hypothesis Testing"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.12_hypothesis_testing.md        
+            - name: "[LAB]  Intro to Probability"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/__labs_shortcuts_md__/lab_intro_prob.md
+                - type: deliverable
+                  display_name: intro-probability
+                  deliverable_identifier: lab-intro-probability
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] Second Project: Day 4 Checklist"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_5_Day_4.md
+    - name: Unit 13 - Statistics & Tableau
+      sequential:
+        - name: Day 1
+          vertical:
+            - name: "Hypothesis Testing"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.12_hypothesis_testing.md  
+            - name: More on Correlation and Normality
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.7_correlation_normality.md
+        - name: Day 2
+          vertical:
+            - name: "[LAB]  Hypothesis Testing"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/__labs_shortcuts_md__/lab_hypothesis_testing.md
+                - type: deliverable
+                  display_name: hypothesis-testing
+                  deliverable_identifier: lab-hypothesis-testing
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] Second Project: Day 5 Checklist"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_5_Day_5.md
+        - name: Day 3
+          vertical:
+            - name: DA Recap
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.3.0_recap.md
+            - name: Tableau
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.3_tableau.md
+            - name: "[LAB] Lab | Tableau"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/__labs_shortcuts_md__/lab_tableau.md
+                - type: deliverable
+                  display_name: tableau
+                  deliverable_identifier: lab-tableau
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] Second Project: Day 6 Checklist"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_6_Day_1.md
+    - name: Unit 14 - Tableau
+      sequential:
+        - name: Day 1
+          vertical:
+            - name: Tableau
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.4_tableau_part_II.md
+        - name: Day 2
+          vertical:
+            - name: "[LAB] Lab | Tableau Advanced"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/__labs_shortcuts_md__/lab_tableau_advanced.md
+                - type: deliverable
+                  display_name: tableau-advanced
+                  deliverable_identifier: lab-tableau-advanced
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] Second Project: Day 7 Checklist"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_6_Day_2.md
+        - name: Day 3
+          vertical:
+            - name: Storytelling
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.9_storytelling.md
+            - name: Data roles
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.10_data_roles.md
+            - name: "[PROJECT] Second Project: Day 8 Checklist"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_6_Day_3.md
+    - name: Unit 15 - Module 2 Project
+      sequential:
+        - name: Day 1
+          vertical:
+            - name: "[PROJECT] Second Project: Day 9 Checklist"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_6_Day_4.md
+        - name: Day 2
+          vertical:
+            - name: "[PROJECT] Second Project: Day 10 Checklist"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_6_Day_4.md
+        - name: Day 3
+          vertical:
+            - name: "[PRESENTATION] Project Presentation"
+              component:
+                - type: html
+                  file: shared_md/quest-presentations.md
+            - name: "[PROJECT] Project 2 Deliverable"
+              component:
+                - type: html
+                  file: ""
+                - type: deliverable
+                  display_name: Project 2 Deliverable
+                  deliverable_identifier: project-2
+                  deliverable_description: "Submit the url to your work below: "
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[CLASS_ACTIVITY] Module and Project Retrospective"
+              component:
+                - type: html
+                  file: 3_first_project/group_activities/module-project-retro.md
+            - name: "[CLASS_ACTIVITY] Project Code Review"
+              component:
+                - type: html
+                  file: shared_md/project-code-review.md
+            - name: "[ASSESSMENT] EDA Technical Challenge"
+              component:
+                - type: html
+                  file: shared_md/assessment-warning-and-link-to-faqs.md
+                - type: deliverable
+                  display_name: Assessment - EDA
+                  deliverable_identifier: 6421f5dcb4793f103eeba6ef
+                  deliverable_duedate: ""
+                  deliverable_description: NA
+                  deliverable_required: false
+                  deliverable_cutscore: 62
+    - name: Unit 16 - Machine Learning
+      sequential:
+        - name: Day 1
+          vertical:
+            - name: "[PRESENTATION] Quest Presentation"
+              component:
+                - type: html
+                  file: shared_md/quest-presentations.md
+            - name: 1.07 Object Oriented Programming
+              component:
+                - type: html
+                  file: 1_intro_to_python/lesson_md/1.7_oop.md
+        - name: Day 2
+          vertical:
+            - name: "[ASSESSMENT] Python Technical Challenge"
+              component:
+                - type: html
+                  file: shared_md/assessment-warning-and-link-to-faqs.md
+                - type: deliverable
+                  display_name: Assessment - Python
+                  deliverable_identifier: 6419b7c125edc20025e5dbf2
+                  deliverable_description: NA
+                  deliverable_duedate: ""
+                  deliverable_required: false
+                  deliverable_cutscore: 60
+            - name: "[EXTRA] Lab | Object Oriented Programming"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_oop.md
+                - type: deliverable
+                  display_name: python-oop
+                  deliverable_identifier: lab-python-oop
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
+        - name: Day 3
+          vertical:
+            - name: Introduction to Data Wrangling
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/lesson_md/2.0_intro_to_dw.md
+            - name: Introduction to Pandas
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/lesson_md/2.1_pandas.md
+            - name: "[LAB] Lab | Pandas"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/__labs_shortcuts_md__/lab_pandas.md
+                - type: deliverable
+                  display_name: dw-pandas
+                  deliverable_identifier: lab-dw-pandas
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[MINI_PROJECT] Quest: Shark Attacks"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/data-wrangling-quest-shark-attacks.md
+            - name: "[MINI_PROJECT] Quest: Shark Attacks"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/data-wrangling-quest-shark-attacks.md
+            - name: "[MINI_PROJECT] Quest Rubric"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/students-rubric-quest-W2.md
+            - name: "[MINI_PROJECT] Self-guided: Hypothesis Statement & Business Opportunities"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/d1/2.0_self_guided_hypothesis_statement_business_opportunities.md
+            - name: "[MINI_PROJECT] Self-guided: From Idea to Implementation: MVP, Scoping, and Roadmapping"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/d1/2.0_self_guieded_mvp_scoping_roadmapping.md
+            - name: "[MINI_PROJECT] Quest: Day 1 Checklist"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/d1/day-1-checklist-shark-attacks.md
+    - name: Unit 17 - Machine Learning
+      sequential:
+        - name: Day 1
+          vertical:
+            - name: "[PRESENTATION] Quest Presentation"
+              component:
+                - type: html
+                  file: shared_md/quest-presentations.md
+            - name: 1.07 Object Oriented Programming
+              component:
+                - type: html
+                  file: 1_intro_to_python/lesson_md/1.7_oop.md
+        - name: Day 2
+          vertical:
+            - name: "[ASSESSMENT] Python Technical Challenge"
+              component:
+                - type: html
+                  file: shared_md/assessment-warning-and-link-to-faqs.md
+                - type: deliverable
+                  display_name: Assessment - Python
+                  deliverable_identifier: 6419b7c125edc20025e5dbf2
+                  deliverable_description: NA
+                  deliverable_duedate: ""
+                  deliverable_required: false
+                  deliverable_cutscore: 60
+            - name: "[EXTRA] Lab | Object Oriented Programming"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_oop.md
+                - type: deliverable
+                  display_name: python-oop
+                  deliverable_identifier: lab-python-oop
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
+        - name: Day 3
+          vertical:
+            - name: Introduction to Data Wrangling
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/lesson_md/2.0_intro_to_dw.md
+            - name: Introduction to Pandas
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/lesson_md/2.1_pandas.md
+            - name: "[LAB] Lab | Pandas"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/__labs_shortcuts_md__/lab_pandas.md
+                - type: deliverable
+                  display_name: dw-pandas
+                  deliverable_identifier: lab-dw-pandas
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[MINI_PROJECT] Quest: Shark Attacks"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/data-wrangling-quest-shark-attacks.md
+            - name: "[MINI_PROJECT] Quest: Shark Attacks"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/data-wrangling-quest-shark-attacks.md
+            - name: "[MINI_PROJECT] Quest Rubric"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/students-rubric-quest-W2.md
+            - name: "[MINI_PROJECT] Self-guided: Hypothesis Statement & Business Opportunities"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/d1/2.0_self_guided_hypothesis_statement_business_opportunities.md
+            - name: "[MINI_PROJECT] Self-guided: From Idea to Implementation: MVP, Scoping, and Roadmapping"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/d1/2.0_self_guieded_mvp_scoping_roadmapping.md
+            - name: "[MINI_PROJECT] Quest: Day 1 Checklist"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/d1/day-1-checklist-shark-attacks.md
             
