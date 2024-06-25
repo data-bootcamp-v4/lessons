@@ -593,7 +593,6 @@ course:
                 - type: html
                   file: 4_sql/lesson_md/4.2.1_sql_queries_hands_on.md  
         - name: Day 2
-          vertical:
             - name: "[LAB] Lab | SQL Basic Queries"
               component:
                 - type: html
@@ -997,158 +996,248 @@ course:
       sequential:
         - name: Day 1
           vertical:
-            - name: "[PRESENTATION] Quest Presentation"
+            - name: Intro to Machine Learning
               component:
                 - type: html
-                  file: shared_md/quest-presentations.md
-            - name: 1.07 Object Oriented Programming
+                  file: 7_ml/lesson_md/7.1_intro_to_ml.md
+            - name: Intro to Machine Learning Hands on
               component:
                 - type: html
-                  file: 1_intro_to_python/lesson_md/1.7_oop.md
+                  file: 7_ml/lesson_md/7.1.2_intro_to_ml_hands_on.md
         - name: Day 2
           vertical:
-            - name: "[ASSESSMENT] Python Technical Challenge"
+            - name: "[LAB] Lab | Intro to Machine Learning"
               component:
                 - type: html
-                  file: shared_md/assessment-warning-and-link-to-faqs.md
+                  file: 7_ml/__labs_shortcuts_md__/lab_intro_to_ml.md
                 - type: deliverable
-                  display_name: Assessment - Python
-                  deliverable_identifier: 6419b7c125edc20025e5dbf2
-                  deliverable_description: NA
-                  deliverable_duedate: ""
-                  deliverable_required: false
-                  deliverable_cutscore: 60
-            - name: "[EXTRA] Lab | Object Oriented Programming"
-              component:
-                - type: html
-                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_oop.md
-                - type: deliverable
-                  display_name: python-oop
-                  deliverable_identifier: lab-python-oop
-                  deliverable_description: Submit the url to your work here.
-                  deliverable_duedate: ''
-        - name: Day 3
-          vertical:
-            - name: Introduction to Data Wrangling
-              component:
-                - type: html
-                  file: 2_data_wrangling_and_retrieval/lesson_md/2.0_intro_to_dw.md
-            - name: Introduction to Pandas
-              component:
-                - type: html
-                  file: 2_data_wrangling_and_retrieval/lesson_md/2.1_pandas.md
-            - name: "[LAB] Lab | Pandas"
-              component:
-                - type: html
-                  file: 2_data_wrangling_and_retrieval/__labs_shortcuts_md__/lab_pandas.md
-                - type: deliverable
-                  display_name: dw-pandas
-                  deliverable_identifier: lab-dw-pandas
+                  display_name: intro-to-ml
+                  deliverable_identifier: lab-intro-to-ml
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
-            - name: "[MINI_PROJECT] Quest: Shark Attacks"
+            - name: "[PROJECT] ML Project Kickoff"
               component:
                 - type: html
-                  file: 2_data_wrangling_and_retrieval/quest/data-wrangling-quest-shark-attacks.md
-            - name: "[MINI_PROJECT] Quest: Shark Attacks"
+                  file: 7_ml/quest/ml_quest.md
+        - name: Day 3
+          vertical:
+            - name: Feature Engineering
               component:
                 - type: html
-                  file: 2_data_wrangling_and_retrieval/quest/data-wrangling-quest-shark-attacks.md
-            - name: "[MINI_PROJECT] Quest Rubric"
+                  file: 7_ml/lesson_md/7.2_feature_engineering.md
+            - name: Feature Engineering Hands on
               component:
                 - type: html
-                  file: 2_data_wrangling_and_retrieval/quest/students-rubric-quest-W2.md
-            - name: "[MINI_PROJECT] Self-guided: Hypothesis Statement & Business Opportunities"
+                  file: 7_ml/lesson_md/7.2.1_feature_engineering_hands_on.md 
+            - name: "[LAB] Lab | Feature Engineering"
               component:
                 - type: html
-                  file: 2_data_wrangling_and_retrieval/quest/d1/2.0_self_guided_hypothesis_statement_business_opportunities.md
-            - name: "[MINI_PROJECT] Self-guided: From Idea to Implementation: MVP, Scoping, and Roadmapping"
+                  file: 7_ml/__labs_shortcuts_md__/lab_feature_engineering.md
+                - type: deliverable
+                  display_name: feature-engineering
+                  deliverable_identifier: lab-feature-engineering
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] ML Project Day 1"
               component:
                 - type: html
-                  file: 2_data_wrangling_and_retrieval/quest/d1/2.0_self_guieded_mvp_scoping_roadmapping.md
-            - name: "[MINI_PROJECT] Quest: Day 1 Checklist"
-              component:
-                - type: html
-                  file: 2_data_wrangling_and_retrieval/quest/d1/day-1-checklist-shark-attacks.md
+                  file: 7_ml/quest/d1/ml_quest_d1.md
     - name: Unit 17 - Machine Learning
       sequential:
         - name: Day 1
           vertical:
-            - name: "[PRESENTATION] Quest Presentation"
+            - name: Machine Learning Supervised
               component:
                 - type: html
-                  file: shared_md/quest-presentations.md
-            - name: 1.07 Object Oriented Programming
+                  file: 7_ml/lesson_md/7.3_ml_supervised.md
+            - name: Machine Learning Supervised Hands on
               component:
                 - type: html
-                  file: 1_intro_to_python/lesson_md/1.7_oop.md
+                  file: 7_ml/lesson_md/7.3.1_ml_supervised_hands_on.md
         - name: Day 2
           vertical:
-            - name: "[ASSESSMENT] Python Technical Challenge"
+            - name: "[PROJECT] ML Project Day 2"
               component:
                 - type: html
-                  file: shared_md/assessment-warning-and-link-to-faqs.md
-                - type: deliverable
-                  display_name: Assessment - Python
-                  deliverable_identifier: 6419b7c125edc20025e5dbf2
-                  deliverable_description: NA
-                  deliverable_duedate: ""
-                  deliverable_required: false
-                  deliverable_cutscore: 60
-            - name: "[EXTRA] Lab | Object Oriented Programming"
-              component:
-                - type: html
-                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_oop.md
-                - type: deliverable
-                  display_name: python-oop
-                  deliverable_identifier: lab-python-oop
-                  deliverable_description: Submit the url to your work here.
-                  deliverable_duedate: ''
+                  file: 7_ml/quest/d2/ml_quest_d2.md
         - name: Day 3
           vertical:
-            - name: Introduction to Data Wrangling
+            - name: Ensemble Methods
               component:
                 - type: html
-                  file: 2_data_wrangling_and_retrieval/lesson_md/2.0_intro_to_dw.md
-            - name: Introduction to Pandas
+                  file: 7_ml/lesson_md/7.3.2_ensemble.md
+            - name: Ensemble Methods Hands on
               component:
                 - type: html
-                  file: 2_data_wrangling_and_retrieval/lesson_md/2.1_pandas.md
-            - name: "[LAB] Lab | Pandas"
+                  file: 7_ml/lesson_md/7.3.2.1_ensemble_hands_on.md
+            - name: "[LAB] Lab | ML Ensemble"
               component:
                 - type: html
-                  file: 2_data_wrangling_and_retrieval/__labs_shortcuts_md__/lab_pandas.md
+                  file: 7_ml/__labs_shortcuts_md__/lab_ensemble.md
                 - type: deliverable
-                  display_name: dw-pandas
-                  deliverable_identifier: lab-dw-pandas
+                  display_name: ensemble
+                  deliverable_identifier: lab-ensemble
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0 
+            - name: "[PROJECT] ML Project Day 3"
+              component:
+                - type: html
+                  file: 7_ml/quest/d3/ml_quest_d3.md
+    - name: Unit 18 - Machine Learning
+      sequential:
+        - name: Day 1
+          vertical:
+            - name: Hyperparameter Tuning
+              component:
+                - type: html
+                  file: 7_ml/lesson_md/7.4_hyperparameter_tuning.md
+            - name: Hyperparameter Tuning Hands on
+              component:
+                - type: html
+                  file: 7_ml/lesson_md/7.4.1_hyperparameter_tuning_hands_on.md
+        - name: Day 2
+          vertical:
+            - name: "[LAB] Lab | Hyperparameter Tuning"
+              component:
+                - type: html
+                  file: 7_ml/__labs_shortcuts_md__/lab_hyperparameter_tuning.md
+                - type: deliverable
+                  display_name: hyperparameter-tuning
+                  deliverable_identifier: lab-hyperparameter-tuning
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0 
+            - name: "[PROJECT] ML Project Day 4"
+              component:
+                - type: html
+                  file: 7_ml/quest/d2/ml_quest_d4.md
+        - name: Day 3
+          vertical:
+            - name: "[CLASS_ACTIVITY] IronKaggle"
+              component:
+                - type: html
+                  file: 7_ml/lesson_md/7.6_ironkaggle.md
+    - name: Unit 19 - Machine Learning
+      sequential:
+        - name: Day 1
+          vertical:
+            - name: Imbalanced
+              component:
+                - type: html
+                  file: 7_ml/lesson_md/7.5_imbalanced.md
+            - name: Imbalanced Hands on
+              component:
+                - type: html
+                  file: 7_ml/lesson_md/7.5.1_imbalanced_hands_on.md
+        - name: Day 2
+          vertical:
+            - name: "[SELF_GUIDED] Intro to Cloud Computing"
+              component:
+                - type: html
+                  file: 8_ai/lesson_md/8.4_cloud.md
+            - name: "[CLASS_ACTIVITY] Cloud Computing Projects"
+              component:
+                - type: html
+                  file: 8_ai/group_activities/8.4_mini_project_cloud.md
+                - type: deliverable
+                  display_name: cloud
+                  deliverable_identifier: group-activity-cloud
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
-            - name: "[MINI_PROJECT] Quest: Shark Attacks"
+            - name: "[LAB] Lab | Imbalanced"
               component:
                 - type: html
-                  file: 2_data_wrangling_and_retrieval/quest/data-wrangling-quest-shark-attacks.md
-            - name: "[MINI_PROJECT] Quest: Shark Attacks"
+                  file: 7_ml/__labs_shortcuts_md__/lab_imbalanced.md
+                - type: deliverable
+                  display_name: imbalanced
+                  deliverable_identifier: lab-imbalanced
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 
+        - name: Day 3
+          vertical:
+            - name: Intro to LLMs
               component:
                 - type: html
-                  file: 2_data_wrangling_and_retrieval/quest/data-wrangling-quest-shark-attacks.md
-            - name: "[MINI_PROJECT] Quest Rubric"
+                  file: 8_ai/lesson_md/8.3_llms.md
+            - name: "[CLASS_ACTIVITY] Large Language Models APIs"
               component:
                 - type: html
-                  file: 2_data_wrangling_and_retrieval/quest/students-rubric-quest-W2.md
-            - name: "[MINI_PROJECT] Self-guided: Hypothesis Statement & Business Opportunities"
+                  file: 8_ai/group_activities/8.3_mini_project_llms.md
+                - type: deliverable
+                  display_name: llms
+                  deliverable_identifier: group-activity-llms
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 
+    - name: Unit 20 - Machine Learning & Final Project
+      sequential:
+        - name: Day 1
+          vertical:
+            - name: "[PRESENTATION] Project Presentation"
               component:
                 - type: html
-                  file: 2_data_wrangling_and_retrieval/quest/d1/2.0_self_guided_hypothesis_statement_business_opportunities.md
-            - name: "[MINI_PROJECT] Self-guided: From Idea to Implementation: MVP, Scoping, and Roadmapping"
+                  file: shared_md/quest-presentations.md
+            - name: "[CLASS_ACTIVITY] IronKaggle Review"
+        - name: Day 2
+          vertical:
+            - name: "[RITUAL] Stand Up"
               component:
                 - type: html
-                  file: 2_data_wrangling_and_retrieval/quest/d1/2.0_self_guieded_mvp_scoping_roadmapping.md
-            - name: "[MINI_PROJECT] Quest: Day 1 Checklist"
+                  file: shared_md/stand-ups.md
+            - name: "[PROJECT] Final Project"
               component:
                 - type: html
-                  file: 2_data_wrangling_and_retrieval/quest/d1/day-1-checklist-shark-attacks.md
-            
+                  file: 8_ai/project/final_project_brief.md
+            - name: "[PROJECT] Final Project Rubric"
+              component:
+                - type: html
+                  file: 8_ai/project/final_project_rubric.md
+        - name: Day 3
+          vertical:
+            - name: "[PROJECT] Final Project"
+              component:
+                - type: html
+                  file: 8_ai/project/final_project_brief.md
+    - name: Unit 21 - Final Project
+            - name: "[PROJECT] Final Project"
+              component:
+                - type: html
+                  file: 8_ai/project/final_project_brief.md
+    - name: Unit 22 - Final Project
+            - name: "[PROJECT] Final Project"
+              component:
+                - type: html
+                  file: 8_ai/project/final_project_brief.md
+    - name: Unit 23 - Final Project
+            - name: "[PROJECT] Final Project"
+              component:
+                - type: html
+                  file: 8_ai/project/final_project_brief.md
+    - name: Unit 24 - Final Project
+            - name: "[PRESENTATION] Project Presentation"
+              component:
+                - type: html
+                  file: shared_md/quest-presentations.md
+            - name: "[PROJECT] Final Project Deliverable"
+              component:
+                - type: html
+                  file: ""
+                - type: deliverable
+                  display_name: Final Project Deliverable
+                  deliverable_identifier: project-3
+                  deliverable_description: "Submit the url to your work below: "
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
