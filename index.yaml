@@ -1767,7 +1767,7 @@ course:
             - name: "Neural Network Example"
               component:
                 - type: html
-                  file: 10_extraweek/lesson_md/11.5_nn_example.md
+                  file: 11_extraweek/lesson_md/11.5_nn_example.md
 
 
 
