@@ -1645,3 +1645,119 @@ course:
               component:
                 - type: html
                   file: shared_md/weekly-wrap-up.md
+    - name: Unit 10 - Extra Week 1
+      sequential:
+        - name: Day 1 
+          vertical:
+            - name: Recap Web Scraping & Spotify Structure
+              component:
+                - type: html
+                  file: 10_extraweek/lesson_md/10.1_ws_api.md           
+            - name: "[PROJECT] Gnod Project"
+              component:
+                - type: html
+                  file: 10_extraweek/quest/Case_Study_Gnod_Song_Recommender.md
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+        - name: Day 2
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "Unsupervised Learning Methods"
+              component:
+                - type: html
+                  file: 10_extraweek/lesson_md/10.3_unsupervised_learning.md
+        - name: Day 3
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "Unsupervised Learning Metrics"
+              component:
+                - type: html
+                  file: 10_extraweek/lesson_md/10.4_unsupervised_learning_pt2.md
+        - name: Day 4
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "Streamlit"
+              component:
+                - type: html
+                  file: 10_extraweek/lesson_md/10.5_streamlit_introduction.md
+        - name: Day 5
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "PCA Introduction"
+              component:
+                - type: html
+                  file: 10_extraweek/lesson_md/10.6_pca_introduction.md
+    - name: Unit 11 - Extra Week 2
+      sequential:
+        - name: Day 1 
+          vertical:
+            - name: Google Cloud Platform
+              component:
+                - type: html
+                  file: 11_extraweek/lesson_md/11.01_bigquery.md           
+            - name: "[RITUAL] Daily Wrap Up"
+              component:
+                - type: html
+                  file: shared_md/daily-wrap-up.md
+        - name: Day 2
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "Numpy"
+              component:
+                - type: html
+                  file: 11_extraweek/lesson_md/11.1_numpy.md  
+        - name: Day 3
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "Introduction PyTorch Tensors"
+              component:
+                - type: html
+                  file: 11_extraweek/lesson_md/11.2_intro_tensors.md
+            - name: "Simple Neural Network"
+              component:
+                - type: html
+                  file: 11_extraweek/lesson_md/11.3_simple_nn.md
+        - name: Day 4
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "Build an LLM"
+              component:
+                - type: html
+                  file: 11_extraweek/lesson_md/11.4_building_llm.md
+        - name: Day 5
+          vertical:
+            - name: "[RITUAL] Daily Kick Off"
+              component:
+                - type: html
+                  file: shared_md/daily-kick-off.md
+            - name: "Neural Network Example"
+              component:
+                - type: html
+                  file: 10_extraweek/lesson_md/11.5_nn_example.md
+
+
+
+
