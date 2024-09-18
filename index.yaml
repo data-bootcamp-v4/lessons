@@ -1690,17 +1690,28 @@ course:
             - name: "Streamlit"
               component:
                 - type: html
-                  file: 10_extraweek/lesson_md/10.4_streamlit_introduction.md
+                  file: 10_extraweek/lesson_md/10.4_streamlit.md
         - name: Day 5
           vertical:
             - name: "[RITUAL] Daily Kick Off"
               component:
                 - type: html
                   file: shared_md/daily-kick-off.md
+            - name: "[PROJECT] Week 10 Deliverable"
+              component:
+                - type: html
+                  file: ""
+                - type: deliverable
+                  display_name: Week 10 Deliverable
+                  deliverable_identifier: quest_w10
+                  deliverable_description: "Submit the url to your work below: "
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
             - name: "PCA Introduction"
               component:
                 - type: html
-                  file: 10_extraweek/lesson_md/10.5_pca_introduction.md
+                  file: 10_extraweek/lesson_md/10.5_pca.md
     - name: Unit 11 - Extra Week 2
       sequential:
         - name: Day 1 
