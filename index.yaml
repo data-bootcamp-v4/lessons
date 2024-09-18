@@ -1670,7 +1670,7 @@ course:
             - name: "Unsupervised Learning Methods"
               component:
                 - type: html
-                  file: 10_extraweek/lesson_md/10.3_unsupervised_learning.md
+                  file: 10_extraweek/lesson_md/10.2_unsupervised_learning.md
         - name: Day 3
           vertical:
             - name: "[RITUAL] Daily Kick Off"
@@ -1680,7 +1680,7 @@ course:
             - name: "Unsupervised Learning Metrics"
               component:
                 - type: html
-                  file: 10_extraweek/lesson_md/10.4_unsupervised_learning_pt2.md
+                  file: 10_extraweek/lesson_md/10.3_unsupervised_learning_pt2.md
         - name: Day 4
           vertical:
             - name: "[RITUAL] Daily Kick Off"
@@ -1690,7 +1690,7 @@ course:
             - name: "Streamlit"
               component:
                 - type: html
-                  file: 10_extraweek/lesson_md/10.5_streamlit_introduction.md
+                  file: 10_extraweek/lesson_md/10.4_streamlit_introduction.md
         - name: Day 5
           vertical:
             - name: "[RITUAL] Daily Kick Off"
@@ -1700,7 +1700,7 @@ course:
             - name: "PCA Introduction"
               component:
                 - type: html
-                  file: 10_extraweek/lesson_md/10.6_pca_introduction.md
+                  file: 10_extraweek/lesson_md/10.5_pca_introduction.md
     - name: Unit 11 - Extra Week 2
       sequential:
         - name: Day 1 
