@@ -1258,6 +1258,10 @@ course:
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/lesson_md/5.9_storytelling.md
+            - name: Build an API
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/6.7_build_api.md
             - name: "[PROJECT] Second Project: Week 6 Day 3 Checklist"
               component:
                 - type: html
