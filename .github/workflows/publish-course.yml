@@ -17,6 +17,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Publish Course
-        uses: data-bootcamp-v4/ironhack-course-publish@main
+        uses: data-bootcamp-v4/ironhack-course-publish@feature-publish-in-markdown
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
